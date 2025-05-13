@@ -83,7 +83,7 @@ def describe_corpus(in_dir, out_dir, verbose):
     distrib.sort()
     xx=[elt[0] for elt in distrib]
     yy=[elt[1] for elt in distrib]
-    yy=list(sum(yy)-numpy.cumsum([0]+yy))
+    yy = [int(x) for x in (sum(yy) - numpy.cumsum([0] + yy))]
     yy=yy[0:-1]
     with open(outfile_itemuse,'a') as out: out.write(',\n\t"p%s":[%s, %s]'% (nick,xx,yy))
 
@@ -125,7 +125,7 @@ def describe_corpus(in_dir, out_dir, verbose):
     with open(os.path.join(in_dir, item+".dat") ,"r",encoding='utf-8') as file:
       # dat file have one trailing blank line at end of file
       data_lines=file.read().split("\n")[:-1] 
-    aux = [(l.split("\t")[0], l.split("\t")[which]) for l in data_lines]
+    aux = [(line.split("\t")[0], line.split("\t")[which]) for line in data_lines]
     do_analysis(aux,'freq_'+item+'.dat',nick)  
     # free memory
     del data_lines 
