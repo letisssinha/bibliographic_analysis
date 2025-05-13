@@ -1,6 +1,6 @@
 ﻿item,count,f
 "Lect. Notes Bus. Inf. Process.",24,3.17
-"Business & Information Systems Engineering",23,3.03
+"Business & Information Systems Engineering",23,3.04
 "Information Systems and e-Business Management",21,2.77
 "Lect. Notes Comput. Sci.",15,1.98
 "CEUR Workshop Proc.",11,1.45
@@ -89,7 +89,6 @@
 "Queue",2,0.26
 "Total Quality Management and Business Excellence",2,0.26
 "Transforming Government: People, Process and Policy",2,0.26
-"nan",2,0.26
 "16th Americas Conference on Information Systems 2010, AMCIS 2010",1,0.13
 "16th International Workshop on Database and Expert Systems Applications (DEXA'05)",1,0.13
 "18th Amer. Conf. Inf. Sys. 2012, AMCIS 2012",1,0.13
@@ -494,3 +493,4 @@
 "Winter Simul Conf Proc",1,0.13
 "XXII Ibero-Am. Conf. Softw. Eng., CIbSE",1,0.13
 "Zdravniski Vestnik",1,0.13
+"nan",1,0.13

@@ -173,7 +173,7 @@ def biblio_parser(in_dir,out_dir,database,expert):
               if(article.CR != ""):
                 foo = article.CR
                 ref=Utils.Ref()
-                ref.parse_ref(foo.split("/n"))
+                ref.parse_ref(foo.split("; "))
                 kompt_refs += 1 
                 if (ref.year > 0): 
                   if (ref.DOI !=""): kompt_refs_with_DOI+=1

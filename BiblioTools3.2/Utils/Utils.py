@@ -433,23 +433,23 @@ class Ref:
         self.refs      = []      # liste de refs
 
 
-    # def parse_ref(self, refs):
-    #     """
-    #     parse a ref of the WoS or Scopus format  
-    #     """
-    #     for citation in refs:  
-    #         citation_array = citation.split(", ")
-    #         self.title = citation_array[0]
-    #         self.firstAU = citation_array[1] 
-    #         self.year = int(citation_array[2]) 
-    #         self.DOI = citation_array[3]
-    #         self.refs.append( self )
-
-    
     def parse_ref(self, refs):
-        for citation in refs:
-            self.doi = citation
+        """
+        parse a ref of the WoS or Scopus format  
+        """
+        for citation in refs: 
+            if citation == "":
+                continue 
+            citation_array = citation.split(", ")
+            title = ""
+            for str in citation_array[0:-3]:
+                title = title.join(str)
+            self.title = title
+            self.firstAU = citation_array[-3] 
+            self.year = int(citation_array[-2]) 
+            self.DOI = citation_array[-1]
             self.refs.append( self )
+
 
     
     def read_file(self,filename):
