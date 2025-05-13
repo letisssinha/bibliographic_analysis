@@ -1,0 +1,5 @@
+nodedef>name VARCHAR,label VARCHAR,type VARCHAR,width DOUBLE,height DOUBLE,size DOUBLE,color VARCHAR
+0,'conferencePaper',DT,20.760539,20.760539,431,'0,180,0'
+1,'journalArticle',DT,18.055470,18.055470,326,'0,180,0'
+2,'nan',DT,1.000000,1.000000,1,'0,180,0'
+edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_cooc DOUBLE
