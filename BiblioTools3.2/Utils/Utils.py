@@ -429,76 +429,11 @@ class Ref:
         self.id      = 0
         self.firstAU = ""       
         self.year    = 0
-        self.journal = ""
-        self.volume  = "0"
-        self.page    = "0"
+        self.title = ""
         self.DOI     = ""
         self.refs      = []      # liste de refs
 
-    def parse_ref(self, ref, database):
-        """
-        parse a ref of the WoS or Scopus format  
-        """
-        if database == 'wos':
-            s = ref.split(', ')
-            if(len(s)>0):
-                s[0]=s[0].replace('. ','').replace('.','')
-                aux=s[0].split(' ')
-                aux[-1]=aux[-1].replace('-','')
-                foo =' '.join([elt.capitalize() for elt in aux[0:len(aux)-1]] + [aux[len(aux)-1]])
-                foo = '-'.join([elt[0].upper()+elt[1:] for elt in foo.split('-') if len(elt)>0])
-                self.firstAU = foo
-            fooy=0
-            if(len(s)>1): 
-                if s[1].isdigit(): self.year = int(s[1])
-                else:              self.year = 0; fooy=1
-            if (foo.isdigit() and int(foo)>1500 and int(foo)<2100) :
-            	self.firstAU = "[Anonymous]"
-            	self.year = int(foo)
-            	fooy=1
-            if(len(s)>2-fooy): self.journal = s[2-fooy]
-            for x in range(3-fooy,len(s)):
-                if(s[x][0]=='V'): self.volume  = s[x].replace('V','')
-                elif(s[x][0]=='P'): self.page  = s[x].replace('P','')
-                elif(s[x][0]=='p'): self.page  = s[x].replace('p','')
-                elif(s[x][0:3]=="DOI"): self.DOI = s[x].replace('DOI ','')
-
-        if database == 'scopus':
-            aux1=ref.find('(')
-            aux2=ref.find(')',aux1)
-            aux3=ref.find(',',aux2+2)
-            if (aux1 >-1 and aux3==-1):aux3=len(ref)-1
-            # sometimes there are strange "authors" / 
-            while (aux3==aux2+1 and ref.find('(',aux3) > -1) or ((aux2 > -1) and (aux1 > -1) and ref[aux1+1:aux2].isdigit()==False ):   
-              #print '%d %d %d' % (aux1,aux2,aux3)
-              aux1=ref.find('(',aux2)
-              aux2=ref.find(')',aux1)
-              aux3=ref.find(',',aux2+2)
-              if (aux1 >-1 and aux3==-1):aux3=len(ref)-1
-            if (aux1 > -1) and ref[aux1+1:aux2].isdigit(): self.year=int(ref[aux1+1:aux2])
-            if (aux2 > -1) and (aux3 > -1): self.journal=ref[aux2+2:aux3].upper()
-            if (aux2 > -1) and (aux3 == -1): self.journal=ref[aux2+2:].upper()
-            aux0=ref.find(',',ref.find(',')+1)
-            if aux0 < aux1 and aux0 > -1:
-              self.firstAU=ref[0:aux0].replace(',','').replace('.','')
-            #
-            aux = ref.find(', ,')
-            # if this is present, ref is in 'book format': no volume / page; else it is in 'article format'
-            if (aux == -1) and (aux3 > -1) and (aux3 < len(ref)-1):
-                aux4=ref.find(',',aux3+1)
-                if aux4 > -1:
-                    foo=ref[aux3+2:aux4]
-                    if ('pp' not in foo) and (foo.split(' ')[0].isdigit()): 
-                        self.volume=foo.split(' ')[0]
-                    if ('pp' in foo) and (foo.replace('pp. ','').replace('-',' ').split(' ')[0].isdigit()):
-                        self.page=foo.replace('pp. ','').replace('-',' ').split(' ')[0]
-                aux5=ref.find(',',aux4+1)
-                if aux5 == -1: aux5=len(ref)-1 
-                if aux4 > -1:
-                    foo=ref[aux4+2:aux5]
-                    if ('pp' in foo) and (foo.replace('pp. ','').replace('-',' ').split(' ')[0].isdigit()):
-                        self.page=foo.replace('pp. ','').replace('-',' ').split(' ')[0]
-
+    
     def read_file(self,filename):
         """
         Lecture des refs
@@ -513,17 +448,16 @@ class Ref:
             # read
             for line in fd.readlines():
                 line = line.strip('\n') # removes \n
-                if (line != ""):
-                    s = line.split("\t")
-                    refline = Ref()
-                    refline.id = int(s[0])
-                    refline.firstAU = s[1]
-                    refline.year = int(s[2]) 
-                    refline.journal = s[3] 
-                    refline.volume = s[4] 
-                    refline.page = s[5] 
-   
-                    refs_list.append( refline )
+                if (line == "CR"):
+                    citation_line = line[3:].split("; ")
+                    for citation in citation_line:  
+                        citation_array = citation.split(" ,")
+                        refline = Ref()
+                        refline.title = citation_array[0]
+                        refline.firstAU = citation_array[1] 
+                        refline.year = int(citation_array[2]) 
+                        refline.DOI = citation_array[3]
+                        refs_list.append( refline )
             # close  
             if filename != 'stdin':
                 fd.close()
