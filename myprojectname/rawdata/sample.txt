@@ -8,56 +8,7 @@ DE Accounting; Activity-based costing; Balanced scorecard; Business process mana
 AB Purpose: Multidisciplinary business process management (BPM) research can reap significant impact. We can particularly benefit from incorporating accounting concepts to address some of the key BPM challenges, such as value-creation and return on investment of BPM activities. However, research which addresses a relationship between BPM and accounting is scarce. The purpose of this paper is to provide a detailed synthesis of the current literature that has integrated accounting aspects with BPM. The authors profile and thematically describe existing research, and derive evidence-based directions to guide future research. Design/methodology/approach: A multi-staged structured literature review approach to search for the two broad themes, accounting and BPM, supported by NVivo (to manage the papers and the coding and analysis processes) was designed and followed. Findings: The paper confirms the dearth of work that ties the two disciplines, despite the synergetic multidisciplinary results that can be attained. Available literature is mostly from the management accounting perspective and relates to describing how performance management, in particular performance measurement, can be applicable to process improvement initiatives together with tools such as activity-based costing and the balanced scorecard. There is a lack of research that examines BPM in relation to any financial accounting perspectives (such as external reporting). Future research directions are proposed together with implications for practitioners with the findings of this structured literature review. Research limitations/implications: The paper provides a detailed synthesis of the existing literature on the nexus between accounting and BPM. It summarizes the implications for practitioners and provides directions for future research by identifying key gaps and opportunities with a sound contextual basis for extension and new work. Originality/value: Effective literature reviews create strong foundations for future research and accumulate the otherwise scattered knowledge into a single place. This is the first structured literature review that provides a detailed synthesis of the research that ties together the accounting and BPM disciplines, providing a basis for future research directions together with implications for practitioners. © 2018, Emerald Publishing Limited.
 C1 An affiliation
 RP  An affiliation
-CR 10.1108/14637151011035633
-10.1016/0166-4972(95)96601-o
-10.1108/14637151311294877
-10.1057/palgrave.jors.2600710
-10.1108/17465261211272148
-10.1057/ejis.2011.51
-10.1016/s0360-8352(03)00002-0
-10.1023/a:1013870802492
-10.1016/0272-6963(91)90038-y
-10.1108/eb054417
-10.28945/479
-10.1108/14637150610710918
-10.1080/09638180500194171
-10.1108/14637151311319941
-10.1016/j.jom.2014.09.002
-10.1108/bpmj-10-2013-0139
-10.1016/j.mar.2009.07.003
-10.1108/bpmj-11-2013-0144
-10.1007/978-3-642-01982-1_1
-10.1108/eum0000000005677
-10.1002/kpm.1388
-10.1016/j.cie.2009.03.015
-10.1006/bare.2001.0168
-10.1016/j.ijinfomgt.2013.03.008
-10.1007/s10796-014-9487-4
-10.1080/14783360500249836
-10.1080/00207540600854992
-10.1080/10686967.2013.11918353
-10.1016/j.im.2006.10.001
-10.1002/kpm.364
-10.4324/9781849776332
-10.1108/01443570410519015
-10.1108/jaoc-09-2014-0051
-10.1016/j.aos.2004.08.001
-10.1080/14783363.2013.776773
-10.1108/14637151311308286
-10.1097/00115514-201511000-00011
-10.1108/01443570010353086
-10.1016/j.aos.2003.11.003
-10.1016/s0925-5273(99)00080-8
-10.4135/9781446270035
-10.1108/03074359810765336
-10.1061/(asce)0742-597x(2000)16:2(48)
-10.1108/bpmj-12-2012-0136
-10.1002/kpm.1495
-10.1108/01443579510083622
-10.1108/09513570010353710
-10.1108/bpmj-08-2011-0052
-
-PY 2018
+CR Um trabalho sobre balieas, Jones, 2007, 1234
 DI 10.1108/BPMJ-12-2016-0235
 GA OC1XY 
 UT WOS:000616483500001

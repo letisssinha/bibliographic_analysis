@@ -185,22 +185,20 @@ def biblio_parser(in_dir,out_dir,database,expert):
                   for cat in foo: outf["S2"].write("%d\t%s\n" % (id,cat))
                 else:
                   if (article.SO, article.SN) not in journalNOT: journalNOT[(article.SO, article.SN)]=0
-                  journalNOT[(article.SO, article.SN)]+=1;
+                  journalNOT[(article.SO, article.SN)]+=1
                 if ( (article.SO in journalCATS and 'Education' in journalCATS[article.SO][0]) or (article.SN in issnCATS and 'Education' in issnCATS[article.SN][0]) or 'education' in article.SO.lower() or 'learning' in article.SO.lower() ): outf["S"].write("%d\tEducation*\n" % (id))
               # #references
               if(article.CR != ""):
-                foo = article.CR.split('; ')
-                for i in range(len(foo)):
-                  if len(foo[i])>3:
-                    ref=Utils.Ref()
-                    ref.parse_ref(foo[i],database)
-                    kompt_refs += 1 
-                    if (ref.year > 0): 
-                      if (ref.DOI !=""): kompt_refs_with_DOI+=1
-                      outf["R"].write("%d\t%s\t%d\t%s\t%s\t%s\t%s\n" % (id,ref.firstAU,ref.year,ref.journal,ref.volume,ref.page,ref.DOI))
-                    if (ref.year == 0):
-                      #print (foo[i])
-                      kompt_corrupt_refs += 1  
+                foo = article.CR
+                ref=Utils.Ref()
+                ref.parse_ref(foo.split("; "))
+                kompt_refs += 1 
+                if (ref.year > 0): 
+                  if (ref.DOI !=""): kompt_refs_with_DOI+=1
+                  outf["R"].write("%d\t%s\t%d\t%s\n" % (id,ref.firstAU,ref.year,ref.DOI))
+                if (ref.year == 0):
+                  #print (foo[i])
+                  kompt_corrupt_refs += 1  
               #countries / cities / institutions
               if(article.C1 != ""):
                   adresse = article.C1
