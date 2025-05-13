@@ -1,101 +1,64 @@
 ﻿PT J
-AU Pierreville, C
-AF Pierreville, Corinne
-TI Fin'amor and fol'amor in the Chevalier au lion
-SO MOYEN AGE
-LA French
-DT Article
-DE Chretien de Troyes; Chevalier au lion; fin'amor; madness; conjugal
-   courtly love
-AB The Chevalier au lion enables Chretien de Troyes to offer a deeper analysis of the human heart and of fin'amor - a topic addressed in each of his works. The example of Yvain and his lady invites his audience to consider the link between the perfect fin'amor and fol'amor - in every sense that the adjective "fole" could take on in the Middle Ages: the metaphorical madness of love; the crisis of insanity; and the foles amors in which sensual desire predominates. The sentimental ideas implied by these two adjectives are less opposed than one might think. Foramor emerges in new areas and, paradoxically, ultimately appears necessary for the discovery of romantic perfection.
-C1 [Pierreville, Corinne] Univ Jean Moulin Lyon 3, CIHAM, UMR 5648, Lyon, France.
-C3 Universite PSL; Ecole des Hautes Etudes en Sciences Sociales (EHESS);
-   Avignon Universite; Centre National de la Recherche Scientifique (CNRS);
-   Ecole Normale Superieure de Lyon (ENS de LYON); Universite Jean Moulin
-   Lyon 3; Universite Lyon 2; CNRS - Institute for Humanities & Social
-   Sciences (INSHS)
-RP Pierreville, C (autor correspondente), Univ Jean Moulin Lyon 3, CIHAM, UMR 5648, Lyon, France.
-EM corinne.pierreville@univ-lyon3.fr
-CR Accarie Maurice, 2001, Marginalite et litterature, P1
-   [Anonymous], 1970, CAHIERS CIVILISATION, V13, P41
-   [Anonymous], 1989, ROMANIA
-   [Anonymous], 1991, HEROIDES, VIX, P57
-   [Anonymous], 1883, ROMANIA, V12, P459
-   BAUMGARTNER E, 1992, CHRETIEN TROYES YVAI
-   Baumgartner E., 2003, EMMANUELE BAUNGARTNE
-   Bickford-Smith R.A.H., 1895, SENTENTIAE, V488, P28
-   Bornecque H., 1994, ART AIMER, VII, P50
-   Burell M., 2002, NZ J FRENCH STUDIES, V23, P9
-   Corbellari A., 2017, REV LIT ARTS, V17, P11
-   CORBELLARI Alain, 2009, Cahiers de recherches medievales, P375
-   de Grave J.J. Salverda, 1983, ROMAN 12 SIECLE, V1, P39
-   de Mareuil Arnaud, 1979, ANTHOLOGIE TROUBADOU, V118-119, P36
-   de Troyes Chretien, 2006, CHEVALIER CHARRETTE, P365
-   de Troyes Chretien, 2016, CHEVALIER LION, p424 425
-   Diverres A.H., 1973, STUDIES MEDIEVAL LIT, P113
-   Doudet E., 2018, CHRETIEN TROYES
-   Doudet E., 2009, CHRETIEN TROYES
-   Dubost F., 1984, MOYEN AGE, V90, P222
-   Eneas, 1985, ENEAS ROMAN 12 SIECL, V2, P65
-   Faral Edmond., 1913, RECHERCHES SOURCES L
-   Frappier J., 1959, CAHIERS CIVILISATION, V2, P139
-   Frappier Jean, 1957, CHRETIEN TROYES HOMM
-   FRAPPIER Jean., 1972, Romania, V93, P145
-   Fritz Jean-Marie., 1992, DISCOURS FOU MOYEN A
-   Girard Rene., 1990, Modernite au Moyen Age: Le defi du passe, P249
-   Glasser M., 1987, ROMANIA, V108, P499
-   Grimbert J.T., 1988, YVAIN MIROIR POETIQU, P177
-   Haines S., 2005, POETRY PHILOS HOMER, P94
-   Harf-Lancner L., 1984, FEES MOYEN AGE MORGA, P347
-   Houdebert A., 2017, CHRETIEN TROYES CHEV, P140
-   Imbs P, 1969, Cah Civilisation Medievale, V12, P265, DOI [10.3406/ccmed.1969.1492, DOI 10.3406/CCMED.1969.1492]
-   James-Raoul D., 2007, CHRETIEN TROYES GRIF, P773
-   Kaoze S., 1979, PSYCHOLOGIE BANTU QU
-   Kappler C., 2008, FOUS AMOURS MOYEN AG, P109
-   Lazar M., 1964, AMOUR COURTOIS FINAM, P30
-   le Chapelain Andre, 1974, TRAITE AMOUR COURTOI, P151
-   Lefay-Toury M.N., 1972, CAHIERS CIVILISATION, V15, P198
-   Lunae Dea, 1981, DEA LUNAE CAHIERS CI, V24, P223
-   Lyons F., 1962, ROMANIA, V83, P370
-   Mela C., 1994, ONQUES BREUVAGE NE B, P1220
-   Morawski J., 1925, PROVERBES FRANCAIS A, P48
-   Nykrog Per., 1996, Chretien de Troyes: Romancier discutable, Publications romanes et franchises 213
-   Ovide G., 1928, LES METAMORPHOSES, VIX, P114
-   Ovide Voir, 1961, REMEDES AMOUR, P11
-   Pelen MM, 2003, NEOPHILOLOGUS, V87, P361, DOI 10.1023/A:1023935820322
-   Petrone A., 1982, LE SATIRICON, P121
-   Pierreville Corine., 2008, Claris et Laris
-   Pomel F., EFFET MIROIR CHEVALI
-   Rousse M., 1995, CHEVALIER LION FABLE, P203
-   Santucci M., 1988, FOLIE CHEVALIER LION, P153
-   Szkilnik Michelle., 2007, Etudes de Lettres, V1-2, P77
-   Topsfield L.T., 1981, Chretien de Troyes: A Study in Arthurian Romances
-   Walter P., 1988, CANICULE ESSAI MYTHO, P145
-NR 55
-TC 0
-Z9 0
-U1 0
-U2 1
-PU LE MOYEN AGE  BOECK & LARCIER S A
-PI LOUVAIN
-PA C/O ACCES +, FOND JEAN PAQUES 4, B-1348 LOUVAIN, BELGIUM
-SN 0027-2841
-EI 1782-1436
-J9 MOYEN AGE
-JI M-Age.
-PY 2019
-VL 125
-IS 3-4
-BP 603
-EP 616
-DI 10.3917/rma.253-254.0603
-PG 14
-WC Medieval & Renaissance Studies
-WE Arts &amp; Humanities Citation Index (A&amp;HCI)
-SC Arts & Humanities - Other Topics
-GA OC1XY
-UT WOS:000578956400004
-DA 2025-04-11
+AU Abeygunasekera, A.W.J.C.; Bandara, W.; Wynn, M.; Yigitbasioglu, O.
+TI Nexus between business process management (BPM) and accounting: A literature review and future research directions
+SO Business Process Management Journal
+LA English
+DT journalArticle
+DE Accounting; Activity-based costing; Balanced scorecard; Business process management; Performance measurement; Structured literature review
+AB Purpose: Multidisciplinary business process management (BPM) research can reap significant impact. We can particularly benefit from incorporating accounting concepts to address some of the key BPM challenges, such as value-creation and return on investment of BPM activities. However, research which addresses a relationship between BPM and accounting is scarce. The purpose of this paper is to provide a detailed synthesis of the current literature that has integrated accounting aspects with BPM. The authors profile and thematically describe existing research, and derive evidence-based directions to guide future research. Design/methodology/approach: A multi-staged structured literature review approach to search for the two broad themes, accounting and BPM, supported by NVivo (to manage the papers and the coding and analysis processes) was designed and followed. Findings: The paper confirms the dearth of work that ties the two disciplines, despite the synergetic multidisciplinary results that can be attained. Available literature is mostly from the management accounting perspective and relates to describing how performance management, in particular performance measurement, can be applicable to process improvement initiatives together with tools such as activity-based costing and the balanced scorecard. There is a lack of research that examines BPM in relation to any financial accounting perspectives (such as external reporting). Future research directions are proposed together with implications for practitioners with the findings of this structured literature review. Research limitations/implications: The paper provides a detailed synthesis of the existing literature on the nexus between accounting and BPM. It summarizes the implications for practitioners and provides directions for future research by identifying key gaps and opportunities with a sound contextual basis for extension and new work. Originality/value: Effective literature reviews create strong foundations for future research and accumulate the otherwise scattered knowledge into a single place. This is the first structured literature review that provides a detailed synthesis of the research that ties together the accounting and BPM disciplines, providing a basis for future research directions together with implications for practitioners. © 2018, Emerald Publishing Limited.
+C1 An affiliation
+RP  An affiliation
+CR 10.1108/14637151011035633
+10.1016/0166-4972(95)96601-o
+10.1108/14637151311294877
+10.1057/palgrave.jors.2600710
+10.1108/17465261211272148
+10.1057/ejis.2011.51
+10.1016/s0360-8352(03)00002-0
+10.1023/a:1013870802492
+10.1016/0272-6963(91)90038-y
+10.1108/eb054417
+10.28945/479
+10.1108/14637150610710918
+10.1080/09638180500194171
+10.1108/14637151311319941
+10.1016/j.jom.2014.09.002
+10.1108/bpmj-10-2013-0139
+10.1016/j.mar.2009.07.003
+10.1108/bpmj-11-2013-0144
+10.1007/978-3-642-01982-1_1
+10.1108/eum0000000005677
+10.1002/kpm.1388
+10.1016/j.cie.2009.03.015
+10.1006/bare.2001.0168
+10.1016/j.ijinfomgt.2013.03.008
+10.1007/s10796-014-9487-4
+10.1080/14783360500249836
+10.1080/00207540600854992
+10.1080/10686967.2013.11918353
+10.1016/j.im.2006.10.001
+10.1002/kpm.364
+10.4324/9781849776332
+10.1108/01443570410519015
+10.1108/jaoc-09-2014-0051
+10.1016/j.aos.2004.08.001
+10.1080/14783363.2013.776773
+10.1108/14637151311308286
+10.1097/00115514-201511000-00011
+10.1108/01443570010353086
+10.1016/j.aos.2003.11.003
+10.1016/s0925-5273(99)00080-8
+10.4135/9781446270035
+10.1108/03074359810765336
+10.1061/(asce)0742-597x(2000)16:2(48)
+10.1108/bpmj-12-2012-0136
+10.1002/kpm.1495
+10.1108/01443579510083622
+10.1108/09513570010353710
+10.1108/bpmj-08-2011-0052
+PY 2018
+DI 10.1108/BPMJ-12-2016-0235
+GA OC1XY 
+UT WOS:000616483500001
+DA 2025-04-11 
 ER
-
-EN

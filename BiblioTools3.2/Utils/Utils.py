@@ -395,6 +395,7 @@ class Keyword:
         Lecture des articles
         """
         klines_list = []
+        breakpoint()
         try:
             # open
             if filename != 'st.lower().capitalize()din':
@@ -404,15 +405,12 @@ class Keyword:
             # read
             for line in fd.readlines():
                 line = line.strip() # removes \n
-                if (line != ""):
-                    s = line.split("\t")
-                    kline = Keyword()
-                    kline.id = int(s[0])
-                    kline.ktype = s[1]
-                    if len(s)>2:
-                      kline.keyword = s[2].upper()  
-
-                      klines_list.append( kline )
+                if (line == "DE"):
+                    databaseLine = line.split("; ")
+                    for keyword in databaseLine:
+                        kline = Keyword()
+                        kline.keyword = keyword
+                        klines_list.append( kline )
             # close  
             if filename != 'stdin':
                 fd.close()
