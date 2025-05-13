@@ -126,16 +126,14 @@ def biblio_parser(in_dir,out_dir,database,expert):
       kompt_publis+=len(pl.articles)
       if (len(pl.articles) > 0):
           for article in pl.articles:
-            if article.UT not in UNIQUE_IDS:
               UNIQUE_IDS[article.UT] = ''
               id = id + 1
               #article 
               foo = article.AU.split('; ')
               firstAU = foo[0].replace(',','')
-              if (article.J9=='' and article.SO==''): article.J9='[]';
-              if (article.J9==''): article.J9=article.SO;
-              if (article.DT==''): article.DT='[]';
-              if (database=='scopus'): article.J9=article.SO;
+              if (article.J9=='' and article.SO==''): article.J9='[]'
+              if (article.J9==''): article.J9=article.SO
+              if (article.DT==''): article.DT='[]'
               outf["A"].write("%d\t%s\t%d\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % (id,firstAU,article.PY,article.J9,article.VL,article.BP,article.DI,article.PT,article.DT,article.LA,article.TC,article.TI,article.PD,article.UT))
               #journals
               if "J" in outf: outf["J"].write("%d\t%s\t%s\n" % (id, article.SO,article.SN))
@@ -172,26 +170,10 @@ def biblio_parser(in_dir,out_dir,database,expert):
                 if(article.WC != ""):
                   foo = article.WC.split('; ')
                   for cat in foo: outf["S"].write("%d\t%s\n" % (id,cat))
-              if database=='scopus':
-                if article.SO in journalCATS:
-                  foo=journalCATS[article.SO][1]
-                  for cat in foo: outf["S"].write("%d\t%s\n" % (id,cat))
-                  foo=journalCATS[article.SO][0]
-                  for cat in foo: outf["S2"].write("%d\t%s\n" % (id,cat))
-                elif article.SN in issnCATS:
-                  foo=issnCATS[article.SN][1]
-                  for cat in foo: outf["S"].write("%d\t%s\n" % (id,cat))
-                  foo=issnCATS[article.SN][0]
-                  for cat in foo: outf["S2"].write("%d\t%s\n" % (id,cat))
-                else:
-                  if (article.SO, article.SN) not in journalNOT: journalNOT[(article.SO, article.SN)]=0
-                  journalNOT[(article.SO, article.SN)]+=1
-                if ( (article.SO in journalCATS and 'Education' in journalCATS[article.SO][0]) or (article.SN in issnCATS and 'Education' in issnCATS[article.SN][0]) or 'education' in article.SO.lower() or 'learning' in article.SO.lower() ): outf["S"].write("%d\tEducation*\n" % (id))
-              # #references
               if(article.CR != ""):
                 foo = article.CR
                 ref=Utils.Ref()
-                ref.parse_ref(foo.split("; "))
+                ref.parse_ref(foo.split("/n"))
                 kompt_refs += 1 
                 if (ref.year > 0): 
                   if (ref.DOI !=""): kompt_refs_with_DOI+=1

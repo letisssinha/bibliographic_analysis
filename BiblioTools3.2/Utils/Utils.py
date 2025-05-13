@@ -88,9 +88,9 @@ class Biblio_line:
         if database =='wos':
             Cols = ['PT', 'AU', 'TI', 'SO', 'SN', 'DT', 'DE', 'ID', 'AB', 'C1', 'RP', 'CR', 'TC', 'J9', 'PD', 'PY', 'LA', 'VL', 'IS', 'BP', 'WC', 'FX', 'DI', 'UT']
             for col in Cols:
-                if col in line:
-                    if col == 'PY':
-                        line_data = int(line_data)
+                if line.startswith(col):
+                    if line.startswith('PY') and line!= "nan":
+                        line_data = int(line_data[:4])
                     setattr(self, col, line_data)
 
 
@@ -116,7 +116,7 @@ class ArticleList:
                 line = line.strip('\ufeff') 
                 line = line.strip('\n') # removes \n
                 wline.parse_line(line, database)
-                if line == "ER":
+                if line.startswith("ER"):
                     articles_list.append( wline )
                     wline = Biblio_line()
 
@@ -125,7 +125,6 @@ class ArticleList:
                 fd.close()
         except IOError:
             print ("file does not exist")
-
         self.articles   = articles_list
 
 ## ##################################################
@@ -433,16 +432,23 @@ class Ref:
         self.DOI     = ""
         self.refs      = []      # liste de refs
 
+
+    # def parse_ref(self, refs):
+    #     """
+    #     parse a ref of the WoS or Scopus format  
+    #     """
+    #     for citation in refs:  
+    #         citation_array = citation.split(", ")
+    #         self.title = citation_array[0]
+    #         self.firstAU = citation_array[1] 
+    #         self.year = int(citation_array[2]) 
+    #         self.DOI = citation_array[3]
+    #         self.refs.append( self )
+
+    
     def parse_ref(self, refs):
-        """
-        parse a ref of the WoS or Scopus format  
-        """
-        for citation in refs:  
-            citation_array = citation.split(", ")
-            self.title = citation_array[0]
-            self.firstAU = citation_array[1] 
-            self.year = int(citation_array[2]) 
-            self.DOI = citation_array[3]
+        for citation in refs:
+            self.doi = citation
             self.refs.append( self )
 
     
