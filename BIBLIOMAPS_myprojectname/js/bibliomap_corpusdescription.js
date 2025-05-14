@@ -105,6 +105,7 @@ function update() {
   graph_option=document.getElementById("selectGRAPH").value;
   filename=file[field_option];
 
+
   //---------------------------------
   //------------------ deal with list
   //---------------------------------
