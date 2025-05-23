@@ -1,0 +1,19 @@
+WoS file fields that are taken into consideration:
+AU = "" ## Authors
+TI = "" ## Document Title
+LA = "" ## Language
+DT = "" ## Document Type
+DE = "" ## Author Keywords
+ID = "" ## Keywords Plus
+AB = "" ## Abstract
+C1 = "" ## Author Address
+CR = "" ## Cited References
+TC = "" ## Times Cited
+PY = 0 ## Year Published
+DI = "" ## Digital Object Identifier (DOI)
+SC = "" ## Subject Category
+
+Requirements:
+- pip
+- python3
+- pandas
