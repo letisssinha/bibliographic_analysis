@@ -1,11 +1,10 @@
 import pandas as pd
 import requests
 import time
-from fieds import WOS_FIELDS as fields
-from fieds import CROSSREF_AVAILABLE_FIELDS as crossref_fields
-from fieds import REFERENCE_FIELDS as reference_fields
+from newProject.utils.fieds import WOS_FIELDS as fields
+from newProject.utils.fieds import CROSSREF_AVAILABLE_FIELDS as crossref_fields
+from newProject.utils.fieds import REFERENCE_FIELDS as reference_fields
 
-# Crossref search by title
 def get_field_from_api(crossref_field, search_term):
     url = "https://api.crossref.org/works"
     params = {"query.bibliographic": search_term, "rows": 1}
@@ -58,7 +57,6 @@ def parse_references(references):
 def parse_year(date):
     return date["date-parts"][0]
 
-fill_missing_fields("api/output.xlsx", "dataWithReferences.xlsx")
 
 
 

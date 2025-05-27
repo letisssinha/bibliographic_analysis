@@ -1,6 +1,10 @@
 import pandas as pd
-from fieds import WOS_FIELDS as fields
-from util import read_text_file_lines
+from newProject.utils.fieds import WOS_FIELDS as fields
+
+
+def read_text_file_lines(file_path):
+    with open(file_path, 'r', encoding='utf-8') as text_file:
+        return text_file.readlines()
 
 def store_wos_file_content_into_data_frame(file_path):
     lines = read_text_file_lines(file_path)
@@ -46,4 +50,3 @@ def excel_to_wos(excel_path, txt_output_path):
             out.write(f"ER\n\n")
         out.write(f"EN")  # End of record
 
-wos_to_excel("api/data.txt", "api/output.xlsx")
