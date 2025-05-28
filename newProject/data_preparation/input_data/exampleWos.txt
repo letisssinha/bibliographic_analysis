@@ -1,0 +1,36 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT C
+AU nan
+TI Proceedings of the 2003 winter simulation conference: Volume 1
+SO Winter Simul Conf Proc
+LA English
+DT conferencePaper
+AB The proceedings contains 130 papers from the Proceedings of the 2003 winter simulation conference. Topics discussed include: spreadsheet simulation; tips for successful practice of simulation; control variate techniques for Monte Carlo simulation; towards simulation-based business process management; applications of simulation models in finance and insurance; non-stationary queue simulation analysis using time series; a meta-theoretic approach to modeling and simulation; and a taxonomy of visualization techniques for simulation in production and logistics.
+C1 An affiliation
+RP  An affiliation
+PY 2003.0
+DI 10.1109/wsc.2003.1261400
+GA OC1XY 
+UT WOS:000616483500001
+DA 2025-04-11 
+ER
+
+PT J
+AU nan
+TI IFIP TC 5 Working Group 5.5 8th IFIP Working Conference on Virtual Enterprises, PRO-VE 2007
+SO IFIP Advances in Information and Communication Technology
+LA English
+DT journalArticle
+AB The proceedings contain 73 papers. The special focus in this conference is on Virtual Enterprises. The topics include: Towards establishing trust relationships among organizations in VBES; trust building in collaborative networked organizations supported by communities of practice; measuring collaboration performance in virtual organizations; towards a conceptual model of value systems in collaborative networks; network analysis by the codesnet approach; assessment of collaborative networks structural stability; a decision support framework for collaborative networks; enabling virtual organizations in a technological district; ontology engineering in virtual breeding environments; assessing the value of mediators in collaborative business networks; a computer-assisted VO creation framework; collaboration opportunity finder; an ontology-based approach for selecting performance indicators for partners suggestion; multiple criteria partner selection in virtual enterprises; fundaments of virtual organization e-contracting; agent-based contracting in virtual enterprises; a lawful framework for distributed electronic markets; towards learning collaborative networked organizations; identification of forms and components of VO inheritance; a generic strategic layer for collaborative networks; virtual power producers integration into MASCEM; agent-based architecture for virtual enterprises to support agility; towards an architecture modeling language for networked organizations; business modelling for knowledge networks; an estimation model for business benefits in horizontal collaborative networks; examining the antecedents to innovation in electronic networks of practice; support for power in adaptation of social protocols for professional virtual communities; virtual customer communities; the impact of customer participation on business ecosystems; social network analysis of team dynamics and intraorganizational development in an aerospace firm; the tacit dimensions of collaborative network traffic; collaborative services to maintain electronic business relationships; towards seamless interoperability in collaborative networks; ambient intelligence and simulation in health care virtual scenarios; collaboration within the tool-and-die manufacturing industry through open-source modular ERP/CRM systems; a cartography based methodology for collaborative process definition; interactive user-centered business process management services; workflow technology supporting the operation of virtual ISPs; introducing a collaborative business model for European ERP value chains of SMEs; enhancing enterprise collaboration by using multifaceted services; application of the fusion approach for assisted composition of web services; semantic integration of business applications across collaborative value networks; collaborative environments work; a knowledge search framework for collaborative networks; distributed design of product oriented manufacturing systems; virtual organisation in cross domain engineering; collaboration and adaptation in scheduling; virtual organizations for municipalities; engineering methodology for organisation networks; a procedure for the analysis of industrial networks; the evaluation of coordination policies in logistics services markets and business models for collaborative planning in transportation.
+C1 An affiliation
+RP  An affiliation
+CR The Networked Organization and the Management of Interdependence, Rockart, 2023, 10.1093/oso/9780195063585.003.0007; Tools for Inventing Organizations: Toward a Handbook of Organizational Processes, Malone, 2008, 10.1287/mnsc.45.3.425; The interdisciplinary study of coordination, Malone, 2002, 10.1145/174666.174668; Introduction to the Special Issue: Communication Processes for Virtual Organizations, DeSanctis, 2008, 10.1287/orsc.10.6.693; 
+PY 2007.0
+DI 10.1007/978-0-387-35704-1_18
+GA OC1XY 
+UT WOS:000616483500001
+DA 2025-04-11 
+ER
+
+EN
