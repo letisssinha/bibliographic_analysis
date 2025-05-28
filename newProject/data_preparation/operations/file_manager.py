@@ -1,7 +1,7 @@
 import os
 
-OUTPUT_DIR = "outputs"
-OUTPUT_PREFIX = "dataPreparationOutput_"
+OUTPUT_DIR = "newProject/data_preparation/outputs"
+OUTPUT_PREFIX = "output_"
 
 def get_next_output_filename(format):
     if not os.path.exists(OUTPUT_DIR):
@@ -12,7 +12,8 @@ def get_next_output_filename(format):
 
     for file in existing:
         try:
-            num = int(file.replace(OUTPUT_PREFIX, ""))
+            num = (file.replace(OUTPUT_PREFIX, ""))
+            num = int(num.replace(format, ""))
             existing_nums.append(num)
         except ValueError:
             continue

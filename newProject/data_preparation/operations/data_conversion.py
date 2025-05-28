@@ -1,5 +1,5 @@
 import pandas as pd
-from newProject.utils.fieds import WOS_FIELDS as fields
+from fieds import WOS_FIELDS as fields
 
 
 def read_text_file_lines(file_path):
