@@ -1,12 +1,15 @@
+##Warning: This script takes a long time!
+
 import argparse
 from data_conversion import  wos_to_excel, excel_to_wos
-from get_missing_data import fill_missing_field
+from get_missing_data import fill_missing_field, fill_missing_fields
 from file_manager import get_next_output_filename
 
 FUNCTIONS = {
     "wos_to_excel": wos_to_excel,
     "excel_to_wos": excel_to_wos,
-    "fill_missing_field": fill_missing_field
+    "fill_missing_field": fill_missing_field,
+    "fill_missing_fields": fill_missing_fields
 }
 
 CROSSREF_AVAILABLE_FIELDS = {
@@ -29,6 +32,8 @@ def main():
     parser_wos_to_excel.add_argument('input_file', help='Path to the input file')
     parser_excel_to_wos = subparsers.add_parser('excel_to_wos', help='Convert Excel to WoS')
     parser_excel_to_wos.add_argument('input_file', help='Path to the input file')
+    fill_missing_fields = subparsers.add_parser('fill_missing_fields', help='Try to fill all of the missing fields using crossref api')
+    fill_missing_fields.add_argument('input_file', help='Path to the input file')
     parser_fill_missing_field = subparsers.add_parser('fill_missing_field', help='Fill missing fields')
     parser_fill_missing_field.add_argument('input_file', help='Path to the input file')
     parser_fill_missing_field.add_argument('--citation_field', choices=CROSSREF_AVAILABLE_FIELDS.keys(), required=True, help='Citation field that needs to be filled')
