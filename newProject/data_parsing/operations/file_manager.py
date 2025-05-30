@@ -29,6 +29,7 @@ def prepare_output_files():
     for key, file_name in outfilenames.items(): 
         output_files[file_name] = open(os.path.join(OUTPUT_DIR, outfilenames[key]+index+".dat"),'w', encoding='utf-8')
     output_files['Citations'] = open(os.path.join(OUTPUT_DIR, 'Citations'+index+'.dat'), 'w', encoding='utf-8')
+    output_files['Quantities'] = open(os.path.join(OUTPUT_DIR, 'Quantities'+index+'.dat'), 'w', encoding='utf-8')
     return output_files
 
 def check_file(file_df, file_path):

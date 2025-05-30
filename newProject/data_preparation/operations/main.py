@@ -1,3 +1,5 @@
+##Warning: This script takes a long time!
+
 import argparse
 from data_conversion import  wos_to_excel, excel_to_wos
 from get_missing_data import fill_missing_field, fill_missing_fields

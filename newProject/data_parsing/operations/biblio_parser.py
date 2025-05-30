@@ -28,6 +28,7 @@ def file_parser(df, output_files):
                value_row = value_row.replace("\n", " ")
                output_files[value].write(value_row + "\n")
                quantities[value] = quantities[value] + 1
+      write_quantities_file(quantities, output_files)
 
   for file in file_names.values(): output_files[file].close()
 
@@ -44,4 +45,9 @@ def make_quantities_array(names):
    for name in names:
       quantities[name] = 0
    return quantities
+
+def write_quantities_file(quantities, output_files):
+   quantities_file = output_files['Quantities']
+   for name, quantity in quantities.items():
+      quantities_file.write(name + ": " + str(quantity) + "\n")
 

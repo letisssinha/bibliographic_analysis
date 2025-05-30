@@ -1,3 +1,5 @@
+##repeated
+
 WOS_FIELDS = {
     'PT': 'Document Type',
     'AU': 'Authors',
@@ -11,16 +13,27 @@ WOS_FIELDS = {
     'CR': 'Cited References',
     'TC': 'Times Cited',
     'PY': 'Publication Year',
-    'DI': 'Digital Object Identifier (DOI)',
+    'DI': 'DOI',
 }
 
 CROSSREF_AVAILABLE_FIELDS = {
     'Title': 'title',
+    'Abstract': 'abstract',
     'Language': 'language',
     'Cited References': 'reference',
     'Times Cited': 'is-referenced-by-count',
     'Publication Year': 'created',
-    'Digital Object Identifier (DOI)': 'DOI'
+    'DOI': 'DOI'
 }
 
-REFERENCE_FIELDS = ["article-title", "author", "year", "key"]
+REFERENCE_FIELDS = ["article-title", "author", "year", "DOI"]
+
+FILES_FIELDS = {
+    'AU': 'Authors',
+    'TI': 'Title',
+    'DE': 'Keywords',
+    'AB': 'Abstract',
+    'CR': 'Cited References',
+    'TC': 'Times Cited',
+    'PY': 'Publication Year',
+}
