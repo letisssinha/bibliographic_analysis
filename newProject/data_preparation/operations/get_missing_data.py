@@ -24,8 +24,11 @@ def parse_references(references):
         reference_text = ""
         for reference_field in reference_fields:
             if reference_field in reference:
-                reference_text = reference_text + reference_field + ": " + reference[reference_field] + " "
-        references_line = references_line + reference_text + " ;"
+                reference_text = reference_text + reference[reference_field] + ", "
+        if not reference_text:
+            continue
+        reference_text = reference_text[:-2]
+        references_line = references_line + reference_text + "; "
     return references_line
 
 def parse_year(date):

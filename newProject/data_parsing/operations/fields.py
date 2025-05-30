@@ -1,3 +1,5 @@
+##repeated
+
 WOS_FIELDS = {
     'PT': 'Document Type',
     'AU': 'Authors',
@@ -27,7 +29,6 @@ CROSSREF_AVAILABLE_FIELDS = {
 REFERENCE_FIELDS = ["article-title", "author", "year", "DOI"]
 
 FILES_FIELDS = {
-    'AC': 'Citations', 
     'AU': 'Authors',
     'TI': 'Title',
     'DE': 'Keywords',
