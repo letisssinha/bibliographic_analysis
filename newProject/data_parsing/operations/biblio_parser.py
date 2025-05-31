@@ -23,7 +23,7 @@ def file_parser(df, output_files):
          citation_output(str(index), output_files, citation)
          for key, value in file_names.items():
             if not pd.isna(citation[value]):
-               value_row = str(index) + ' ' + str(quantities[value]) + ' '
+               value_row = str(index) + '\t' + str(quantities[value]) + '\t'
                value_row = value_row + str(citation[value])
                value_row = value_row.replace("\n", " ")
                output_files[value].write(value_row + "\n")
@@ -33,8 +33,8 @@ def file_parser(df, output_files):
   for file in file_names.values(): output_files[file].close()
 
 def citation_output(index, output_files, citation):
-   citation_row = index + ' '
-   citation_row = citation_row + ' '.join(map(str, citation.values))
+   citation_row = index + '\t'
+   citation_row = citation_row + '\t'.join(map(str, citation.values))
    citation_row = citation_row.replace("\n", " ")
    output_files['Citations'].write(citation_row)
    output_files['Citations'].write("\n")
