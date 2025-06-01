@@ -29,11 +29,12 @@ CROSSREF_AVAILABLE_FIELDS = {
 REFERENCE_FIELDS = ["article-title", "author", "year", "DOI"]
 
 FILES_FIELDS = {
-    'AB': 'abstracts',
-    'C1': 'adresses',
-    'AU': 'authors',
-    'DE': 'keywords',
-    'CR': 'references',
+    'TI': 'Title',
+    'AB': 'Abstract',
+    'C1': 'Author Address',
+    'AU': 'Authors',
+    'DE': 'Keywords',
+    'CR': 'Cited References',
     'TC': 'Times Cited',
     'PY': 'Publication Year',
 }

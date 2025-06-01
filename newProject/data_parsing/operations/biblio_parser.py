@@ -23,11 +23,10 @@ def file_parser(df, output_files):
          citation_output(str(index), output_files, citation)
          for key, value in file_names.items():
             if not pd.isna(citation[value]):
-               value_row = str(index) + '\t' + str(quantities[value]) + '\t'
-               value_row = value_row + str(citation[value])
-               value_row = value_row.replace("\n", " ")
-               output_files[value].write(value_row + "\n")
-               quantities[value] = quantities[value] + 1
+               if key == "DE" or key == "CR" or key == "AU" or key == "TI":
+                  quantities[value] = parse_multi_content_file(citation[value], str(index), quantities[value], output_files[value], key)
+               elif key == 'TI' or key == "AB" or key == "C1" or key == "TC" or key == "PY":
+                  quantities[value] = parse_normal_files(str(index), quantities[value], citation[value], output_files[value])
       write_quantities_file(quantities, output_files)
 
   for file in file_names.values(): output_files[file].close()
@@ -50,4 +49,29 @@ def write_quantities_file(quantities, output_files):
    quantities_file = output_files['Quantities']
    for name, quantity in quantities.items():
       quantities_file.write(name + ": " + str(quantity) + "\n")
+
+def parse_multi_content_file(value_line, citation_index, value_quantities, value_file, key):
+   if key == "TI":
+      breakpoint()
+      values = value_line.split(" ")
+   else:
+      values = value_line.split("; ")
+   for value in values:
+      if value == "" or value == " ":
+         continue
+      value = value.replace("\n", "")
+      line = str(citation_index) + "\t" + str(value_quantities) + "\t" + value
+      value_file.write(line + "\n")
+      value_quantities = int(value_quantities) + 1
+   return value_quantities
+
+def parse_normal_files(index, quantities, value, output_file):
+   value_row = str(index) + '\t' + str(quantities) + '\t'
+   value_row = value_row + str(value)
+   value_row = value_row.replace("\n", " ")
+   output_file.write(value_row + "\n")
+   return quantities + 1
+
+
+
 

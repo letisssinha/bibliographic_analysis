@@ -16,11 +16,8 @@ def generate_frequency_df(df_without_duplicates, item_counts, number_of_articles
     # Calculate percentages
     item_counts_df['f'] = 100 * item_counts_df[COUNT_COLUMN] / number_of_articles
     # Limit output to top ~10,000 items based on dynamic frequency threshold
-    counts_sorted = limit_output(item_counts_df)
+    return limit_output(item_counts_df)
     # Generate cumulative distribution (Zipf-style)
-    xx, yy = calculate_distributions(item_counts_df)
-    write_frequency_file(counts_sorted, output_file_field, filename)
-    write_distributions_file(xx, yy, field_name, output_file_field)
 
 def limit_output(item_counts_df):
     counts_sorted = item_counts_df.sort_values(by=COUNT_COLUMN, ascending=False)
@@ -48,13 +45,14 @@ def calculate_distributions(item_counts_df):
     yy = distributions[CUMULATIVE].tolist()[:-1]  # drop last cumulative value for compatibility
     return xx, yy
 
-def write_frequency_file(counts_sorted, output_file_field, filename):
-    output_path = os.path.join(output_file_field, filename)
-    counts_sorted.to_csv(output_path, index=False, columns=[ITEMS_COLUMN, COUNT_COLUMN, FREQUENCY_COLUMN], float_format='%.2f')
 
 def write_distributions_file(xx, yy, field_name, output_file_field):
     with open(output_file_field, 'a') as out:
         out.write(',\n\t"p%s":[%s, %s]' % (field_name, xx, yy))
+
+
+
+    
 
     
 

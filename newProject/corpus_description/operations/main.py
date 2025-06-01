@@ -1,18 +1,18 @@
-import pandas as pd
-from fields import FREQUENCY_FIELDS as file_names_dict
+import argparse
+from describe_corpus import  describe_corpus
+from file_manager import get_next_output_filename
 
-INPUT_DIR = "newProject/corpus_description/input_data/"
-DAT_FORMAT = ".dat"
-FILES_NAMES = file_names_dict.values()
-COLUMN_NAMES = ["citation_index", "item_index", "citation_item"]
-ITEMS_COLUMN = COLUMN_NAMES[2]
-INDEX_COLUMN = COLUMN_NAMES[0]
+##python3 newProject/data_parsing/operations/main.py 
 
-def calculate_unique_id_items(input_file_name, index):
-   column_names = ["citation_index", "item_index", "citation_item"]
-   input_file_path = INPUT_DIR + input_file_name + str(index) + DAT_FORMAT 
-   df = pd.read_csv(input_file_path, sep="\t", header=None, names=column_names)
-   return df["citation_item"].nunique()
+
+def main():
+    ##todo exceptions
+    index = get_next_output_filename()
+    describe_corpus(index)
+    print(f"Result Files where created")
+
+if __name__ == "__main__":
+    main()
 
 
 

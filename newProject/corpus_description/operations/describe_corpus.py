@@ -56,6 +56,16 @@ def make_coocurrence_file(index):
    with open(OUTPUT_DIR + "coocnetworks" + index + DAT_FORMAT, "w") as f:
       json.dump(full_network, f, indent=2)
 
+def describe_corpus():
+   index = 1 ## pegar do file_manager
+   for key, file_name in FREQUENCY_FIELDS:
+      make_frequency_files(file_name, index)
+      make_coocurrence_file(index)
+      make_ditribution_file(FREQUENCY_FIELDS, calculate_number_of_citations(index), index)
+
+
+
+
 
 
 
