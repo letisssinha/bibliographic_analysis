@@ -52,7 +52,6 @@ def write_quantities_file(quantities, output_files):
 
 def parse_multi_content_file(value_line, citation_index, value_quantities, value_file, key):
    if key == "TI":
-      breakpoint()
       values = value_line.split(" ")
    else:
       values = value_line.split("; ")

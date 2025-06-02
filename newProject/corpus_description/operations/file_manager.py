@@ -3,7 +3,7 @@ from fields import FILES_FIELDS as file_names
 
 INPUT_DIR = "newProject/describe_corpus/input_data"
 OUTPUT_DIR = "newProject/describe_corpus/outputs"
-OUTPUT_FREQ_DIR = "newProject/describe_corpus/outputs/outputs/freq"
+OUTPUT_FREQ_DIR = "newProject/describe_corpus/outputs/freq"
 FILE_PREFIX = "freq_"
     
 

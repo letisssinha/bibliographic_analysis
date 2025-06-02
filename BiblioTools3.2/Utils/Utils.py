@@ -394,7 +394,6 @@ class Keyword:
         Lecture des articles
         """
         klines_list = []
-        breakpoint()
         try:
             # open
             if filename != 'st.lower().capitalize()din':

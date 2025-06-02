@@ -40,7 +40,6 @@ def check_file(file_df, file_path):
        return False
     for header in headers:
        if header not in fields.values():
-          breakpoint()
           print("Invalid data format on file %s", file_path)
           return False
     return True

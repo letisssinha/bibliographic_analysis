@@ -12,7 +12,7 @@ def generate_cooccurrence_network(df_without_duplicates, item_counts, label):
         cooccurrence_pairs.extend(combinations(items, 2))
   pair_counts = Counter(cooccurrence_pairs)
   item_to_id = {item: idx for idx, item in enumerate(item_counts.index)}
-  make_json(item_counts, item_to_id, pair_counts)
+  make_json(item_counts, item_to_id, pair_counts, label)
  
 def make_json(item_counts, item_to_id, pair_counts, label):
     nodes = [

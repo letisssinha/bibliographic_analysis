@@ -2,7 +2,7 @@ import argparse
 from describe_corpus import  describe_corpus
 from file_manager import get_next_output_filename
 
-##python3 newProject/data_parsing/operations/main.py 
+##python3 newProject/corpus_description/operations/main.py 
 
 
 def main():

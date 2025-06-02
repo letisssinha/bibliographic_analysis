@@ -4,9 +4,7 @@
 FREQUENCY_FIELDS = {
     'AU': 'Authors',
     'DE': 'Keywords',  ## get for each keyword insead of the line
-   ## 'AB': 'Abstract',  ## get words that frequently appear and out of the common words
     'CR': 'Cited References', ## this is not very accurate but ok, also need to check for each reference..
-   ## 'TC': 'Times Cited',
     'PY': 'Publication Year', ## no need to count this (or does it?)
     'TI': 'Title'
 }
@@ -18,3 +16,14 @@ COUNT_COLUMN = "item_count"
 CUMULATIVE = 'cumulative'
 NUMBER_OF_ITEMS = 'num_items'
 FREQUENCY_COLUMN = 'frequency'
+
+FILES_FIELDS = {
+    'TI': 'Title',
+    'AB': 'Abstract',
+    'C1': 'Author Address',
+    'AU': 'Authors',
+    'DE': 'Keywords',
+    'CR': 'Cited References',
+    'TC': 'Times Cited',
+    'PY': 'Publication Year',
+}
