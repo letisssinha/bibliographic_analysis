@@ -37,14 +37,15 @@ def calculate_missing_items(number_of_unique_citations_with_item, number_of_arti
         ], ignore_index=True)
     
 def calculate_distributions(item_counts_df):
-    distributions = item_counts_df.groupby(COUNT_COLUMN).size().reset_index(name=NUMBER_OF_ITEMS)
-    distributions = distributions.sort_values(COUNT_COLUMN)
-    distributions[CUMULATIVE] = distributions[NUMBER_OF_ITEMS][::-1].cumsum()[::-1]
-    xx = distributions[COUNT_COLUMN].tolist()
-    yy = distributions[CUMULATIVE].tolist()[:-1]  # drop last cumulative value for compatibility
+    grouped = item_counts_df.groupby(COUNT_COLUMN).size().reset_index(name=NUMBER_OF_ITEMS)
+    xx = grouped[COUNT_COLUMN].tolist()
+    yy = grouped[NUMBER_OF_ITEMS].tolist()
+    cumulative = (sum(yy) - np.cumsum([0] + yy)).tolist()
+    yy = cumulative[:-1]  # drop last for compatibility
+
     return {
-        "x": xx,
-        "y": yy
+        "count_value": xx,
+        "cumulative_count": yy
     }
 
 

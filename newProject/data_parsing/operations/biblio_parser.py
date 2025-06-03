@@ -3,6 +3,12 @@
 from file_manager import *
 import pandas as pd
 
+from wordfreq import top_n_list
+COMMON_WORDS =  top_n_list('en', 1000)
+
+import spacy
+
+
 
 def data_parser():
    input_files = find_matching_files()
@@ -23,9 +29,9 @@ def file_parser(df, output_files):
          citation_output(str(index), output_files, citation)
          for key, value in file_names.items():
             if not pd.isna(citation[value]):
-               if key == "DE" or key == "CR" or key == "AU" or key == "TI":
+               if key == "DE" or key == "CR" or key == "AU" or key == "TI" or key == "AB":
                   quantities[value] = parse_multi_content_file(citation[value], str(index), quantities[value], output_files[value], key)
-               elif key == 'TI' or key == "AB" or key == "C1" or key == "TC" or key == "PY":
+               elif key == "C1" or key == "TC" or key == "PY":
                   quantities[value] = parse_normal_files(str(index), quantities[value], citation[value], output_files[value])
       write_quantities_file(quantities, output_files)
 
@@ -51,12 +57,14 @@ def write_quantities_file(quantities, output_files):
       quantities_file.write(name + ": " + str(quantity) + "\n")
 
 def parse_multi_content_file(value_line, citation_index, value_quantities, value_file, key):
-   if key == "TI":
-      values = value_line.split(" ")
+   if key == "TI" or key == "AB":
+      nlp = spacy.load("en_core_web_sm")
+      value_line_spacy = nlp(value_line)
+      values = [token.text.lower() for token in value_line_spacy if token.is_alpha]
    else:
       values = value_line.split("; ")
    for value in values:
-      if value == "" or value == " ":
+      if value == "" or value == " " or value in COMMON_WORDS:
          continue
       value = value.replace("\n", "")
       line = str(citation_index) + "\t" + str(value_quantities) + "\t" + value

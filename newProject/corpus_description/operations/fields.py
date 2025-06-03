@@ -6,7 +6,8 @@ FREQUENCY_FIELDS = {
     'DE': 'Keywords',  ## get for each keyword insead of the line
     'CR': 'Cited References', ## this is not very accurate but ok, also need to check for each reference..
     'PY': 'Publication Year', ## no need to count this (or does it?)
-    'TI': 'Title'
+    'TI': 'Title',
+    'TI': 'Abstract'
 }
 
 COLUMN_NAMES = ["citation_index", "item_index", "citation_item"]
@@ -20,6 +21,7 @@ FREQUENCY_COLUMN = 'frequency'
 FILES_FIELDS = {
     'TI': 'Title',
     'AB': 'Abstract',
+    'AB2': 'Abstract Keywords',
     'C1': 'Author Address',
     'AU': 'Authors',
     'DE': 'Keywords',

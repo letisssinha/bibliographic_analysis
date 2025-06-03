@@ -11,6 +11,7 @@ from generate_coocurrence_network import *
 
 INPUT_DIR = "newProject/corpus_description/input_data/"
 DAT_FORMAT = ".dat"
+JSON_FORMAT = ".json"
 OUTPUT_DIR = "newProject/corpus_description/outputs/freq"
 FILE_PREFIX = "freq_"
 
@@ -39,46 +40,36 @@ def make_ditribution_file(input_map, total_citations, index):
    }
    for label, df in input_map.items():
       result = calculate_distributions(df)
-      breakpoint()
-      all_distributions.update(result)
-   with open(OUTPUT_DIR + "DISTRIBS_itemuse" + str(index) + DAT_FORMAT, "w", encoding="utf-8") as f:
-    json.dump(all_distributions, f, indent=2)
+      all_distributions[label+"_count_value"] = result["count_value"]
+      all_distributions[label+"_cumulative_count"] = result["cumulative_count"]
+   with open(OUTPUT_DIR + "DISTRIBS_itemuse" + str(index) + JSON_FORMAT, "w", encoding="utf-8") as f:
+    json.dump(all_distributions, f)
 
 def make_coocurrence_file(index, input_map):
-   full_network = {}
+   full_network = {"nodes": [], "links": []}
    for label, (df, item_counts) in input_map.items():
       net = generate_cooccurrence_network(df, item_counts, label)
-      full_network[label] = net
+      full_network["nodes"].extend(net["nodes"])
+      full_network["links"].extend(net["links"])
 
-   with open(OUTPUT_DIR + "coocnetworks" + str(index) + DAT_FORMAT, "w") as f:
+   with open(OUTPUT_DIR + "coocnetworks" + str(index) + JSON_FORMAT, "w") as f:
       json.dump(full_network, f, indent=2)
 
 def describe_corpus(index):
+   ditribution_input_map = dict()
+   coocurrence_input_map = dict()
    number_of_citations = calculate_number_of_citations(index)
    for key, file_name in FREQUENCY_FIELDS.items():
       df_without_duplicates, item_counts = make_file_df_without_duplicates(file_name, index)
+      frequency_df, item_counts_df = generate_frequency_df(df_without_duplicates, item_counts, number_of_citations)
       make_frequency_files(file_name, index, df_without_duplicates)
-   
-   frequency_df, item_counts_df = generate_frequency_df(df_without_duplicates, item_counts, number_of_citations)
-   coocurrence_input_map = make_coocurrence_input(df_without_duplicates, item_counts, index)
-   ditribution_input_map = make_distribution_input(item_counts_df)
-
+      ditribution_input_map[file_name] = item_counts_df
+      coocurrence_input_map[file_name] = [df_without_duplicates, item_counts]
    make_coocurrence_file(index, coocurrence_input_map)
    make_ditribution_file(ditribution_input_map, number_of_citations, index)
       
 
-def make_coocurrence_input(df_without_duplicates, item_counts, index):
-   input = {}
-   for key, file_name in FREQUENCY_FIELDS.items():
-      df_without_duplicates, item_counts = make_file_df_without_duplicates(file_name, index)
-      input[file_name] = [df_without_duplicates, item_counts]
-   return input
 
-def make_distribution_input(item_counts_df):
-   input = {}
-   for key, file_name in FREQUENCY_FIELDS.items():
-      input[file_name] = item_counts_df
-   return input
 
 
 

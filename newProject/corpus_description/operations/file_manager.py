@@ -1,9 +1,9 @@
 import os
 from fields import FILES_FIELDS as file_names
 
-INPUT_DIR = "newProject/describe_corpus/input_data"
-OUTPUT_DIR = "newProject/describe_corpus/outputs"
-OUTPUT_FREQ_DIR = "newProject/describe_corpus/outputs/freq"
+INPUT_DIR = "newProject/corpus_description/input_data"
+OUTPUT_DIR = "newProject/corpus_description/outputs"
+OUTPUT_FREQ_DIR = "newProject/corpus_description/outputs/freq"
 FILE_PREFIX = "freq_"
     
 
