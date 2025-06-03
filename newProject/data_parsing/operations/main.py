@@ -1,6 +1,8 @@
 import argparse
 from biblio_parser import  data_parser
 
+##python3 newProject/data_parsing/operations/main.py 
+
 
 def main():
     ##todo exceptions
