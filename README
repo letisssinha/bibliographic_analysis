@@ -27,4 +27,7 @@
 # python run.py process_a somefile.txt
 #
 
+##
+## To run try this: python3 -m http.server 8000
+
 

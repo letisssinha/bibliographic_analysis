@@ -16,7 +16,7 @@ def get_field_from_api(crossref_field, search_term):
             return items[crossref_field]
     except requests.RequestException as e:
         print(f"Request failed for search of: {search_term}\nError: {e}")
-        return "Adressa"        
+        return None        
 
 def parse_references(references):
     references_line = ""
@@ -49,9 +49,8 @@ def fill_missing_field(excel_path, citation_field, output_path):
         df = process_each_field(citation_field, df)
     except Exception as e:
         print(f"Unexpected error while processing field {citation_field}: {e}")
-    finally:
-        df.to_excel(output_path, index=False)
-        print(f"Output saved to {output_path}")
+    df.to_excel(output_path, index=False)
+    print(f"Output saved to {output_path}")
 
 def fill_missing_fields(excel_path, output_path):
     df = pd.read_excel(excel_path)
@@ -73,14 +72,16 @@ def process_each_field(citation_field, df):
                 search_term = citation['DOI']
             try:
                 field_value = get_field_from_api(crossref_field, search_term)
-            except Exception as e:
-                print(f"Unexpected error while processing fields: {e}")
-            finally:
                 if field_value:
                     field_value = parse_field_value(crossref_field, field_value)
                     df.at[index, citation_field] = field_value
                     print(f" → Found %s: {field_value}", citation_field)
                     field_value = None
+            except Exception as e:
+                print(f"Unexpected error while processing fields: {e}")
+            finally:
+                continue
+                
     return df
     
 
