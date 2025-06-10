@@ -31,6 +31,8 @@ def parse_references(references):
         references_line = references_line + reference_text + "; "
     return references_line
 
+def normalize_reference()
+
 def parse_year(date):
     return date['date-parts'][0][0]
 

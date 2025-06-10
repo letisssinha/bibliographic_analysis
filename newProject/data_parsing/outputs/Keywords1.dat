@@ -1,12 +1,1938 @@
-0	0	Accounting
-0	1	Activity-based costing
-0	2	Balanced scorecard
-0	3	Business process management
-0	4	Performance measurement
-0	5	Structured literature review
-2	6	Accounting
-2	7	Activity-based costing
-2	8	Balanced scorecard
-2	9	Business process management
-2	10	Performance measurement
-2	11	Structured literature review
+19	0	Accounting
+19	1	Activity-based costing
+19	2	Balanced scorecard
+19	3	Business process management
+19	4	Performance measurement
+19	5	Structured literature review
+20	6	Business process management
+20	7	Case study research
+20	8	Characteristics
+20	9	Performance measurement
+20	10	Process performance measurement
+21	11	Process re-engineering
+21	12	SCOR
+21	13	BPMN
+21	14	Information technologies
+21	15	Logistics platform
+21	16	Modeling
+21	17	automotive supply chain
+21	18	RFID
+21	19	Key performance
+22	20	Business process compliance
+22	21	Process mining
+22	22	Conformance checking
+22	23	Banking  Australia
+23	24	Business Process Management
+23	25	Business Process Model
+23	26	Strategic Alignment
+24	27	Business process management
+24	28	 Performance management
+24	29	 Appraisals and rewards
+24	30	 Case study
+24	31	Survey
+27	32	And KPI
+27	33	QoS
+27	34	SLA
+27	35	SOA
+30	36	Positive deviance
+30	37	High-performing researchers
+30	38	Mixed-methods
+30	39	Bibliometrics
+30	40	Citation analysis
+30	41	Topic modelling
+30	42	Higher education policy
+30	43	Global
+32	44	Business process management
+32	45	Comprehensive evaluation
+32	46	Enhanced datasets
+32	47	PMMC’15 datasets
+32	48	Process model matching
+33	49	Business process management
+33	50	developing benchmarks
+33	51	taxonomy
+33	52	text matching
+34	53	Business process management
+34	54	 Process mining
+34	55	 Waiting time
+35	56	Banking processes
+35	57	BPR
+35	58	Business process reengineering
+35	59	Mortgage loan process
+35	60	Performance measures
+35	61	Robotic process automation
+35	62	RPA
+35	63	RPA bot
+35	64	Simulation
+36	65	Key performance indicators modeling
+36	66	Legacy ERP systems
+36	67	Process awareness
+37	68	Critical success factors
+37	69	Deployment
+37	70	ERP
+37	71	EvaluationTaxonomy
+39	72	Process mining
+39	73	 Information systems use
+39	74	 Use patterns
+39	75	 User categorization
+39	76	 Post-adoption
+40	77	Digital innovation
+40	78	Digitalization
+40	79	eGovernment
+40	80	Higher education
+40	81	Information systems integration
+40	82	Performance optimization
+41	83	Business Process (BP)
+41	84	Business Process Management (BPM)
+41	85	Data mining
+41	86	Health care process
+41	87	Key Performance Indicators (KPI)
+41	88	Ontology
+41	89	Performance measurement
+45	90	Business Process Modelling
+45	91	Intelligent Systems
+45	92	Implementation
+45	93	Liquefied Natural Gas
+45	94	Organizational Process Optimization
+45	95	Supply Chain Management
+48	96	Open Collaborative Network 
+48	97	Workflow
+48	98	Business rule
+48	99	 Web ontology
+48	100	Data perturbation
+48	101	Stigmergy
+50	102	Gamifcation
+50	103	Enterprise resilience
+50	104	Supply chain resilience
+50	105	System dynamics
+50	106	Simulation
+53	107	maturity
+53	108	metrics
+53	109	performance measurement
+53	110	supply chain
+55	111	Key Performance Indicator (KPI), Key Quality Indicator (KQI), Ontology, Service Level Agreement (SLA), SWRL
+57	112	Apache Spark
+57	113	Business Process Management
+57	114	Data Minig
+57	115	Event Logs
+57	116	Process MiningSQL
+65	117	Process analysis and improvement
+65	118	Operations improvement
+65	119	Cross-border logistics
+65	120	Maritime logistics
+65	121	Port operations
+69	122	Business process management
+69	123	constraint programming
+69	124	planningscheduling
+72	125	Business process management
+72	126	Complex event processing
+72	127	Operational support
+72	128	Proactive computing
+77	129	business process
+77	130	monitoring
+77	131	prediction
+77	132	procedure model
+78	133	business process modeling
+78	134	business process compliance management
+78	135	business process compliance checking
+78	136	regulation
+78	137	requirements 
+80	138	Process selection method
+80	139	Embedded analytics
+80	140	Intelligent business processes
+80	141	Explorative BPM
+80	142	Action design research
+83	143	Distributed Software Development
+83	144	Process and Project KPI
+83	145	Software Process and Project Management
+83	146	Software Process Quality
+84	147	Business process management
+84	148	Data miningPrediction
+86	149	Business Process Reengineering (BPR)
+86	150	Lean integration
+86	151	B2Lean methodology
+86	152	IT- enabler
+86	153	Continuous improvement
+86	154	Manufacturing process optimization
+86	155	Manufacturing sector
+90	156	BPMN
+90	157	Business process modelling
+90	158	Business process simulation
+90	159	Healthcare
+90	160	Performance
+91	161	business process management
+91	162	IT systems
+91	163	knowledge management
+91	164	process efficiency
+91	165	process quality
+92	166	Business activity monitoring
+92	167	Business process management
+92	168	Key performance indicator
+92	169	Service value network
+96	170	Modeling language
+96	171	Notation
+96	172	Concrete syntax
+96	173	Semantic transparency
+96	174	Empirical evaluation
+97	175	Business process management
+97	176	Conformance checking
+97	177	Constraint programming
+97	178	Declarative business process models
+97	179	Diagnosis
+97	180	Process mining
+101	181	Case study
+101	182	Green BPM
+101	183	Green business process management
+101	184	Key environmental indicators
+101	185	Key performance indicators
+101	186	Municipal waste management
+102	187	Auditing
+102	188	Business continuity
+102	189	Business process management
+102	190	Compliance
+102	191	Governance
+102	192	Intelligent process automation ;Risk
+102	193	Robotic process automation
+104	194	Business performance management
+104	195	Corporate performance management
+104	196	Enterprise performance management ;Performance measurement
+106	197	advanced industrial engineering
+106	198	business performancebusiness processes
+106	199	key performance indicators
+106	200	managementstrategy
+110	201	Business intelligence
+110	202	Requirement;Monitoring
+110	203	Indicator
+110	204	Analytic
+110	205	Field 
+110	206	Schema 
+110	207	Source
+112	208	Automated analysis
+112	209	Business process management
+112	210	Key performance indicators
+112	211	Resource assignment
+112	212	Responsibility modeling
+114	213	Enterprise information systems
+114	214	 Knowledge base
+114	215	 Business process Model driven engineering
+114	216	 User experience
+114	217	 Application prototyping
+116	218	business process
+116	219	monitoring
+118	220	ROI 
+118	221	corporate governance 
+118	222	cost performance 
+118	223	management 
+118	224	mastery 
+120	225	Business process management system (BPMS);Decision support;Key performance indicators (KPIs);Processdesign
+121	226	Business process management
+121	227	E-governmentLocal government
+121	228	Metrics
+121	229	Performance measures
+121	230	Quality of servicewebbots
+122	231	Process-aware information system (PAIS) 
+122	232	Long-tailed changes (LTCs) 
+122	233	Business process management (BPM) ;Syntax-directed editor generator 
+122	234	Abstract grammar tree (AST)
+123	235	Business process management;Enterprise architecture
+123	236	Goal modeling
+123	237	Key performance indicators
+123	238	Methodology
+123	239	Service modeling
+124	240	Business process management
+124	241	Enterprise architecture
+124	242	Goal modeling
+124	243	Key performance indicators (KPIS)
+127	244	Business processes
+127	245	Non-Functional Requirements
+127	246	Strategic alignment
+127	247	Strategic goals
+127	248	Systematic review
+128	249	Business processes
+128	250	Health sector
+128	251	Process monitoring
+128	252	Service science
+128	253	Social network analysis
+129	254	Business process management
+129	255	Business process modelling
+129	256	Performance metrics
+129	257	Service network
+129	258	Simulation
+129	259	System dynamics
+130	260	Agile service networks
+130	261	Business process management
+130	262	Key performance indicators
+130	263	Service science
+130	264	Social network analysis
+131	265	business process
+131	266	business process intelligence
+131	267	process analysis
+131	268	prediction
+131	269	metrics
+131	270	star schema
+133	271	Predictive process monitoring
+133	272	Process mining
+133	273	Predictive analytics
+133	274	Data science pipelines
+135	275	BPM
+135	276	Cloud/grid computing
+135	277	Data mining
+135	278	Prediction
+136	279	Business Process Orientation
+136	280	IS/IT modeling
+136	281	Strategy Alignment
+141	282	Horizontal collaborative networks 
+141	283	Business share
+141	284	Trust
+141	285	Product realisation graph
+141	286	Partner selection
+144	287	Business process management
+144	288	IT business value
+144	289	Mediating effect
+144	290	Shared services
+145	291	Business Process Improvement Patterns
+145	292	Key Performance Indicators
+145	293	Process Mining
+146	294	business process management
+146	295	decision supportno-code digitalization
+146	296	process digitalization
+146	297	process mining
+149	298	Business process innovation
+149	299	Business process management and modeling
+149	300	I-aoma
+149	301	Simulation
+150	302	Best practiceBusiness process management
+150	303	Case study
+150	304	Process mining
+150	305	Process performance indicator
+150	306	Process redesign
+152	307	Business process
+152	308	Business process management
+152	309	Journals
+152	310	Performance measurement
+152	311	Performance measurement system
+152	312	Process management
+152	313	Research work
+154	314	Smart harbors
+154	315	Wireless sensor network
+154	316	RFID
+154	317	 BPMN
+154	318	 Workflow modeling
+154	319	 Workflow simulation
+155	320	Business process management
+155	321	Business-IT-alignment
+155	322	Performance management
+155	323	Indexed keywords
+156	324	Health care management
+156	325	 Process management
+156	326	 Maturity model
+156	327	 Design science research
+159	328	Care pathways
+159	329	Decision modeling
+159	330	Methodological framework
+159	331	Business process model and notation
+159	332	Decision model and notation
+159	333	Healthcare process modeling
+160	334	Business Process
+160	335	Digital Process Twin
+160	336	Internet of Things
+162	337	Business process management
+162	338	Risk
+162	339	YAWL
+163	340	Brand loyalty
+163	341	Brands
+163	342	Consumer behaviour
+163	343	Customer loyalty
+163	344	Wines
+164	345	Green BPM
+164	346	Performance measurement
+164	347	Sustainability
+166	348	Business process management (BPM)
+166	349	Business process redesign (BPR)
+166	350	Digital technology
+166	351	Discrete event simulation
+166	352	Industry 4.0 (I4.0)
+168	353	Business process management
+168	354	Knowledge management
+168	355	Process performance measures
+168	356	Simulation technique
+168	357	TA D methodology
+171	358	Business process management (BPM)
+171	359	Continual improvement
+171	360	Key performance indicator (KPI)
+171	361	Purchasing
+171	362	Quality management system (QMS)
+173	363	hospitals
+173	364	performance measurement
+173	365	Process management
+173	366	quality
+174	367	Alignment
+174	368	And BPM
+174	369	Business goal
+174	370	Business process
+177	371	Business Process Management
+177	372	Key Performance Indicator
+177	373	Patterns
+177	374	Process Performance Indicator
+177	375	Process Performance Management
+177	376	Templates
+178	377	Automated analysis
+178	378	Business process management
+178	379	PPINOT
+178	380	Process performance indicators
+178	381	Process performance measurement
+179	382	Business process management
+179	383	Business process modelling
+179	384	Graphical notation
+179	385	Key performance indicators
+179	386	Process performance indicators
+179	387	Process performance measurement
+179	388	Visual PPINOT
+180	389	business performance monitoring
+180	390	business process analysis
+180	391	business process management
+180	392	key performance indicators
+180	393	patterns
+180	394	process performance indicators
+180	395	process performance management
+180	396	templates
+182	397	 Business process management
+182	398	Information Technology Service Management (ITSM)
+182	399	Ontology-Based
+182	400	Information Extraction (OBIE)
+182	401	Performance management
+182	402	Service Level Agreement (SLA)
+183	403	Business process management
+183	404	Business process modeling
+183	405	Emergency department
+183	406	Process analysis
+183	407	Simulation
+186	408	management accounting
+186	409	Management control systems
+186	410	metal finishing industry
+186	411	performance measurement
+186	412	strategy implementation
+192	413	business process management
+192	414	business process optimization
+192	415	document management
+192	416	process automation
+192	417	simulation
+193	418	Business process management
+193	419	Business Process Modeling Genetic algorithm
+193	420	Process optimization
+193	421	Resource allocation
+193	422	Simulation
+194	423	Business process analysis
+194	424	Business process improvement
+194	425	Business process modeling
+194	426	Process discovery algorithms
+195	427	AHP
+195	428	Artificial Neural Network
+195	429	Business process management
+195	430	Customer satisfaction
+195	431	Fuzzy logic
+195	432	Genetic Algorithm
+195	433	SMETIFNs
+197	434	Collaborative discussion
+197	435	Decentralised decision-making
+197	436	Management of changes
+197	437	Project management
+197	438	Virtual enterprises
+198	439	Sepsis prediction
+198	440	Early fusion
+198	441	Late fusion
+198	442	Deep learning
+198	443	Tree-based model         
+200	444	action design research
+200	445	Business process management systems
+200	446	design principles
+201	447	Information communication technology (ICT)
+201	448	Decision support
+201	449	Business management systems
+201	450	Multi-criteria decision making methods
+202	451	Business process re-engineering
+202	452	Communication technologies
+202	453	Financial performance
+202	454	Organizational performance
+202	455	Process management
+206	456	Big data analytics
+206	457	Process mining
+206	458	Sociotechnical mechanisms
+206	459	Process awareness
+206	460	Process orientation
+206	461	Business process management
+208	462	Association rules
+208	463	Business process
+208	464	Business process management (BPM)
+208	465	Data mining
+208	466	Emergency department
+208	467	Health care process
+208	468	Key performance indicators (KPI)
+208	469	Ontology
+208	470	Performance measurement
+209	471	BPM
+209	472	Business process
+209	473	Data mining
+209	474	Emergency department
+209	475	Healthcare
+209	476	KPI
+209	477	Satisfaction
+210	478	business process
+210	479	business process management
+210	480	KPI
+210	481	lifecycle
+210	482	social network
+211	483	Efficiency
+211	484	Industrial Organizations
+211	485	SC performance measures
+211	486	Supply chain management practices
+212	487	Business Process Management
+212	488	Healthcare Business Process
+212	489	Key Performance Indicator
+212	490	Process mining
+213	491	Business Process Monitoring
+213	492	Context-Aware
+213	493	IoT
+213	494	Predictive Analysis
+213	495	Process Mining
+214	496	Electronic data interchange
+214	497	Inter-organizational business processes
+214	498	Inter-organizational relationships
+214	499	Key performance indicators
+214	500	Process mining
+215	501	Service level agreement
+215	502	SLA
+215	503	Service analytics
+215	504	AIOps
+215	505	AI
+215	506	Machine learning
+215	507	Service chains
+215	508	Optimization
+215	509	Prescriptive analytics
+215	510	Operations research
+215	511	Analytics
+215	512	KPI
+215	513	Key performance indicators
+216	514	Business process
+216	515	Business process management
+216	516	Capability
+216	517	Digital entrepreneurship
+216	518	Digital startups
+219	519	Agents
+219	520	Business Activity Monitoring
+219	521	Negotiation
+219	522	Q-Learning
+219	523	Soccer
+220	524	Business process management
+220	525	Fiexible processes
+220	526	Performance indicators
+222	527	AHP
+222	528	Business model
+222	529	KPI
+222	530	MCDA
+222	531	Simulation
+225	532	bed logistics
+225	533	benchmarking
+225	534	business process management
+225	535	hospital logistics
+225	536	performance measurement
+225	537	pharmaceutical distribution
+226	538	Enterprise process modeling
+226	539	 Business agility
+226	540	Recommender systems
+226	541	 Requirements
+226	542	Data model
+226	543	Smart Glasses
+227	544	Complex information systems
+227	545	Green information systems
+227	546	Adaptive services
+227	547	Green performance indicators
+227	548	Green IT
+227	549	Goal-based model
+227	550	Identification of system threats
+227	551	Computational intelligence for IS evolution
+230	552	KPI
+230	553	Sales automation
+230	554	sales business process
+230	555	standardization
+230	556	tracing
+231	557	Process mining
+231	558	Business process improvement
+231	559	Project selection
+231	560	Portfolio management
+232	561	Business Process Management
+232	562	Long tail of business processes
+232	563	Process mining
+232	564	Process performance indicators
+235	565	Process mining
+235	566	Artificial intelligence
+235	567	Data quality
+235	568	Augmented analytics
+235	569	Informed machine learning
+235	570	Structured literature review
+237	571	Performance measurement
+237	572	Performance measurement systems
+237	573	Performance measures
+238	574	Business performance
+238	575	Performance management
+238	576	Performance measurement (quality)
+239	577	Business process management
+239	578	Requirements engineering
+239	579	Domain modeling
+239	580	User interfaces modeling
+239	581	Participative approach
+241	582	Composite service mining
+241	583	Service intelligence
+241	584	Service analysis
+241	585	Service validation
+241	586	Service reengineering frameworks
+241	587	Model driven reengineering
+241	588	Workflow patterns
+243	589	BPM adoption
+243	590	Business Process Management
+243	591	TOE framework
+244	592	Business processes
+244	593	Development strategy
+244	594	Evaluation indicators
+244	595	Industrial enterprises
+244	596	Labor efficiency
+244	597	Productivity
+246	598	Business process management
+246	599	Delphi study
+246	600	Sustainability
+246	601	Sustainability adoption
+248	602	Business process management
+248	603	Dynamic capabilities view
+248	604	E-health
+248	605	Municipalities
+248	606	Policies
+248	607	Process orientation
+249	608	Business process management
+249	609	Event logs
+249	610	Goal modeling
+249	611	Performance indicators
+249	612	Process mining
+249	613	Requirements engineering
+250	614	Business process management
+250	615	Event logs
+250	616	Goal mining
+250	617	Goal modeling
+250	618	Intention mining
+250	619	Performance indicators
+250	620	Process mining
+250	621	Requirements engineering
+250	622	Systematic literature review
+255	623	design science
+255	624	Environmental Performance Indicator
+255	625	Green Business Process Management
+255	626	Green Information Systems
+256	627	Environmental Performance Indicator (EPI)
+256	628	Green BPM
+256	629	Green IS
+256	630	Keywords Environmental Sustainability
+257	631	BPM
+257	632	Environmental Performance Indicator (EPI)
+257	633	Environmental Sustainability
+257	634	Hospitality
+257	635	Information Systems (IS)
+257	636	Socio-technical systems
+258	637	Environmental performance indicators (EPIs)
+258	638	Environmental sustainability
+258	639	Green BPM
+260	640	Business process modeling
+260	641	Continuous BPM
+260	642	Enterprise modeling
+260	643	Process monitoring
+260	644	Runtime models
+260	645	Workflow management systems
+262	646	Architectures
+262	647	Business metrics
+262	648	Business processes
+263	649	Delphi
+263	650	Framework development
+263	651	Less-structured business processes
+263	652	Process innovation
+264	653	Business process management
+264	654	Goals
+264	655	Institutional mission
+264	656	Objectives
+264	657	Organizational strategies
+264	658	Performance indicators
+265	659	BPM
+265	660	Business systems
+265	661	Company
+265	662	Core processes
+265	663	Management
+265	664	Measurement
+265	665	Performance
+265	666	Risk management
+265	667	Risk-adjusted performance measures
+265	668	Slovenia
+265	669	SMEs
+270	670	Business process management
+270	671	Cost benefit calculation
+270	672	Profitability analysis
+270	673	Workflow management
+271	674	Automation
+271	675	Business analysis
+271	676	Electronic commerce
+271	677	Modelling
+271	678	Supply chain management
+272	679	Digital innovation
+272	680	Digital technologies
+272	681	Industry 4.0
+272	682	Sustainable development
+274	683	Total Quality Management (TQM) Implementation
+274	684	DEMATEL (Decision making Trial and Evaluation Method)
+274	685	Grey set theory
+274	686	Critical Success Factor (CSF’s)
+274	687	Grey based DEMATEL Method (Grey-DEMATEL)
+274	688	Small and medium-sized enterprises (SMEs)
+277	689	Assessment
+277	690	Collaborative business process
+277	691	Execution traces
+277	692	Ontology
+277	693	Process mining
+278	694	Business Activity Monitoring (BAM)
+278	695	Business Performance
+278	696	Business Process Management (BPM)
+278	697	Key Performance Indicator (KPI)
+279	698	Business process analysis
+279	699	Business process management
+279	700	Business process simulation
+279	701	Performance measurement
+281	702	Business Automation Insights
+281	703	Natural Language Querying
+281	704	Process Automation
+281	705	Workflow
+283	706	BPM Approach
+283	707	Business Process Performance
+283	708	KPI
+283	709	SMART Criteria
+287	710	Business and IT alignment
+287	711	Health informatics
+287	712	Multivariate logistic regression analysis
+287	713	Quality of care
+287	714	Quantitative researchStrategic Alignment Model (SAM)
+288	715	Business model
+288	716	  Innovation
+288	717	  Metrics
+288	718	  Repository
+288	719	Performance measure
+288	720	  Design cases  e-Business
+289	721	Robotic process automation
+289	722	Implementation framework
+289	723	Project management
+289	724	Methodology
+289	725	Interview study
+289	726	Workshop
+290	727	BPM
+290	728	Green BPM
+290	729	Green business process management
+290	730	SLR
+290	731	systematic literature review
+292	732	IDEF
+292	733	BPM
+292	734	Process modelling
+292	735	Simulation
+292	736	Manufacturing analysis
+292	737	KPI’s
+293	738	Business process management
+293	739	Croatia
+293	740	Financial performance
+293	741	Manufacturing industries
+293	742	Non-financial performance
+293	743	Performance management
+293	744	Process management
+293	745	Process performance measurement
+293	746	Service industries
+295	747	Robotic process automation
+295	748	Business process automation
+295	749	Software robots
+295	750	IS ecosystems
+295	751	Back-office
+295	752	RPA
+296	753	Data Science
+296	754	Explainability
+296	755	Process Mining
+296	756	Transparency
+298	757	CMMS
+298	758	EAM
+298	759	Information systems
+298	760	Lean smart maintenance
+298	761	Maintenance
+298	762	Maintenance performance measurement
+298	763	Performance measurement
+298	764	Process mining ;Smart maintenance
+298	765	Synchronization
+299	766	Active learning
+299	767	Business process management
+299	768	Higher education
+299	769	Process improvement
+299	770	Process modelling
+300	771	Business process management
+300	772	Continuous improvement
+300	773	Process quality
+301	774	Workflow
+301	775	Holonic system
+301	776	Multi-agent system
+301	777	Self-adaptation
+301	778	Petri nets
+303	779	Business process management
+303	780	Mixed-number
+303	781	Neighborhood rough set
+303	782	Performance measures
+305	783	Building environmental model
+305	784	Building information model
+305	785	Building performance model
+305	786	Education buildings
+305	787	Nearly zero energy
+305	788	Renovation
+306	789	activity-based costing
+306	790	bottleneck
+306	791	TDABC
+306	792	theory of constraints
+309	793	Process approach
+309	794	Standards
+309	795	Sustainable operations
+309	796	Sustainable performance measurement system
+310	797	Business activity monitoring
+310	798	Business process management system
+310	799	Business process re-engineering
+310	800	Digital dashboards
+310	801	Information system
+310	802	Key performance indicators
+311	803	Business Process Modeling
+311	804	Internet of Things
+311	805	Performance measurement
+313	806	BPM
+313	807	Flexibility
+313	808	Home healthcare processes
+313	809	Modeling
+313	810	Process Governance
+313	811	Similarity metrics
+314	812	Business process management
+314	813	Focus groups
+314	814	Modelling issues
+314	815	Process modelling
+315	816	Business process management
+315	817	KPI (Key Performance Indicators)
+315	818	KPI control matrix
+315	819	Lean six sigma
+315	820	Romanian Farm Land Register
+315	821	Transfer matrix
+316	822	Software agents
+316	823	Multi agent systems
+316	824	Health informatics
+316	825	Patient monitoring
+318	826	Business Process Model and Notation (BPMN)
+318	827	Process mining
+318	828	Domain-specific languages
+318	829	Performance evaluation
+321	830	Event Log
+321	831	Hamedan Municipality
+321	832	Hamedan Province
+321	833	Process Mining
+321	834	Revenue Process Enhancement
+322	835	Data analytics
+322	836	Predictive analytics
+322	837	Data science
+322	838	Big data
+322	839	Data mining
+322	840	Machine learning
+322	841	Supply chain
+322	842	Logistics
+322	843	Data-driven optimisation
+323	844	Business process management
+323	845	Business process redesign
+323	846	Case study
+323	847	Fuel supply process
+323	848	Process integration
+323	849	Process maturity
+323	850	Supply chain management
+332	851	business process panagement system
+332	852	factor analysis
+332	853	key performance indikator
+336	854	Business process management
+336	855	Simulation
+339	856	Business process
+339	857	Business process managemen
+339	858	tBusiness value
+339	859	Performance indicator
+339	860	Value measurement
+340	861	Big Data
+340	862	Healthcare
+340	863	Learning Analytics
+340	864	Workflow
+344	865	Adoption readiness
+344	866	Cloudcomputing
+344	867	Empirical assessment
+344	868	Managerial decision-making
+344	869	Metrics suite
+344	870	Technology adoption
+347	871	Acute stress
+347	872	Chronic stress
+347	873	Stress management
+347	874	Biofeedback
+347	875	Performance
+348	876	Action research
+348	877	AR
+348	878	BPEL
+348	879	BPM
+348	880	BPMN
+348	881	BPR
+348	882	Business process execution language
+348	883	Business process modelling
+348	884	Business process modelling notation
+348	885	Business process reengineering
+348	886	Iran
+349	887	Business process management
+349	888	Capability framework
+349	889	Delphi study
+349	890	Digitalization
+352	891	Business Process Management
+352	892	Integrated Indicator Framework
+352	893	Key Performance Indicators
+352	894	Ontology
+352	895	Set Theory
+355	896	Balanced scorecard
+355	897	BPM
+355	898	BSC
+355	899	Business process managemen
+355	900	tMeasurement of performance
+355	901	Performance indicators
+355	902	Strategy
+355	903	Strategy management
+356	904	transaction processing systems
+356	905	management information systems
+356	906	management support systems
+356	907	production planning information systems
+356	908	information system evolution
+356	909	enterprise resource planning
+356	910	literature review
+357	911	Business Process Management
+357	912	KPI
+357	913	Sustainability
+358	914	Sustainable business process management
+358	915	Life cycle assessment
+358	916	Business process life cycle
+358	917	Business process simulation
+358	918	Business process re-design
+359	919	Batch processing
+359	920	Performance mining
+359	921	Performance spectrum
+359	922	Process mining
+360	923	business intelligence
+360	924	business process goals
+360	925	business process management
+360	926	process adaptation
+360	927	process monitoring
+361	928	business intelligence
+361	929	business process goals
+361	930	business process management
+361	931	complex event processing
+361	932	process monitoring
+362	933	Business process management
+362	934	Organizational performance
+362	935	Process orientation
+363	936	Austria
+363	937	Manufacturing industry
+363	938	Measurement
+363	939	Process management
+367	940	BPM evaluation framework
+367	941	BPM lifecycle
+367	942	Business Process Management
+367	943	business process monitoring
+367	944	KPI
+369	945	Business process resilience
+369	946	Resilience assessment
+369	947	Process mining
+369	948	Vector autoregressive modeling
+369	949	Impulse-response analysis
+370	950	Business process management
+370	951	Organizational culture
+370	952	BPM culture
+370	953	Explorative research
+370	954	Public administration
+370	955	Local government
+372	956	Business Process Modeling
+372	957	OptimizationParticle Swarm Optimization
+372	958	Process Flexibility
+372	959	Relational Reinforcement Learning
+373	960	Keyboards
+373	961	Keyboarding
+373	962	Typing
+373	963	Ergonomics
+373	964	Cumulative trauma disorders
+375	965	Big data
+375	966	Complex event processing
+375	967	Event-driven business process management
+375	968	Predictive analytics
+375	969	Prescriptive analytics
+375	970	Process industry
+377	971	Consistent Process/Formal Model
+377	972	Dependable Planning and Managing Methodology
+377	973	Enterprise Agility Foundation
+377	974	Service Enterprise
+378	975	Business process improvement
+378	976	Process redesign
+378	977	Reinforcement learning
+378	978	AB testing
+378	979	Grounded theory
+378	980	Business process management
+379	981	Variability modeling
+379	982	System configuration
+379	983	Questionnaire
+379	984	Software product family
+383	985	BPM
+383	986	BPM life cycle
+383	987	Business ProcessKey Performance Indicators
+383	988	Perfomrance Metrics
+383	989	Process Mining
+384	990	BPM
+384	991	BPM life cycle
+384	992	Business process management
+384	993	Business process types
+384	994	Key performance indicators
+384	995	Management BP
+384	996	Operational BP
+384	997	Performance metrics
+384	998	Process mining
+384	999	Support BP
+386	1000	Applicant tracking system
+386	1001	Business process management
+386	1002	Human resources information systems
+386	1003	Information systems success
+386	1004	Process performance
+386	1005	Recruiting
+387	1006	Business process management
+387	1007	Control theoryEnterprise modelling
+387	1008	Performance measurement system
+387	1009	PMS
+387	1010	Supply chain
+388	1011	Certified public accounting (CPA) firms
+388	1012	Operating efficiency
+388	1013	Industry-specific client groups
+388	1014	Data envelopment analysis (DEA)
+388	1015	Regression analysis
+390	1016	Emergency department
+390	1017	Patient flow
+390	1018	Disposition decision prediction
+390	1019	Proactive coordination
+392	1020	Business Process Management Capabilities
+392	1021	Process Improvement
+392	1022	Value-based Decision-Making
+393	1023	Business process architecture
+393	1024	Business process managemen
+393	1025	tNetwork analysi
+393	1026	sPageRank
+393	1027	Process interconnectedness
+393	1028	Process network
+393	1029	Process prioritization
+394	1030	Business process management
+394	1031	Capability development
+394	1032	Process decision-making
+394	1033	Process improvement
+394	1034	Project portfolio management
+394	1035	Value-based management
+400	1036	Business process managemen
+400	1037	tGeneralized Stochastic Workflow Net
+400	1038	Performance analysis
+404	1039	Humanitarian Logistics
+404	1040	Business process management
+404	1041	Network fow
+404	1042	Balanced scorecard
+405	1043	Artifact
+405	1044	BPM
+405	1045	Graph edit distance
+405	1046	Graph matching
+405	1047	Process similarity
+407	1048	Literature review
+407	1049	Integrated decision support
+407	1050	Multiple-perspective integration
+407	1051	IDSS classification
+409	1052	security conformance
+409	1053	security SLA
+409	1054	cloud behavior modeling
+412	1055	Business process modeling
+412	1056	Business process design
+412	1057	Business process optimization
+412	1058	Business process intelligence
+412	1059	Business process quality
+413	1060	BPMN
+413	1061	business process management
+413	1062	clinical risk
+413	1063	Digitalization
+413	1064	care process
+414	1065	Business process management
+414	1066	Business process model and notation
+414	1067	Clinical risk
+414	1068	Healthcare processe
+414	1069	sKey Performance Indicators
+414	1070	Workflow digitalization
+418	1071	Virtual Organization
+418	1072	Industry 4.0
+418	1073	Inter-organizational collaboration
+418	1074	Digital organizational transformation
+420	1075	Construction industry
+420	1076	Performance measurement
+420	1077	Stakeholders
+420	1078	Strategy
+422	1079	Process mining
+422	1080	Data mining
+422	1081	Software
+422	1082	Process automation
+423	1083	Bayesian Belief Network (BBN)
+423	1084	Case Base Reasoning (CBR)
+423	1085	Customer Service Quality
+423	1086	Digitalisation
+423	1087	Key Performance Indicators (KPIs)
+423	1088	Reliability
+423	1089	Supply Chain (SC)
+423	1090	Supply Chain Operations Reference (SCOR)
+424	1091	Business process management
+424	1092	Data analysi
+424	1093	sPerformance management
+424	1094	Process mining
+424	1095	Supply chain management
+425	1096	Internet of Things (IOT)
+425	1097	SAP ERP Application Software
+425	1098	Supply Chain Value
+426	1099	Process mining
+426	1100	Success factors
+426	1101	Process mining success
+426	1102	Process mining impact
+426	1103	Factor interrelationships
+426	1104	Case studies
+426	1105	Expert interviews
+431	1106	Humanitarian supply chains (HSC)
+431	1107	Digital technologies (DTs)
+431	1108	Supply chain management
+431	1109	Digitalisation
+431	1110	Systematic literature review (SLR)
+433	1111	Model driven business engineering  CRAM
+433	1112	Change risk assessment model
+433	1113	Project management
+433	1114	Business processes
+433	1115	Business modelling
+434	1116	Business process management
+434	1117	context awarenes
+434	1118	spredictive monitoring
+434	1119	process indicator prediction
+434	1120	process mining
+435	1121	Authorship
+435	1122	Balanced scorecard
+435	1123	Performance managemen
+435	1124	tPerformance measurement
+435	1125	Research work
+439	1126	Web service
+439	1127	Service related knowledge
+439	1128	Service ontology
+439	1129	Quality of service
+439	1130	Service reuse
+439	1131	Data mining
+439	1132	Inference rules
+444	1133	Business Process Execution Language for Web Services (BPEL4WS)
+444	1134	Business process management
+444	1135	Controlling
+444	1136	Monitoring
+444	1137	Web servicesWorkflow
+445	1138	Web-Services
+445	1139	Business Process Monitoring
+445	1140	Workflow
+445	1141	BPEL4WS
+446	1142	Web service composition
+446	1143	Matching
+446	1144	Context
+446	1145	Policy
+446	1146	Ontology
+446	1147	Agent
+448	1148	Business process management
+448	1149	Performance measurement
+448	1150	Strategic alignment
+449	1151	Business process management
+449	1152	Measurement performance
+449	1153	Strategic alignment
+452	1154	Accuracy
+452	1155	Business process monitoring
+452	1156	Decision support
+452	1157	Earliness
+452	1158	Prediction
+452	1159	Proactive adaptation
+452	1160	Reliability 
+452	1161	Terminal operations
+454	1162	ASDI
+454	1163	BPM
+454	1164	KPIS
+454	1165	Modelling
+454	1166	OSSAD
+454	1167	SCOR
+454	1168	Service supply chain
+454	1169	Simulation
+460	1170	Business process management
+460	1171	Collaborative business processes
+460	1172	Organization network
+460	1173	Performance measurement
+460	1174	Service oriented architecture
+461	1175	e-Supply network coordination
+461	1176	Feasibility analyzer
+461	1177	Automated negotiations
+463	1178	Manufacturing systems
+463	1179	Chaotic maps
+463	1180	Flow shop
+463	1181	Taguchi technique
+465	1182	Business performance monitoring
+465	1183	Business process management
+465	1184	Model-driven software development
+465	1185	Service-oriented architectures
+465	1186	Web service compositions
+468	1187	Bank loan processes
+468	1188	Business process modelling
+468	1189	Business process modelling notation Decision support system
+468	1190	Key performance indicators
+469	1191	Fuzzy logic 
+469	1192	key performance indicator
+469	1193	soft system methodology
+473	1194	Artificial intelligence (AI)
+473	1195	Business process management (BPM)
+473	1196	Industry 4.0
+473	1197	Machine learning (ML)
+473	1198	Process mining
+473	1199	Workplace Performance Measurement (WPM)
+474	1200	Process prediction
+474	1201	Predictive process monitoring
+474	1202	Systematic literature review
+474	1203	Deep learning
+477	1204	Big data
+477	1205	Business process management
+477	1206	Data analytic
+477	1207	sIndustry 4.0
+477	1208	Risk management
+477	1209	Smart manufacturing
+479	1210	BPM Architecture
+479	1211	BPM Lifecycle
+479	1212	Green Business Process Management
+479	1213	Green IT
+481	1214	Product-service system
+481	1215	Software engineering
+481	1216	Model driven
+481	1217	Tool integration
+481	1218	Integrated Development Environment · Manufacturing
+482	1219	Predictive process analytics  Predictive
+485	1220	Analytical data model
+485	1221	BPMN
+485	1222	Business intelligence
+485	1223	Business process model and notation Operational data model
+485	1224	PPIs
+485	1225	Process performance indicators
+486	1226	cloud network governance
+486	1227	cloud utilization survey
+486	1228	customer-centric monitoring
+487	1229	Business processes
+487	1230	Corporation resources
+487	1231	Management model
+487	1232	Strategic charts
+487	1233	Strategic management
+488	1234	Big data
+488	1235	BPMS
+488	1236	Dynamic business processes
+488	1237	Process mining
+488	1238	Smart factory
+489	1239	Business process management
+489	1240	Business processe
+489	1241	sInformation technology
+489	1242	SME
+489	1243	Strategy
+489	1244	Strategy and IT alignment
+490	1245	BPM
+490	1246	Green business process management
+490	1247	Green IS
+490	1248	Green IT
+490	1249	Sustainable information management
+491	1250	Machine learning
+491	1251	Wearable health monitors
+491	1252	Individual-specific modeling
+491	1253	Ambulatory assessment
+494	1254	Business process management
+494	1255	Corporate strategy
+494	1256	Measurement of performance
+494	1257	Pentagonal framework
+494	1258	Promotion of sustainability
+494	1259	Sustainability
+496	1260	Information networks
+496	1261	Production management
+496	1262	Information alignment
+496	1263	Team performance
+497	1264	Model-driven development
+497	1265	Dashboard
+497	1266	Business performance management
+501	1267	Service oriented architecture ·
+504	1268	business analytics
+504	1269	business intelligence
+504	1270	knowledge-based view
+504	1271	organizational performance
+504	1272	retail industry
+504	1273	structural equation model
+509	1274	Information systems
+509	1275	Business process management
+509	1276	IT service management
+509	1277	Case study
+509	1278	Process improvement
+510	1279	Business processes
+510	1280	Decision Model and Notation
+510	1281	Performance Indicators
+510	1282	Process Instance Query
+511	1283	knowledge management
+511	1284	knowledge management processe
+511	1285	sperformance measures
+511	1286	supply chain management
+511	1287	systematic literature review
+512	1288	Process modelling
+512	1289	Ontology
+512	1290	Digital Humanities
+512	1291	Reuse and patterns
+512	1292	Modelling methodologies
+516	1293	BPM
+516	1294	Business Performance Measuremen
+516	1295	tDescriptive
+516	1296	Generic
+516	1297	Goals
+516	1298	Indicator
+516	1299	Indirect
+516	1300	KPI
+516	1301	Metrics
+516	1302	Non-numeric
+516	1303	Ontologies
+516	1304	Performance
+516	1305	Performance Assessment System
+516	1306	Performance Measurement System
+516	1307	Process Performance
+516	1308	Management
+516	1309	Semantics
+516	1310	Visibility
+517	1311	BPM
+517	1312	KPI
+517	1313	Ontologies
+517	1314	Process PerformanceReference Model Catalog
+517	1315	Success Factors
+518	1316	Business process management
+518	1317	Indicator KPI
+518	1318	Performance measurement system
+518	1319	Process performance management
+519	1320	BPM
+519	1321	Indicator
+519	1322	KPI
+519	1323	Measurement paradigm
+519	1324	Performance Measurement System
+519	1325	Process Performance Management
+519	1326	Visibiliy
+520	1327	Assessment
+520	1328	Business process management (BPM
+520	1329	)Business processes
+520	1330	Indicator
+520	1331	Knowledge
+520	1332	Performance measurement systems (PMS)
+520	1333	Visibility
+524	1334	Business process management
+524	1335	Log replayer
+524	1336	Performance analysis
+524	1337	Process mining
+524	1338	Yet another workflow language (YAWL)
+529	1339	Audit
+529	1340	Business organizations
+529	1341	Business process management
+529	1342	Competitiveness
+529	1343	Economy
+529	1344	Excellence
+529	1345	Global economic crisisInformatics
+529	1346	Innovation
+529	1347	ISO 9000 family 
+529	1348	Managerial excellence
+529	1349	Performance
+529	1350	Quality control
+529	1351	Technology
+529	1352	Total quality management
+530	1353	Activity-based costing
+530	1354	BPM
+530	1355	Healthcare management
+530	1356	Process modeling
+530	1357	Variable costing
+533	1358	Business process management
+533	1359	Business process mode
+533	1360	lGoal-oriented business process monitoring
+533	1361	Performance management
+533	1362	User requirement notation
+534	1363	business intelligence
+534	1364	business process managemen
+534	1365	tdecision support systems
+534	1366	goal-oriented modeling
+534	1367	indicators
+536	1368	BPMN
+536	1369	FFM
+536	1370	RIASEC
+541	1371	Business process management
+541	1372	Job provision services
+541	1373	Process measurement and improvement
+541	1374	Service Quality Management
+542	1375	Business Intelligence Model
+542	1376	Competitive advantage
+542	1377	Decision—making process
+542	1378	Analytics
+542	1379	Emerging technologies
+542	1380	Efciency
+542	1381	Business continuity
+544	1382	Business process improvement
+544	1383	Business process management
+544	1384	Operations/process management
+544	1385	Performance measurement/metric
+544	1386	sService operations
+544	1387	Workflow management
+545	1388	Port terminal operations
+545	1389	Truck appointment system
+545	1390	Discrete-event simulation
+545	1391	Landside coordination
+546	1392	BUSINESS PROCESS MANAGEMENT
+546	1393	PATIENT MANAGEMENT
+546	1394	PLAYER MANAGEMENTSPORT INFORMATIC
+546	1395	SSPORTS PROCESS OPTIMIZATION
+549	1396	Data science
+549	1397	Strategy
+549	1398	Enablers
+549	1399	Barriers
+549	1400	Digitalization
+550	1401	Process modeling
+550	1402	User
+550	1403	Usability
+550	1404	Data-centric
+550	1405	Evaluation
+550	1406	Review
+552	1407	Business process model
+552	1408	Key Performance Indicators
+552	1409	MMABP
+552	1410	Process states and steps
+552	1411	Service-orientation
+554	1412	Process model repair
+554	1413	Process mining
+554	1414	Concept drift
+554	1415	Theory revision
+556	1416	Inter-organizational business process governance
+556	1417	Inter-organizational data governance
+556	1418	BPMN extension
+556	1419	Design science research
+556	1420	Collaborative networks
+557	1421	Business Process Management
+557	1422	Higo
+557	1423	Key Performance Indicators
+557	1424	Performance dashboard
+559	1425	Service-based compliance governance
+559	1426	Compliance assessment
+559	1427	Signaling instrumentation
+559	1428	Key indicators
+559	1429	Root cause analysis
+559	1430	Reporting dashboard
+560	1431	Aircraft processes
+560	1432	Bayesian networks
+560	1433	Delay propagation
+560	1434	Performance indicators
+560	1435	System saturation
+561	1436	Business Process Management
+561	1437	 Maturity Models 
+561	1438	 Process Implementation
+561	1439	Reference Modeling
+562	1440	Business process management . Collaborative
+568	1441	Balanced Scorecard (BSC) Metrics
+568	1442	Business Process Management (BPM)
+568	1443	Improved Patient Workflow
+568	1444	Key Performance Indicators (KPI)
+568	1445	Performance Dashboards
+568	1446	Perioperative Process
+569	1447	BPM
+569	1448	BPR
+569	1449	Business process intelligence
+569	1450	Design science research
+569	1451	Outlier and deviation mining
+569	1452	Predictive analytics
+569	1453	Process mining
+569	1454	QFD
+569	1455	Quality control
+569	1456	Quality improvement
+569	1457	Quality performance measurement
+569	1458	SPC
+569	1459	Temporal data mining Time series
+569	1460	TQM
+570	1461	TQM
+570	1462	Policy Deployment
+570	1463	Daily Management
+570	1464	QI Story (Quality Improvement Projects)
+570	1465	BPM (Business Process Management)
+573	1466	Database
+573	1467	Structured query language
+573	1468	Natural language processing
+573	1469	Network management
+573	1470	Wireless mesh networks
+573	1471	Text-to-SQL translation
+574	1472	BPM
+574	1473	business process
+574	1474	KPI
+574	1475	syllabic reading method
+574	1476	teaching-learning methodwhole-word
+575	1477	BPM
+575	1478	business proces
+575	1479	seducation
+575	1480	KPI
+575	1481	syllabic reading method
+575	1482	teaching-learning methodwhole-word
+576	1483	BLA
+576	1484	BPM
+576	1485	BPMN
+576	1486	Business level agreement Business process management
+576	1487	Business process mode
+576	1488	lKey performance indicator
+576	1489	KPI ;Non-functional requirements
+576	1490	Notation
+576	1491	Service level agreementService-oriented architecture
+576	1492	SLA
+576	1493	SOA
+576	1494	Strategic alignment
+576	1495	WS-Agreement
+577	1496	Additive engineering
+577	1497	Artificial intelligence
+577	1498	Big data
+577	1499	BPM
+577	1500	Business process model
+577	1501	Cloud computing
+577	1502	Digital security
+577	1503	Digitalization
+577	1504	Internet of things
+577	1505	Virtual reality
+580	1506	BPM
+580	1507	business process management
+580	1508	digital transformation
+580	1509	HEI
+580	1510	higher education institution
+580	1511	key performance indicator
+580	1512	KPI
+580	1513	management control
+583	1514	Automotive industry
+583	1515	Business processes
+583	1516	Measurement center
+583	1517	Process modeling
+583	1518	Process optimization
+584	1519	AB Testing
+584	1520	Business process management
+584	1521	Process performance indicators
+584	1522	Shadow Testing
+584	1523	Trace simulation
+585	1524	AB testing
+585	1525	Business Process Management
+585	1526	DevOps
+585	1527	Process performance indicators
+586	1528	AB testing
+586	1529	Business process management
+586	1530	Multi-armed bandit
+586	1531	Process performance indicators
+587	1532	AB testing
+587	1533	Business process management
+587	1534	DevOps
+587	1535	Process performance indicators
+587	1536	Trace simulation
+589	1537	BPM
+589	1538	Dynamic
+589	1539	GPT
+589	1540	LLM
+589	1541	Meta-optimization
+590	1542	Distributed Simulation
+590	1543	Healthcare organizations
+590	1544	Performance
+590	1545	Quality services
+590	1546	Workflow
+595	1547	BPMN
+595	1548	Business Activity Monitoring (BAM)
+595	1549	Business Process Monitoring
+595	1550	Complex Event Processing (CEP)
+595	1551	Metrics
+595	1552	Process Controlling
+595	1553	Process Performance Indicators (PPI)
+595	1554	Subject-oriented Business Process Management (S-BPM)
+595	1555	
+601	1556	Business Process Management
+601	1557	E-Government
+601	1558	Process Performance
+601	1559	Public Administration
+603	1560	Business process
+603	1561	Creativity
+603	1562	Process automation
+603	1563	Process modeling
+603	1564	Process performance measurement
+603	1565	Risk management
+604	1566	Workflows for the Internet of Things
+604	1567	Cyber-physical Systems
+604	1568	Self-adaptive Workflows
+604	1569	Real-world processes
+604	1570	Cyber-physical consistency
+605	1571	Athlete performance
+605	1572	Basketball
+605	1573	Game performance
+605	1574	Sport analytics
+605	1575	Temporal analysis
+606	1576	ZigBee
+606	1577	Cluster-tree
+606	1578	Quality of service
+606	1579	Cross layer control
+607	1580	business process management
+607	1581	business process re-engineering
+607	1582	business process redesignhealth systems
+607	1583	lean managementservice delivery
+609	1584	information exchange
+609	1585	performance management
+609	1586	performance metrics and measurement
+609	1587	process monitoring
+609	1588	project business
+609	1589	virtual enterprise
+610	1590	Architecture
+610	1591	Computing
+610	1592	Developmen
+610	1593	tEnvironment
+610	1594	Framework
+610	1595	Grid
+610	1596	Infrastructure
+610	1597	Integration
+610	1598	Kit
+610	1599	Management
+610	1600	Model
+610	1601	Pattern
+610	1602	Practice
+610	1603	Process
+610	1604	Roadmap
+610	1605	Service-oriented
+610	1606	Standards
+610	1607	Taxonomy
+610	1608	Technology
+610	1609	Indexed keywords
+611	1610	external flexibility
+611	1611	flexibility
+611	1612	financial flexibility
+611	1613	globalization
+611	1614	internal flexibility
+611	1615	marketing flexibility
+611	1616	organizational flexibility
+611	1617	strategic flexibility
+611	1618	technical flexibility
+618	1619	Contingency theory
+618	1620	Intangibles
+618	1621	Management accounting
+618	1622	Management control systems
+618	1623	Performance management
+618	1624	Performance measurement
+620	1625	Mathematical modeling
+620	1626	Organizational performance
+620	1627	Process management
+624	1628	Business performance management (BPM)
+624	1629	Corporate performance management (CPM)
+624	1630	Enterprise performance management (EPM)
+624	1631	Key performance indicators (KPI)
+624	1632	Performance improvement
+624	1633	Strategic goals
+624	1634	Strategy execution
+626	1635	ARIMA
+626	1636	Box-Jenkins
+626	1637	BPM
+626	1638	Business process
+626	1639	Estimation
+626	1640	Linear regression
+626	1641	Optimization
+626	1642	Particle filter
+626	1643	Prediction
+626	1644	Simulation
+630	1645	BPM
+630	1646	BPMN
+630	1647	Business process modeling
+630	1648	Goal modeling
+630	1649	KPI
+631	1650	Process mining
+631	1651	RPA
+631	1652	Simulation
+631	1653	Loan application
+634	1654	Business process management systems
+634	1655	Cyber-physical systemInternet of services and service science
+634	1656	Protocols and information communication
+634	1657	Service process
+635	1658	Container terminal
+635	1659	Logistics
+635	1660	Planning
+635	1661	Optimization
+635	1662	Simulation
+636	1663	Transitional economy
+636	1664	Intellectual capital theory
+636	1665	Mining organization
+636	1666	Kazakhstan
+639	1667	Business process management
+639	1668	Deep learning
+639	1669	Graph neural networks
+639	1670	Process analytics
+639	1671	Process mining
+640	1672	workflow management systems
+640	1673	workflow overview
+640	1674	research issues
+641	1675	BPM adoption
+641	1676	BPM practice
+641	1677	Process Performance Index
+643	1678	Performance measurement
+643	1679	Enterprise modeling
+643	1680	Metamodeling
+643	1681	Domain-specific modeling language
+643	1682	Method engineering
+643	1683	Design research
+645	1684	Design chain management
+645	1685	Formalization
+645	1686	Environment-based design (EBD)
+645	1687	Conceptual model
+645	1688	Wheel model
+646	1689	Business process
+646	1690	Forecasting approach
+646	1691	Process performance evaluation
+648	1692	Best of breed
+648	1693	Broadcasting
+648	1694	Enterprise Resource Planning
+648	1695	Integration
+648	1696	Workflow
+650	1697	BI-BPM alignment
+650	1698	Business intelligence
+650	1699	Business process management
+650	1700	Mediation
+650	1701	Organizational performance
+652	1702	Business process management (BPM)
+652	1703	BPM maturity models (BPM MM)
+652	1704	Process nature
+652	1705	Industry 4.0
+652	1706	Digital transformation
+658	1707	Process mining
+658	1708	Machine learning
+658	1709	Grammar inference
+658	1710	Sequence prediction
+659	1711	Business process
+659	1712	Fuzzy logic
+659	1713	KPI
+659	1714	KRI
+659	1715	Risk
+659	1716	Simulation
+661	1717	Benchmarking
+661	1718	Business process management
+661	1719	Metamodeling
+661	1720	Ontologies
+661	1721	Process analysis
+661	1722	Process modeling
+661	1723	Semantic benchmarking
+661	1724	Semantic model analysis
+662	1725	Benchmarking
+662	1726	Business process management
+662	1727	Model analysis
+662	1728	Ontologies
+662	1729	Process modeling
+663	1730	Risk-aware business process management
+663	1731	Meta-modeling
+663	1732	Multi-view modeling
+663	1733	Consistency
+664	1734	BPM
+664	1735	Business performance measurement
+664	1736	CFO
+664	1737	Functions
+664	1738	India
+664	1739	Leading companies
+664	1740	Management control research framework
+664	1741	Management learning and development
+664	1742	Performance
+664	1743	Practice
+664	1744	Purpose
+664	1745	Simmons levers of control
+664	1746	Strategic management systems
+667	1747	Business process management
+667	1748	Process optimization
+667	1749	Quantitative process map
+668	1750	Business process management
+668	1751	Key performance indicators
+668	1752	Organizational change and mobile technology
+668	1753	Value of user participation
+670	1754	Automated Business Processes
+670	1755	Efficiency Evaluation
+670	1756	Fuzzy Logic
+670	1757	Quality Management Quality Management System
+673	1758	Business intelligence
+673	1759	Decision making
+673	1760	Health management
+673	1761	Healthcare organization
+673	1762	Information
+673	1763	Systematic literature review
+674	1764	Enterprise re-engineering
+674	1765	Goal-oriented Modeling
+674	1766	Business process management
+674	1767	Data mining
+674	1768	Business intelligence
+674	1769	Digital enterprise
+678	1770	ARIS (architecture of integrated information systems)
+678	1771	BPM components
+678	1772	Business Process Management
+678	1773	Utilization rate of Business Process Management
+680	1774	Transportation networks
+680	1775	Critical links
+680	1776	Equilibrium
+680	1777	Disruptions
+682	1778	Explainable AI
+682	1779	Reliability
+682	1780	Interpretability
+682	1781	Personalization
+682	1782	Clinical decision support systems
+683	1783	Business modelsBusiness processes
+683	1784	Design science research
+683	1785	Performance indicators
+683	1786	Performance management
+683	1787	Process performance
+684	1788	Business model
+684	1789	Business model management
+684	1790	Business model evaluation
+684	1791	Performance measurement
+684	1792	Key performance indicators
+684	1793	Systematic literature review
+687	1794	BPM maturity
+687	1795	Adoption of BPM
+687	1796	Contextaware BPM
+687	1797	Contingency
+687	1798	Organization size
+687	1799	Organization sector
+687	1800	Business strategy
+688	1801	Balance scorecard
+688	1802	Business architecture
+688	1803	Business process
+688	1804	Business process management
+688	1805	Business process reengineering
+688	1806	Process-based organisation
+690	1807	Citation path analysis
+690	1808	Keyword co-occurrence analysis
+690	1809	Supply chain flexibility
+690	1810	Supply chain management
+691	1811	BP
+691	1812	risks
+691	1813	metallurgy
+691	1814	information analysis methods
+691	1815	correction factors
+692	1816	Business process management
+692	1817	cost dimension
+692	1818	performance analysis
+692	1819	process mining
+692	1820	systematic literature review
+693	1821	Devil’s Quadrangle
+693	1822	Performance Analysis
+693	1823	Process Analysis
+693	1824	Process Mining
+693	1825	Process Performance Indicators
+697	1826	Process mining
+697	1827	Log-delta analysis
+697	1828	Variant analysis
+697	1829	Multi-range filter
+697	1830	Event logs
+697	1831	Event sequence data
+698	1832	Batch processing machine
+698	1833	Greedy heuristic algorithm
+698	1834	Dynamic scheduling
+698	1835	Due-date based dispatching rule
+698	1836	Due-date based scheduling objectives
+700	1837	Business Process Management
+700	1838	Performance Measurement Indicators
+700	1839	Process Performance MeasureProcess Portfolio
+700	1840	Process Selection
+702	1841	Evaluation of services engineering
+702	1842	Outtasking performance measurement
+702	1843	Return on investment
+702	1844	Service-oriented business process management
+702	1845	Total costs of ownership
+705	1846	Business process management maturity
+705	1847	Case study
+705	1848	Croatia
+705	1849	Knowledge intensive processes
+705	1850	Process performance index
+705	1851	Social business process management
+707	1852	Business Process Management
+707	1853	Management Accounting
+707	1854	Maturity Model
+707	1855	Process Mining
+707	1856	Process Performance Measurement
+709	1857	Coordinated
+709	1858	Multi-objects system
+709	1859	Meta-level control
+709	1860	Coordinated learning
+710	1861	Convolution neural network
+710	1862	Deep learning
+710	1863	Emotional intelligence
+710	1864	Facial emotion recognition
+710	1865	Service industry
+712	1866	Business Process Management
+712	1867	Business Process Model
+712	1868	Key Performance Indicator (KPI)
+712	1869	Notation meta-model
+712	1870	SCRUM method
+712	1871	ScrumWise
+715	1872	self-adaptive systems
+715	1873	co-adaptation
+716	1874	Business process management
+716	1875	Predictive business process monitoring
+716	1876	Prescriptive business process monitoring
+717	1877	Business process management
+717	1878	Design science research
+717	1879	Predictive business pro-cess monitoring
+717	1880	Prescriptive business process monitoring
+719	1881	Smart data management
+719	1882	Complex event processing
+719	1883	Data analytics
+719	1884	Industrial Internet of Things (IIoT)
+721	1885	Business Activity Monitoring
+721	1886	Key Performance Indicator
+721	1887	Semantic Business Process Management
+730	1888	service industries
+730	1889	Cloud service composition
+730	1890	Hybrid cloud environments
+730	1891	Multi-process collaborative optimization
+730	1892	Heuristics
+731	1893	(Business) process management
+731	1894	Autonomic process performance improvement
+731	1895	Key Performance Indicators (KPIs)
+731	1896	Process change/adaptation
+731	1897	Process monitoring
+731	1898	Process-aware information systems
+731	1899	Recommender systems
+733	1900	Green supply-chain management
+733	1901	Green information systems
+733	1902	Operational fit
+733	1903	Organizational performances
+733	1904	Sustainable development
+734	1905	Management control systems
+734	1906	Operational framework
+734	1907	Small and medium size enterprises (SMEs)
+734	1908	Sustainable business performance management
+734	1909	Technology and innovation
+740	1910	Accounting information systems
+741	1911	Business process improvement
+741	1912	Business process
+741	1913	BPMN
+741	1914	Variability
+741	1915	Variability pattern
+742	1916	Business performance management
+742	1917	iterative KPI algorithm
+742	1918	key performance indicators
+742	1919	performance improvement (PI)
+743	1920	Business process design
+743	1921	Coordination theory
+743	1922	Parallel designs
+743	1923	Job parallelization
+743	1924	Order processing
+743	1925	Process simulation
+744	1926	Cluster Analysis
+744	1927	Data Envelopment Analysis
+744	1928	Hospital Efciency Analysis
+744	1929	Artifcial Neural Networks
+744	1930	Heterogeneity Analysis
+746	1931	Business process
+746	1932	Business process performance
+746	1933	Business process performance indicators
+746	1934	Process evaluation
+753	1935	Parameterized signaturetemporal anomaly
+753	1936	temporal interestingness
+753	1937	timed hierarchical business processes

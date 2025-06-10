@@ -1,10 +1,2479 @@
-0	0	Abeygunasekera, A.W.J.C.
-0	1	Bandara, W.
-0	2	Wynn, M.
-0	3	Yigitbasioglu, O.
-1	4	Harrison, A
-1	5	New, C
-2	6	Abeygunasekera, A.W.J.C.
-2	7	Bandara, W.
-2	8	Wynn, M.
-2	9	Yigitbasioglu, O.
+0	0	nan
+1	1	nan
+2	2	nan
+3	3	nan
+4	4	nan
+5	5	nan
+6	6	nan
+7	7	nan
+8	8	nan
+9	9	nan
+10	10	nan
+11	11	nan
+12	12	nan
+13	13	nan
+14	14	nan
+15	15	nan
+16	16	nan
+17	17	nan
+18	18	nan
+19	19	Abeygunasekera, A.W.J.C.
+19	20	Bandara, W.
+19	21	Wynn, M.
+19	22	Yigitbasioglu, O.
+20	23	Abeygunasekera, A.W.J.C.
+20	24	Bandara, W.
+20	25	Wynn, M.T.
+20	26	Yigitbasioglu, O.
+21	27	Aboulaid, Hajar
+21	28	Jardini, Bahija
+21	29	Sedqui, Abdelfetah
+21	30	Elkayl, Malika
+21	31	Britel, Mohammed-Reda
+21	32	Amri, Mostapha
+21	33	Lyahyaoui, Abdelouahid
+22	34	Adams, Nigel
+22	35	Augusto, Adriano
+22	36	Davern, Michael
+22	37	Rosa, Marcello La
+23	38	Ahmad, D.W.
+23	39	Haque, W.
+24	40	Ahmad, Tahir
+24	41	Van Looy, Amy
+24	42	Shafagatova, Aygun
+25	43	Aissa, Mohamed Mehdi Ben
+25	44	Sfaxi, Lilia
+25	45	Robbana, Riadh
+26	46	Akkiyat, Ikram
+26	47	Souissi, Nissrine
+27	48	Al Aloussi, S.
+28	49	Al Beshr, M.
+28	50	Khan, M.N.
+28	51	Mohan, R.
+28	52	Abdou, M.
+28	53	Al Marzouqi, M.
+28	54	Al Katheeri, A.
+28	55	Al Nuaimi, M.
+29	56	Al Braiki, W.A.
+29	57	Davila, R.S.
+29	58	Del Carmen Molina, A.
+29	59	Azhar, M.
+29	60	Shaik, Z.I.
+29	61	Alyaqoubi, A.S.
+29	62	Eldin, H.A.
+30	63	Albanna, Basma
+30	64	Handl, Julia
+30	65	Heeks, Richard
+31	66	Alexeyev, N. A.
+31	67	Utlik, A. V.
+32	68	Ali, M.
+32	69	Shahzad, K.
+33	70	Ali, M.
+33	71	Shahzad, K.
+33	72	Muzaffar, S.I.
+33	73	Malik, M.K.
+34	74	Ali, Muhammad Awais
+34	75	Milani, Fredrik
+34	76	Dumas, Marlon
+35	77	Aljuhani, N.
+35	78	Alshahrani, F.
+35	79	Alharbi, A.
+35	80	Aldini, N.
+35	81	Albalawi, H.
+35	82	Elhag, S.
+36	83	Alksnis, G.
+36	84	Asnina, E.
+36	85	Finke, A.
+36	86	Kirikova, M.
+37	87	Al-Mashari, M.
+37	88	Al-Mudimigh, A.
+37	89	Zairi, M.
+38	90	Alves De Medeiros, A.K.
+38	91	Pedrinaci, C.
+38	92	Van Der Aalst, W.M.P.
+38	93	Domingue, J.
+38	94	Song, M.
+38	95	Rozinat, A.
+38	96	Norton, B.
+38	97	Cabral, L.
+39	98	Ammann, Jana
+39	99	Lohoff, Laura
+39	100	Wurm, Bastian
+39	101	Hess, Thomas
+40	102	Ammirato, S.
+40	103	Cutrì, L.
+40	104	Felicetti, A.M.
+40	105	Di Maio, F.
+41	106	Amor, E.A.E.H.
+41	107	Ghannouchi, S.A.
+42	108	Amor, Emna Ammar El Hadj
+42	109	Ghannouchi, Sonia Ayachi
+43	110	Amor, Emna Ammar El Hadj
+43	111	Ghannouchi, Sonia Ayachi
+44	112	Anagnostou, Anastasia
+44	113	Mintram, Kate
+44	114	Taylor, Simon J E
+45	115	Andreadis, G.O.
+45	116	Papaleonidas, C.
+45	117	Lyridis, D.V.
+46	118	Andres, Santiago
+46	119	Rodriguez, Nicolas
+46	120	Flores Perez, Alberto
+46	121	Diaz Garay, Bertha
+47	122	Antonacci, G.
+47	123	Calabrese, A.
+47	124	D'Ambrogio, A.
+47	125	Giglio, A.
+47	126	Intrigila, B.
+47	127	Ghiron, N. Levialdi
+48	128	Appio, Francesco P.
+48	129	Cimino, Mario G. C. A.
+48	130	Lazzeri, Alessandro
+48	131	Martini, Antonella
+48	132	Vaglini, Gigliola
+49	133	April, Jay
+49	134	Better, Marco
+49	135	Glover, Fred
+49	136	Kelly, James
+49	137	Laguna, Manuel
+50	138	Arias-Vargas, Marco
+50	139	Sanchis, Raquel
+50	140	Poler, Raúl
+51	141	Arica-Hernandez, Marco Antonio
+51	142	Llagas-Llontop, Sebastian Eduardo
+51	143	Khaburzaniya, Irakliy
+52	144	Arigliano, F.
+52	145	Ceravolo, P.
+52	146	Fugazza, C.
+52	147	Storelli, D.
+53	148	Arzu Akyuz, G.
+53	149	Erman Erkan, T.
+54	150	Asmussen, Claus Boye
+54	151	Møller, Charles
+55	152	Asosheh, A.
+55	153	Hajinazari, P.
+56	154	Augusto, Vincent
+56	155	Xie, Xiaolan
+56	156	Prodel, Martin
+56	157	Jouaneton, Baptiste
+56	158	Lamarsalle, Ludovic
+57	159	Aydemir, F.
+57	160	Pabuccu, Y.U.
+57	161	Basciftci, F.
+58	162	Azadeh, A.
+58	163	Haghnevis, M.
+58	164	Khodadadegan, Y.
+58	165	Madadi, M.
+59	166	Azadeh, A.
+59	167	Nassiri, S.
+59	168	Asadzadeh, M.
+60	169	Azzini, Antonia
+60	170	Ceravolo, Paolo
+60	171	Damiani, Ernesto
+60	172	Zavatarelli, Francesco
+60	173	Vicari, Claudia
+60	174	Savarino, Vincenzo
+61	175	Baffoe, Shirley A.
+61	176	Baarah, Aladdin
+61	177	Peyton, Liam
+62	178	Bahrami, Ali
+62	179	Sadowski, Deborah
+62	180	Bahrami, Soheila
+63	181	Bandara, Wasana
+63	182	Bailey, Scott
+63	183	Mathiesen, Paul
+63	184	McCarthy, Jo
+63	185	Jones, Chris
+64	186	Bandara, Wasana
+64	187	Opsahl, Hanna
+65	188	Bandaranayake, Namal
+65	189	Kiridena, Senevi
+65	190	Kulatunga, Asela K.
+65	191	Dam, Hoa
+66	192	Banditvilai, Somsri
+66	193	Araveeporn, Autcha
+67	194	Bannerman, Paul L.
+68	195	Barat, Souvik
+68	196	Kulkarni, Vinay
+68	197	Kumar, Prashant
+68	198	Bhattacharya, Kaustav
+68	199	Natarajan, Senthilvelan
+68	200	Viswanathan, Sankaranarayanan
+69	201	Barba, I.
+69	202	Del Valle, C.
+69	203	Weber, B.
+69	204	Jiménez, A.
+70	205	Barricelli, Barbara Rita
+70	206	Fogli, Daniela
+70	207	Gargioni, Luigi
+70	208	Locoro, Angela
+70	209	Valtolina, Stefano
+71	210	Basán, Natalia P.
+71	211	Cóccola, Mariana E.
+71	212	Méndez, Carlos A.
+72	213	Batoulis, K.
+73	214	Bazhenova, Ekaterina
+73	215	Weske, Mathias
+74	216	Bazoun, Hassan
+74	217	Bouanan, Youssef
+74	218	Zacharewicz, Gregory
+74	219	Ducq, Yves
+74	220	Boye, Hadrien
+75	221	Bazoun, Hassan
+75	222	Zacharewicz, Gregory
+75	223	Ducq, Yves
+75	224	Boye, Hadrien
+76	225	Becker, Alexander
+76	226	Widjaja, Thomas
+76	227	Buxmann, Peter
+77	228	Becker, J.
+77	229	Brunk, J.
+77	230	Ding, W.
+77	231	Niemann, M.
+78	232	Becker, Jörg
+78	233	Delfmann, Patrick
+78	234	Eggert, Mathias
+78	235	Schwittay, Sebastian
+79	236	Becker, Jörg
+79	237	Knackstedt, Ralf
+79	238	Pöppelbuß, Jens
+80	239	Bender, Tobias
+81	240	Benjamin, Perakath C.
+81	241	Delen, Dursun
+81	242	Erraguntla, Madhav
+82	243	Benjamin, Perakath C.
+82	244	Marshall, Charles
+82	245	Mayer, Richard J.
+83	246	Berrocal, J.
+83	247	García-Alonso, J.
+83	248	Murillo, J.M.
+84	249	Bevacqua, A.
+84	250	Carnuccio, M.
+84	251	Folino, F.
+84	252	Guarascio, M.
+84	253	Pontieri, L.
+85	254	Bharadwaj, Sangeeta S
+85	255	Saxena, Kul Bhushan C
+85	256	Halemane, Murthy D
+86	257	Bhaskar, Hari Lal
+87	258	Bijvank, Marco
+87	259	L'Ecuyer, Pierre
+87	260	Marcotte, Patrice
+88	261	Biller, Stephan
+88	262	Venditti, Paul
+88	263	Yi, Jinxin
+88	264	Jiang, Xi
+88	265	Biller, Bahar
+89	266	Bislimovska, Bojana
+89	267	Bozzon, Alessandro
+89	268	Brambilla, Marco
+89	269	Fraternali, Piero
+90	270	Bisogno, S.
+90	271	Calabrese, A.
+90	272	Gastaldi, M.
+90	273	Levialdi Ghiron, N.
+91	274	Bitkowska, A.
+91	275	Detyna, B.
+91	276	Detyna, J.
+92	277	Bitsaki, M.
+92	278	Danylevych, O.
+92	279	Van Den Heuvel, W.-J.
+92	280	Koutras, G.
+92	281	Leymann, F.
+92	282	Mancioppi, M.
+92	283	Nikolaou, C.
+92	284	Papazoglou, M.
+93	285	Blasini, Josef
+93	286	Leist, Susanne
+94	287	Bonini, M.
+94	288	Schuhmacher, J.
+94	289	Urru, A.
+94	290	Wezel, J. P.
+94	291	Hummel, V.
+94	292	Echelmeyer, W.
+95	293	Borges, Evando Souza
+95	294	Thom, Lucinéia Heloisa
+95	295	Fantinato, Marcelo
+96	296	Bork, Dominik
+96	297	Roelens, Ben
+97	298	Borrego, D.
+97	299	Barba, I.
+98	300	Bosilj-Vuksic, V.
+98	301	Milanovic, L.
+98	302	Skrinjar, R.
+98	303	Indihar-Stemberger, M.
+99	304	Boukhayma, Khaoula
+99	305	Idrissi, Mohammed Abdou Janati
+99	306	Benhiba, Lamia
+100	307	Brady, Thomas F.
+101	308	Brajer-Marczak, R.
+101	309	Seruga, P.
+101	310	Jarossova, M.A.
+101	311	Krzywonos, M.
+102	312	Brás, J.C.
+102	313	Pereira, R.F.
+102	314	Fonseca, M.
+102	315	Ribeiro, R.
+102	316	Bianchi, I.S.
+103	317	Bratanis, Konstantinos
+103	318	Dranidis, Dimitris
+103	319	Simons, Anthony J. H.
+104	320	Brown, A.E.
+104	321	Grant, G.G.
+105	322	Brusakova, I. A.
+106	323	Bubenik, P.
+106	324	Capek, J.
+106	325	Rakyta, M.
+106	326	Binasova, V.
+106	327	Staffenova, K.
+107	328	Buchmann, Robert Andrei
+107	329	Karagiannis, Dimitris
+108	330	Buchner, Stefan
+108	331	Riehle, Dirk
+109	332	Buhl, Hans Ulrich
+109	333	Röglinger, Maximilian
+109	334	Stöckl, Stefan
+109	335	Braunwarth, Kathrin S.
+110	336	Burnay, Corentin
+110	337	Jureta, Ivan J.
+110	338	Linden, Isabelle
+110	339	Faulkner, Stéphane
+111	340	Byrd, Roy J.
+111	341	Neff, Mary S.
+111	342	Teiken, Wilfried
+111	343	Park, Youngja
+111	344	Cheng, Keh-Shin F.
+111	345	Gates, Stephen C.
+111	346	Visweswariah, Karthik
+112	347	Cabanillas, C.
+112	348	Mendling, J.
+113	349	Caforio, Antonio
+113	350	Calogiuri, Tobia
+113	351	Lazoi, Mariangela
+113	352	Mitrano, Gianvito
+113	353	Paiano, Roberto
+114	354	Caione, Adriana
+114	355	Guido, Anna Lisa
+114	356	Martella, Angelo
+114	357	Paiano, Roberto
+114	358	Pandurino, Andrea
+115	359	Calabro, A.
+115	360	Lonetti, F.
+115	361	Marchetti, E.
+116	362	Calabro, A.
+116	363	Lonetti, F.
+116	364	Marchetti, E.
+117	365	Calabrò, Antonello
+117	366	Lonetti, Francesca
+117	367	Marchetti, Eda
+117	368	Spagnolo, Giorgio Oronzo
+118	369	Caldwell, Charles
+119	370	Cameranesi, Marco
+119	371	Diamantini, Claudia
+119	372	Potena, Domenico
+119	373	Storti, Emanuele
+120	374	Campos, A.C.S.M.
+120	375	Daher, S.F.D.
+120	376	Almeida, A.T.
+121	377	Candiello, A.
+121	378	Albarelli, A.
+121	379	Cortesi, A.
+122	380	Cao, Hongmei
+122	381	Chen, Xi
+122	382	Zhang, Liang
+122	383	Zhang, Tiange
+122	384	Xiao, Xiaochun
+123	385	Cardoso, E.C.S.
+124	386	Cardoso, E.C.S.
+125	387	Carlo Rossa Hauck, Jean
+125	388	Floriano Galimberti, Maurício
+125	389	Guarda Lara Zwirtes, Augusto
+125	390	Bosse, Jacyara
+126	391	Carlsson, Sven A.
+126	392	Henningsson, Stefan
+126	393	Hrastinski, Stefan
+126	394	Keller, Christina
+127	395	Carmo, A.
+127	396	Fantinato, M.
+127	397	Thom, L.
+127	398	Prado, E.
+127	399	Spinola, M.
+127	400	Hung, P.
+128	401	Carroll, N.
+128	402	Richardson, I.
+128	403	Whelan, E.
+129	404	Carroll, N.
+129	405	Wang, Y.
+130	406	Carroll, N.
+130	407	Whelan, E.
+130	408	Richardson, I.
+131	409	Castellanos, Malu
+131	410	Casati, Fabio
+131	411	Dayal, Umeshwar
+131	412	Shan, Ming-Chien
+132	413	Celino, I.
+132	414	De Medeiros, A.K.A.
+132	415	Zeissler, G.
+132	416	Oppitz, M.
+132	417	Facca, F.
+132	418	Zoeller, S.
+133	419	Ceravolo, Paolo
+133	420	Comuzzi, Marco
+133	421	De Weerdt, Jochen
+133	422	Di Francescomarino, Chiara
+133	423	Maggi, Fabrizio Maria
+134	424	Ceroni, José A.
+134	425	Nof, Shimon Y.
+135	426	Cesario, E.
+135	427	Folino, F.
+135	428	Guarascio, M.
+135	429	Pontieri, L.
+136	430	Chalikias, Kostas
+136	431	Valiris, George
+136	432	Chytas, Panagiotis
+137	433	Chan, Yolande E
+137	434	Reich, Blaize Horner
+138	435	Chassiakos, A.P.
+138	436	Karatzas, S.K.
+139	437	Che, Haiying
+139	438	Mevius, Marco
+139	439	Ju, Yanbing
+139	440	Stucky, Wolffried
+139	441	Trunko, Ralf
+140	442	Chehami, A.
+140	443	Baboli, A.
+140	444	Rother, E.
+140	445	Einabadi, B.
+140	446	Ebrahimi, M.
+141	447	Cheikhrouhou, Naoufel
+141	448	Piot, Grégory
+141	449	Pouly, Michel
+142	450	Chen, Hong-Mei
+142	451	Perry, Opal
+142	452	Kazman, Rick
+143	453	Chen, Liang
+143	454	Xue, Tao
+143	455	Yang, Ali
+144	456	Chen, X.
+144	457	Dai, Q.
+144	458	Na, C.
+145	459	Cherni, J.
+145	460	Martinho, R.
+145	461	Ghannouchi, S.A.
+146	462	Chhor, J.
+146	463	Fischer, V.
+146	464	Kröppel, F.
+146	465	Schmitt, R.H.
+147	466	Chien-Chih, Yu
+148	467	Chieu, T.C.
+148	468	Chowdhary, P.
+148	469	Fu, S.S.
+148	470	Pinei, F.
+148	471	Yih, J.-S.
+149	472	Cho, G.
+149	473	Ryu, K.
+150	474	Cho, M.
+150	475	Song, M.
+150	476	Comuzzi, M.
+150	477	Yoo, S.
+151	478	Choi, Byoung K.
+151	479	Kang, Donghun
+151	480	Kong, Joohoe
+151	481	Kim, Hyeonsik
+151	482	Jamjoom, Arwa A.
+151	483	Mogbil, Aisha M.
+151	484	Alghamdi, Thoria A.
+152	485	Choong, K.K.
+153	486	Christiaanse, Rob
+153	487	Griffioen, Paul
+153	488	Hulstijn, Joris
+154	489	Cimino, Mario G. C. A.
+154	490	Palumbo, Filippo
+154	491	Vaglini, Gigliola
+154	492	Ferro, Erina
+154	493	Celandroni, Nedo
+154	494	La Rosa, Davide
+155	495	Cleven, A.
+156	496	Cleven, Anne Katharina
+156	497	Winter, Robert
+156	498	Wortmann, Felix
+156	499	Mettler, Tobias
+157	500	Cleven, Anne
+157	501	Winter, Robert
+157	502	Wortmann, Felix
+158	503	Colley, Mark
+158	504	Hartwig, Sebastian
+158	505	Zeqiri, Albin
+158	506	Ropinski, Timo
+158	507	Rukzio, Enrico
+159	508	Combi, Carlo
+159	509	Oliboni, Barbara
+159	510	Zardini, Alessandro
+159	511	Zerbato, Francesca
+160	512	Compagnucci, I.
+160	513	Re, B.
+160	514	Asensio, E.S.
+160	515	Snoeck, M.
+161	516	Confort, Valdemar T. F.
+161	517	Santoro, Flavia Maria
+162	518	Conforti, R.
+162	519	La Rosa, M.
+162	520	Fortino, G.
+162	521	Ter Hofstede, A.H.M.
+162	522	Recker, J.
+162	523	Adams, M.
+163	524	Corsi, A.M.
+163	525	Rungie, C.
+163	526	Casini, L.
+164	527	Couckuyt, D.
+164	528	Van Looy, A.
+164	529	De Backer, M.
+165	530	Cuzzocrea, Alfredo
+165	531	Folino, Francesco
+165	532	Guarascio, Massimo
+165	533	Pontieri, Luigi
+166	534	Czvetkó, T.
+166	535	Kummer, A.
+166	536	Ruppert, T.
+166	537	Abonyi, J.
+167	538	Dachyar, M.
+167	539	Christy, E.
+168	540	Damij, N.
+168	541	Damij, T.
+168	542	Jelenc, F.
+169	543	Danesh, Mohammad H.
+169	544	Raahemi, Bijan
+169	545	Kamali, Mohammad A.
+170	546	Danov, Bogdan
+170	547	Gotseva, Daniela
+171	548	Darestani, S.A.
+171	549	Houshyar, A.N.
+171	550	Ismail, N.
+171	551	Leman, Z.
+172	552	de Oliveira Lacerda, R.T.
+172	553	Ensslin, L.
+172	554	Rolim Ensslin, S.
+172	555	Knoff, L.
+172	556	Martins Dias Junior, C.
+173	557	De Pourcq, K.
+173	558	Gemmel, P.
+173	559	Devis, B.
+173	560	Van Ooteghem, J.
+173	561	De Caluwé, T.
+173	562	Trybou, J.
+174	563	De Sá Sousa, H.P.
+174	564	Nunes, V.T.
+174	565	Cappelli, C.
+174	566	Guizzardi, R.
+174	567	Leite, J.C.S.P.
+175	568	Delgado-Santos, Paula
+175	569	Stragapede, Giuseppe
+175	570	Tolosana, Ruben
+175	571	Guest, Richard
+175	572	Deravi, Farzin
+175	573	Vera-Rodriguez, Ruben
+176	574	Del-Río-Ortega, A.
+176	575	Cabanillas, C.
+176	576	Resinas, M.
+176	577	Ruiz-Cortés, A.
+177	578	Del-Río-Ortega, A.
+177	579	Resinas Arias De Reyna, M.
+177	580	Durán Toro, A.
+177	581	Ruiz-Cortés, A.
+178	582	Del-Río-Ortega, A.
+178	583	Resinas, M.
+178	584	Cabanillas, C.
+178	585	Ruiz-Cortés, A.
+179	586	del-Río-Ortega, A.
+179	587	Resinas, M.
+179	588	Durán, A.
+179	589	Bernárdez, B.
+179	590	Ruiz-Cortés, A.
+179	591	Toro, M.
+180	592	del-Río-Ortega, A.
+180	593	Resinas, M.
+180	594	Durán, A.
+180	595	Ruiz-Cortés, A.
+181	596	Demurjian, Steven A.
+181	597	Hsiao, David K.
+181	598	Marshall, Roger G.
+182	599	Deokar, A.V.
+182	600	Sen, S.
+183	601	Di Leva, A.
+183	602	Sulis, E.
+184	603	Di Salle, Amleto
+184	604	Fedeli, Arianna
+184	605	Iovino, Ludovico
+184	606	Mariani, Leonardo
+184	607	Micucci, Daniela
+184	608	Rebelo, Luciana
+184	609	Rossi, Maria Teresa
+185	610	Diamantini, Claudia
+185	611	Khan, Tarique
+185	612	Potena, Domenico
+185	613	Storti, Emanuele
+186	614	Dietrich, M.
+186	615	Wald, A.
+187	616	Dieu, Nicolas
+187	617	Dragusanu, Adrian
+187	618	Fabret, Françoise
+187	619	Llirbat, François
+187	620	Simon, Eric
+188	621	Ding, Hongwei
+188	622	Ren, Changrui
+188	623	Wang, Wei
+188	624	Dong, Jin
+189	625	Ding, Hongwei
+189	626	Wang, Wei
+189	627	Dong, Jin
+189	628	Qiu, Minmin
+189	629	Ren, Changrui
+190	630	Ding, Nan
+190	631	Austin, Brian
+190	632	Liu, Yang
+190	633	Mehta, Neil
+190	634	Farrell, Steven
+190	635	Blaschke, Johannes P.
+190	636	Oliker, Leonid
+190	637	Nam, Hai Ah
+190	638	Wright, Nicholas J.
+190	639	Williams, Samuel
+191	640	Dirnberger-Wild, Johannes
+191	641	Roth, Maximilian
+192	642	Djedović, A.
+192	643	Žunić, E.
+192	644	Alić, D.
+192	645	Omanović, S.
+192	646	Karabegović, A.
+193	647	Djedović, A.
+193	648	Žunić, E.
+193	649	Avdagić, Z.
+193	650	Karabegović, A.
+194	651	Djedović, A.
+194	652	Žunić, E.
+194	653	Karabegović, A.
+195	654	Djordjevic, M.Z.
+195	655	Djordjevic, A.
+195	656	Klochkova, E.
+195	657	Misic, M.
+196	658	Draheim, Dirk
+197	659	Drissen-Silva, M.V.
+197	660	Rabelo, R.J.
+198	661	Duan, Yongrui
+198	662	Huo, Jiazhen
+198	663	Chen, Mingzhou
+198	664	Hou, Fenggang
+198	665	Yan, Guoliang
+198	666	Li, Shufang
+198	667	Wang, Haihui
+199	668	Dubinsky, Yael
+199	669	Soffer, Pnina
+199	670	Hadar, Irit
+200	671	Dunzer, S.
+200	672	Tang, W.
+200	673	Höchstädter, N.
+200	674	Zilker, S.
+200	675	Matzner, M.
+201	676	Dzemydienė, Dalė
+201	677	Dzemydaitė, Giedrė
+201	678	Gopisetti, Dinesh
+202	679	Eardley, A.
+202	680	Shah, H.
+202	681	Radman, A.
+203	682	Eckert, Julian
+203	683	Schulte, Stefan
+203	684	Niemann, Michael
+203	685	Repp, Nicolas
+203	686	Steinmetz, Ralf
+204	687	Eckert, Julian
+204	688	Schulte, Stefan
+204	689	Repp, Nicolas
+204	690	Berbner, Rainer
+204	691	Steinmetz, Ralf
+205	692	Edison, Henry
+205	693	Wang, Xiaofeng
+205	694	Abrahamsson, Pekka
+206	695	Eggers, Julia
+206	696	Hein, Andreas
+206	697	Böhm, Markus
+206	698	Krcmar, Helmut
+207	699	Ehm, Hans
+207	700	Chung, Chun Hei
+207	701	Chowdhury, Sanchari Kar
+207	702	Ratusny, Marco
+207	703	Ismail, Abdelgafar
+208	704	El Hadj Amor, E.A.
+208	705	Ghannouchi, S.A.
+209	706	El Hadj Amor, E.A.
+209	707	Ghannouchi, S.A.
+210	708	El Hamali, S.
+210	709	Mahdaoui, L.
+211	710	El-Garaihy, W.H.
+211	711	Badawi, U.A.
+211	712	Seddik, W.A.S.
+211	713	Torky, M.Sh.
+212	714	Elhadjamor, E.A.
+212	715	Ghannouchi, S.A.
+213	716	Elhami, E.
+213	717	Ansari, A.
+213	718	Farahani, B.
+213	719	Aliee, F.S.
+214	720	Engel, R.
+214	721	Krathu, W.
+214	722	Zapletal, M.
+214	723	Pichler, C.
+214	724	Bose, R.P.J.C.
+214	725	van der Aalst, W.
+214	726	Werthner, H.
+214	727	Huemer, C.
+215	728	Engel, Robert
+215	729	Fernandez, Pablo
+215	730	Ruiz-Cortes, Antonio
+215	731	Megahed, Aly
+215	732	Ojeda-Perez, Juan
+216	733	ER, M.
+216	734	Mulyono, N.R.P.
+216	735	Rentio, I.A.
+216	736	Nurkasanah, I.
+217	737	Escorcia, A.
+217	738	Mohan, R.
+217	739	Saputelli, L.
+218	740	Esiefarienrhe, Bukohwo Michael
+218	741	Omolewa, Isaac Damilare
+219	742	Espinosa, E.
+219	743	Junco, A.
+219	744	Ramos, F.
+219	745	Ramirez, J.
+220	746	Estrada-Torres, B.
+221	747	Estrada-Torres, Bedilia
+221	748	Richetti, Pedro Henrique Piccoli
+221	749	Del-Río-Ortega, Adela
+221	750	Baião, Fernanda Araujo
+221	751	Resinas, Manuel
+221	752	Santoro, Flávia Maria
+221	753	Ruiz-Cortés, Antonio
+222	754	Falcone, D.
+222	755	Bona, G.D.
+222	756	Silvestri, A.
+222	757	Forcina, A.
+222	758	Belfiore, G.
+222	759	Petrillo, A.
+223	760	Fan, Peilei
+223	761	Li, Ran
+223	762	Liang, Liang
+223	763	Zhao, Yujia
+223	764	Zhao, Haibo
+224	765	Farfan-Pena, Hansell
+224	766	Guibovich-Jara, Mirko
+224	767	Quiroz-Flores, Juan Carlos
+224	768	Flores-Perez, Alberto
+225	769	Feibert, D.C.
+225	770	Andersen, B.
+225	771	Jacobsen, P.
+226	772	Fellmann, Michael
+226	773	Metzger, Dirk
+226	774	Jannaber, Sven
+226	775	Zarvic, Novica
+226	776	Thomas, Oliver
+227	777	Ferreira, Alexandre Mello
+227	778	Pernici, Barbara
+228	779	Ferro, Duco N.
+228	780	Hoogendoorn, Mark
+228	781	Jonker, Catholijn M.
+229	782	Filipowska, Agata
+229	783	Kaczmarek, Monika
+229	784	Kowalkiewicz, Marek
+229	785	Markovic, Ivan
+229	786	Zhou, Xuan
+230	787	Firdaus, T.M.
+230	788	Fajri, H.
+230	789	Fakhrurroja, H.
+231	790	Fischer, Dominik A.
+231	791	Marcus, Laura
+231	792	Röglinger, Maximilian
+232	793	Fischer, M.
+232	794	Hofmann, A.
+232	795	Imgrund, F.
+232	796	Janiesch, C.
+232	797	Winkelmann, A.
+233	798	Flores Castañeda, Rosalynn Ornella
+233	799	Auccahuasi, Wilver
+234	800	Flores-Avila, F.S.
+234	801	Riaño-Caraza, J.M.
+234	802	Colina-Alvarez, J.A.
+235	803	Folino, Francesco
+235	804	Pontieri, Luigi
+236	805	Forgia, Cinzia
+236	806	Revetria, Roberto
+237	807	Franco-Santos, M.
+237	808	Bourne, M.
+238	809	Franco-Santos, M.
+238	810	Kennerley, M.
+238	811	Micheli, P.
+238	812	Martinez, V.
+238	813	Mason, S.
+238	814	Marr, B.
+238	815	Gray, D.
+238	816	Neely, A.
+239	817	Front, Agnès
+239	818	Rieu, Dominique
+239	819	Santorum, Marco
+239	820	Movahedian, Fatemeh
+240	821	Fu, Michael C.
+240	822	Glover, Fred W.
+240	823	April, Jay
+241	824	Gaaloul, Walid
+241	825	Baïna, Karim
+241	826	Godart, Claude
+242	827	Gabryelczvk, Renata
+243	828	Gabryelczyk, R.
+244	829	Gagarinskii, A.V.
+244	830	Kuznetcova, I.G.
+244	831	Gagarinskaia, G.P.
+245	832	Galal, Mohamed
+245	833	Hassan, Ghada
+245	834	Aref, Mostafa
+246	835	Gallotta, B.
+246	836	Garza-Reyes, J.A.
+246	837	Anosike, A.
+247	838	Garcia, Cleiton
+247	839	Paludo, Marco
+247	840	Malucelli, Andreia
+247	841	Reinehr, Sheila
+248	842	Garmann-Johnsen, N.F.
+248	843	Eikebrokk, T.R.
+249	844	Ghasemi, M.
+249	845	Amyot, D.
+250	846	Ghasemi, M.
+250	847	Amyot, D.
+251	848	Giaglis, George M.
+251	849	Paul, Ray J.
+251	850	Serrano, Alan
+252	851	Glavan, Ljubica Milanović
+253	852	Glykas, M.M.
+254	853	Goel, Kanika
+254	854	Leemans, Sander J. J.
+254	855	Martin, Niels
+254	856	Wynn, Moe T.
+255	857	Gohar, S.R.
+256	858	Gohar, S.R.
+256	859	Indulska, M.
+257	860	Gohar, S.R.
+257	861	Indulska, M.
+258	862	Gohar, S.R.
+258	863	Indulska, M.
+259	864	Goldsman, David
+259	865	Nelson, Barry L.
+259	866	Opicka, Tracy
+259	867	Pritsker, A. B.
+260	868	Goldstein, A.
+260	869	Johanndeiter, T.
+260	870	Frank, U.
+261	871	Goldszmidt, Moises
+261	872	Palma, Derek
+261	873	Sabata, Bikash
+262	874	Golfarelli, M.
+262	875	Rizzi, S.
+262	876	Cella, I.
+263	877	Goni, Joklan Imelda Camelia
+263	878	Van Looy, Amy
+264	879	Gonzaga, R.P.
+264	880	Da Luz, A.T.M.
+264	881	De Araújo E Silva, F.
+264	882	De Oliveira, M.P.V.
+265	883	Gošnik, D.
+265	884	Stubelj, I.
+266	885	Gourova, Elissaveta
+266	886	Dragomirova, Mila
+266	887	Zografova, Lilia
+267	888	Gourova, Elissaveta
+267	889	Todorova, Yanka
+267	890	Dragomirova, Mila
+268	891	Grewal, Devinder
+268	892	Darlow, Nicholas James
+269	893	Grosse, Nick
+269	894	Guerpinar, Tan
+269	895	Henke, Michael
+270	896	Gruber, H.
+270	897	Huemer, C.
+271	898	Gulledge, T.
+271	899	Chavusholu, T.
+272	900	Gupta, Minisha
+272	901	Jauhar, Sunil Kumar
+272	902	Paul, Sanjoy Kumar
+272	903	Pratap, Saurabh
+273	904	Gupta, Monika
+274	905	Gupta, Shubham
+274	906	Khanna, Pradeep
+274	907	Soni, Umang
+275	908	Gyory, Andreas
+275	909	Brenner, Walter
+275	910	Uebernickel, Falk
+276	911	Habba, Maryam
+276	912	Fredj, Mounia
+276	913	Chaouni, Samia Benabdellah
+277	914	Hachicha, M.
+277	915	Fahad, M.
+277	916	Moalla, N.
+277	917	Ouzrout, Y.
+278	918	Han, K.H.
+278	919	Choi, S.H.
+278	920	Kang, J.G.
+278	921	Lee, G.
+279	922	Han, K.H.
+279	923	Kang, J.G.
+279	924	Song, M.
+280	925	Han, Kwan Hee
+280	926	Kang, Jin Gu
+281	927	Han, X.
+281	928	Hu, L.
+281	929	Sen, J.
+281	930	Dang, Y.
+281	931	Gao, B.
+281	932	Isahagian, V.
+281	933	Lei, C.
+281	934	Efthymiou, V.
+281	935	Ozcan, F.
+281	936	Quamar, A.
+281	937	Huang, Z.
+281	938	Muthusamy, V.
+282	939	Hanafi, Maeda F
+282	940	Reiss, Frederick
+282	941	Katsis, Yannis
+282	942	Moore, Robert
+282	943	Wood, David
+282	944	Falakmasir, Mohammad H
+282	945	Liu, Changchang
+283	946	Haouas, A.
+283	947	Elhadjamor, E.A.
+283	948	Ghannouchi, S.A.
+284	949	Harishankar, Ray
+284	950	Daley, S. Kevin
+285	951	Harrison, A
+285	952	New, C
+286	953	Hasan, Md. Morshadul
+286	954	Popp, József
+286	955	Oláh, Judit
+287	956	Heart, T.
+287	957	Friedman, N.L.
+287	958	Pliskin, N.
+288	959	Heikkilä, Marikka
+288	960	Bouwman, Harry
+288	961	Heikkilä, Jukka
+288	962	Solaimani, Sam
+288	963	Janssen, Wil
+289	964	Herm, Lukas-Valentin
+289	965	Janiesch, Christian
+289	966	Helm, Alexander
+289	967	Imgrund, Florian
+289	968	Hofmann, Adrian
+289	969	Winkelmann, Axel
+290	970	Hernández González, A.
+290	971	Calero, C.
+290	972	Pérez Parra, D.
+290	973	Mancebo, J.
+291	974	Hernandez, Alexander A
+291	975	Intal, Grace Lorraine D
+292	976	Hernandez-Matias, J. C.
+292	977	Vizan, A.
+292	978	Hidalgo, A.
+292	979	Rios, J.
+293	980	Hernaus, T.
+293	981	Bach, M.P.
+293	982	Vukšić, V.B.
+294	983	Hibti, Meryem
+294	984	Baïna, Karim
+294	985	Benatallah, Boualem
+295	986	Hofmann, Peter
+295	987	Samp, Caroline
+295	988	Urbach, Nils
+296	989	Hoogendoorn, T.
+296	990	Arachchige, J.J.
+296	991	Bukhsh, F.A.
+297	992	Hoogland, J.
+298	993	Hosseinizadeh Mazloumi, S.H.
+298	994	Moini, A.
+298	995	Agha Mohammad Ali Kermani, M.
+299	996	Hrabala, M.
+299	997	Opletalováb, M.
+299	998	Tucekc, D.
+300	999	Hrzek, V.
+300	1000	Macke, N.
+300	1001	Lükens, E.
+301	1002	Hsieh, Fu-Shiung
+301	1003	Lin, Jim-Bon
+302	1004	Hsu, Shun-Fa
+302	1005	Lee, Yi-In
+302	1006	Hsu, Ching-Tzu
+302	1007	Hsu, Ching-Yin
+303	1008	Hu, L.
+303	1009	Bai, C.
+303	1010	Gershon, M.
+303	1011	Zhou, C.
+304	1012	Hu, M.
+305	1013	Hu, M.
+306	1014	Huang, S.-Y.
+306	1015	Chen, H.-J.
+306	1016	Chiu, A.-A.
+306	1017	Chen, C.-P.
+307	1018	Hull, Richard
+307	1019	Su, Jianwen
+307	1020	Vaculin, Roman
+308	1021	Hullinger, D. Roger
+309	1022	Hundzinski, L.N.
+309	1023	De Lima, E.P.
+309	1024	Gouvea Da Costa, S.E.
+309	1025	Machado, C.G.
+309	1026	Cestari, J.M.A.P.
+309	1027	Kluska, R.A.
+310	1028	Hur, W.
+311	1029	Hwang, G.
+311	1030	Park, J.
+312	1031	Ibrahim, Ahmed
+312	1032	Fletcher, George H. L.
+313	1033	Ilahi, L.
+313	1034	Martinho, R.
+313	1035	Ghannouchi, S.A.
+313	1036	Domingos, D.
+313	1037	Rijo, R.
+314	1038	Indulska, M.
+314	1039	Chong, S.
+314	1040	Bandara, W.
+314	1041	Sadiq, S.
+314	1042	Rosemann, M.
+315	1043	Iorga, D.
+315	1044	Scarlat, C.
+316	1045	Iqbal, Sajid
+316	1046	Altaf, Wasif
+316	1047	Aslam, Muhammad
+316	1048	Mahmood, Waqar
+316	1049	Khan, Muhammad Usman Ghani
+317	1050	Irani, Z
+317	1051	Love, P E D
+318	1052	Ivanchikj, Ana
+318	1053	Serbout, Souhaila
+318	1054	Pautasso, Cesare
+319	1055	Ivaschenko, Anton
+319	1056	Kolsanov, Alexandr
+319	1057	Nazaryan, Aikush
+320	1058	Jacobo-Romero, Mauricio
+320	1059	Freitas, André
+321	1060	Jafari, M.A.
+321	1061	Esmaeilpour, M.
+322	1062	Jahani, Hamed
+322	1063	Jain, Richa
+322	1064	Ivanov, Dmitry
+323	1065	Jaklic, J.
+323	1066	Trkman, P.
+323	1067	Groznik, A.
+323	1068	Stemberger, M.I.
+324	1069	Jallow, A.K.
+324	1070	Majeed, B.
+324	1071	Vergidis, K.
+324	1072	Tiwari, A.
+324	1073	Roy, R.
+325	1074	Janiesch, C.
+325	1075	Weber, I.
+325	1076	Kuhlenkamp, J.
+325	1077	Menzel, M.
+326	1078	Janiesch, Christian
+326	1079	Fischer, Robin
+326	1080	Matzner, Martin
+326	1081	Müller, Oliver
+327	1082	Janiesch, Christian
+327	1083	Matzner, Martin
+327	1084	Müller, Oliver
+327	1085	Vollmer, Robert
+327	1086	Becker, Jörg
+328	1087	Jiang, Gaozhe
+328	1088	Zhao, Shenghan
+328	1089	Yang, Haowei
+328	1090	Zhang, Kai
+329	1091	Jing-hua, Xiao
+329	1092	Kang, Xie
+329	1093	Xiao-wei, Wan
+330	1094	Jobst, Daniel
+330	1095	Preissler, Gerald
+331	1096	Juan-Verdejo, Adrian
+331	1097	Baars, Henning
+332	1098	Juwitasary, H.
+332	1099	Christian, L.
+332	1100	Putra, E.P.
+332	1101	Sardjono, W.
+333	1102	K\Ho, Andrea
+333	1103	Gábor, András
+333	1104	Szabó, Zoltán
+334	1105	Kabirian, Alireza
+334	1106	Olafsson, Sigurdur
+335	1107	Kamrani, Farzad
+335	1108	Ayani, Rassul
+335	1109	Karimson, Anvar
+336	1110	Kanalici, I.
+336	1111	Erdem, A.S.
+336	1112	Ozturan, M.
+337	1113	Kandil, Ahmed
+337	1114	El-Deeb, Hesham
+338	1115	Kang, Jin Gu
+338	1116	Han, Kwan Hee
+339	1117	Kang, S.
+339	1118	Lee, J.
+339	1119	Lee, D.
+339	1120	Baik, J.
+340	1121	Karabetsou, V.
+340	1122	Malamateniou, F.
+340	1123	Vassilacopoulos, G.
+341	1124	Karagiannis, Dimitris
+341	1125	Ronaghi, Faribors
+341	1126	Fill, Hans-Georg
+342	1127	Karastoyanova, Dimka
+342	1128	Ivanovic, Dragan
+342	1129	Neméth, Zsolt
+342	1130	Carro, Manuel
+342	1131	Di Napoli, Claudia
+342	1132	Giordano, Maurizio
+342	1133	Pautasso, Cesare
+343	1134	Kaschek, Roland
+343	1135	Albertyn, Frina
+343	1136	Shekhovtsov, Vladimir A.
+343	1137	Zlatkin, Sergiy
+344	1138	Kauffman, Robert J.
+344	1139	Ma, Dan
+344	1140	Yu, Martin
+345	1141	Kchaou, M.
+345	1142	Khlif, W.
+345	1143	Gargouri, F.
+346	1144	Kellner, Ingmar
+346	1145	Fiege, Ludger
+347	1146	Kennedy, Lauren
+347	1147	Parker, Sarah Henrickson
+348	1148	Keramati, A.
+348	1149	Golian, H.R.
+348	1150	Afshari-Mofrad, M.
+349	1151	Kerpedzhiev, Georgi Dimov
+349	1152	König, Ulrich Matthias
+349	1153	Röglinger, Maximilian
+349	1154	Rosemann, Michael
+350	1155	Kettinger, William J
+350	1156	Teng, James T C
+350	1157	Guha, Subashish
+351	1158	Ketykó, István
+351	1159	Mannhardt, Felix
+351	1160	Hassani, Marwan
+351	1161	van Dongen, Boudewijn F.
+352	1162	Khan, T.
+352	1163	Mircoli, A.
+352	1164	Potena, D.
+352	1165	Diamantini, C.
+353	1166	Khanna, Preeti
+353	1167	Sharma, Ashu
+354	1168	Khodadadi, Atieh
+354	1169	Lazarova-Molnar, Sanja
+355	1170	Kipper, L.M.
+355	1171	Benitez Nara, E.O.
+355	1172	Mairesse Siluk, J.C.
+355	1173	Caurio, C.
+355	1174	Emmel Silva, A.L.
+355	1175	Da Silva, J.I.
+356	1176	Klaus, Helmut
+357	1177	Klessascheck, F.
+358	1178	Klessascheck, Finn
+358	1179	Weber, Ingo
+358	1180	Pufahl, Luise
+359	1181	Klijn, E.L.
+359	1182	Fahland, D.
+360	1183	Koetter, F.
+360	1184	Kochanowski, M.
+361	1185	Koetter, F.
+361	1186	Kochanowski, M.
+362	1187	Kohlbacher, M.
+363	1188	Kohlbacher, M.
+363	1189	Gruenwald, S.
+364	1190	Kolyshkina, Inna
+364	1191	Simoff, Simeon
+365	1192	Korherr, Birgit
+365	1193	List, Beate
+366	1194	Kornahrens, Lars
+366	1195	Kritzler, Sebastian
+366	1196	Werth, Dr. Dirk
+367	1197	Koster, S.R.
+367	1198	Iacob, M.-E.
+367	1199	Ferreira Pires, L.
+368	1200	Kovalenko, V.V.
+368	1201	Bobkov, V.N.
+369	1202	Kraus, Alexander
+369	1203	Rehse, Jana-Rebecca
+369	1204	van der Aa, Han
+370	1205	Kregel, Ingo
+370	1206	Distel, Bettina
+370	1207	Coners, André
+371	1208	Krenn, Florian
+371	1209	Stary, Christian
+371	1210	Wachholder, Dominik
+372	1211	Kress, M.
+372	1212	Seese, D.
+373	1213	Kroemer, Karl H.E.
+374	1214	Krueakam, Suchapit
+374	1215	Suharitdamrong, Vithaya
+375	1216	Krumeich, J.
+375	1217	Werth, D.
+375	1218	Loos, P.
+376	1219	Krymov, Sergei M.
+376	1220	Kapustina, Irina V.
+376	1221	Kolgan, Maria V.
+377	1222	Kryvinska, Natalia
+378	1223	Kurz, Aaron Friedrich
+378	1224	Kampik, Timotheus
+378	1225	Pufahl, Luise
+378	1226	Weber, Ingo
+379	1227	La Rosa, Marcello
+379	1228	Van Der Aalst, Wil M. P.
+379	1229	Dumas, Marlon
+379	1230	Ter Hofstede, Arthur H. M.
+380	1231	Lacerda, R.T.D.O.
+380	1232	Ensslin, L.
+380	1233	Ensslin, S.R.
+380	1234	Dutra, A.
+381	1235	Lage, Leonardo
+381	1236	Viterbo, José
+381	1237	Boscarioli, Clodis
+382	1238	Laha, Arijit
+383	1239	Lamghari, Z.
+383	1240	Radgui, M.
+383	1241	Saidi, R.
+383	1242	Rahmani, M.D.
+384	1243	Lamghari, Z.
+384	1244	Radgui, M.
+384	1245	Saidi, R.
+384	1246	Rahmani, M.D.
+385	1247	Lapa, Joaquim
+385	1248	Bernardino, Jorge
+385	1249	Figueiredo, Ana
+386	1250	Laumer, S.
+386	1251	Maier, C.
+386	1252	Eckhardt, A.
+387	1253	Lauras, M.
+387	1254	Lamothe, J.
+387	1255	Pingaud, H.
+388	1256	Lee, Chia-Chi
+389	1257	Lee, Je-Hun
+389	1258	Kim, Young
+389	1259	Kim, Yun Bae
+389	1260	Kim, Hyun-Jung
+389	1261	Kim, Byung-Hee
+389	1262	Chung, Gu-Hwan
+390	1263	Lee, Seung-Yup
+390	1264	Chinnam, Ratna Babu
+390	1265	Dalkiran, Evrim
+390	1266	Krupp, Seth
+390	1267	Nauss, Michael
+391	1268	Lee, Wee-Leong
+392	1269	Lehnert, M.
+392	1270	Linhart, A.
+392	1271	Röglinger, M.
+393	1272	Lehnert, M.
+393	1273	Röglinger, M.
+393	1274	Seyfried, J.
+394	1275	Lehnert, Martin
+394	1276	Linhart, Alexander
+394	1277	Röglinger, Maximilian
+395	1278	Leite, Higor
+395	1279	Quadros, Flavia Celene
+396	1280	Lendermann, Peter
+396	1281	Gan, Boon Ping
+396	1282	Julka, Nirupam
+396	1283	Schirrmann, Arnd
+396	1284	Fromm, Helge
+397	1285	Lenz, K.
+397	1286	Mevius, M.
+397	1287	Oberweis, A.
+398	1288	Leyer, Michael
+398	1289	Wollersheim, Jutta
+399	1290	Li, Li
+399	1291	Yu, Qingyun
+400	1292	Li, S.
+400	1293	Zhu, H.
+401	1294	Liangzhao, Z.
+401	1295	Hui, L.
+401	1296	Dikun, M.
+401	1297	Henry, C.
+401	1298	Bhaskaran, K.
+401	1299	Frank, J.
+402	1300	Liborio Zapata, Melissa
+402	1301	Berrah, Lamia
+402	1302	Tabourot, Laurent
+403	1303	Lichka, C.
+404	1304	Lima, Fabiana Santos
+404	1305	Dávalos, Ricardo Villarroel
+404	1306	Campos, Lucila M. S.
+404	1307	Trierweiller, Andréa Cristina
+405	1308	Liu, H.
+405	1309	Liu, G.
+405	1310	Zhao, D.
+405	1311	Song, J.
+406	1312	Liu, Rong
+406	1313	Nigam, Anil
+406	1314	Jeng, Jun-Jang
+406	1315	Shieh, Chian-Rou
+406	1316	Wu, Frederick Y.
+407	1317	Liu, Shaofeng
+407	1318	Duffy, Alex H. B.
+407	1319	Whitfield, Robert Ian
+407	1320	Boyle, Iain M.
+408	1321	Liu, Xiao
+408	1322	Yang, Yun
+408	1323	Cao, Dahai
+408	1324	Yuan, Dong
+409	1325	Liu, Xiaochen
+409	1326	Xia, Chunhe
+409	1327	Wang, Tianbo
+409	1328	Zhong, Li
+409	1329	Li, Xiaojian
+410	1330	Liu, Yu
+410	1331	Zhang, Hantian
+410	1332	Zeng, Luyuan
+410	1333	Wu, Wentao
+410	1334	Zhang, Ce
+411	1335	Llamas, V. M.
+411	1336	Coudert, T.
+411	1337	Geneste, L.
+411	1338	Romero Bejarano, J. C.
+411	1339	de Valroger, A.
+412	1340	Lohrmann, Matthias
+412	1341	Reichert, Manfred
+413	1342	Longo, L.
+413	1343	Tomarchio, O.
+413	1344	Trapani, N.
+414	1345	Longo, L.
+414	1346	Tomarchio, O.
+414	1347	Trapani, N.
+415	1348	Lookman, Kyatmaja
+415	1349	Pujawan, Nyoman
+415	1350	Nadlifatin, Reny
+416	1351	Loos, Peter
+416	1352	Clarner, Rosemarie
+416	1353	Hermann, Frank
+416	1354	Hess, Thomas
+416	1355	Gadatsch, Andreas
+416	1356	Sinz, Elmar
+417	1357	Loos, Peter
+417	1358	Nebel, Wolfgang
+417	1359	Marx Gómez, Jorge
+417	1360	Hasan, Helen
+417	1361	Watson, Richard T.
+417	1362	Vom Brocke, Jan
+417	1363	Seidel, Stefan
+417	1364	Recker, Jan
+418	1365	Lopez, Cindy-Pamela
+418	1366	Aguilar, Jose
+418	1367	Santorum, Marco
+419	1368	Louwerse, Victor
+419	1369	Rothkrantz, Léon
+420	1370	Love, P.E.D.
+420	1371	Holt, G.D.
+421	1372	Low, Malcolm Y. H.
+421	1373	Turner, Stephen J.
+421	1374	Ling, Ding
+421	1375	Peng, Hai L.
+421	1376	Chan, Lai P.
+421	1377	Lendermann, Peter
+421	1378	Buckley, Steve
+422	1379	Loyola-González, Octavio
+423	1380	Maas, R.
+423	1381	Karaulova, T.
+423	1382	Shevtshenko, E.
+423	1383	Popell, J.
+423	1384	Raji, I.O.
+424	1385	Maddah, N.
+424	1386	Roghanian, E.
+425	1387	Mahmud, B.
+426	1388	Mamudu, Azumah
+426	1389	Bandara, Wasana
+426	1390	Wynn, Moe T.
+426	1391	Leemans, Sander J. J.
+427	1392	Manhardt, Deb
+428	1393	Marazakis, Manolis
+428	1394	Nikolaou, Christos
+429	1395	Marchenko, Roman
+429	1396	Dubgorn, Alissa
+429	1397	Babyr, Anastasia
+429	1398	Gerrits, Berry
+430	1399	Marconi, Annapaola
+430	1400	Bucchiarone, Antonio
+430	1401	Bratanis, Konstantinos
+430	1402	Brogi, Antonio
+430	1403	Cámara, Javier
+430	1404	Dranidis, Dimitris
+430	1405	Giese, Holger
+430	1406	Kazhamiakin, Raman
+430	1407	de Lemos, Rogério
+430	1408	Marquezan, Clarissa Cassales
+430	1409	Metzger, Andreas
+431	1410	Marić, Josip
+431	1411	Galera-Zarco, Carlos
+431	1412	Opazo-Basáez, Marco
+432	1413	Marinagi, Catherine
+432	1414	Trivellas, Panagiotis
+433	1415	Maroukian, Krikor
+433	1416	Apostolopoulos, Charalampos
+433	1417	Tsaramirsis, George
+434	1418	Marquez-Chamorro, A.E.
+434	1419	Revoredo, K.
+434	1420	Resinas, M.
+434	1421	Del-Rio-Ortega, A.
+434	1422	Santoro, F.M.
+434	1423	Ruiz-Cortes, A.
+435	1424	Marr, B.
+435	1425	Schiuma, G.
+436	1426	Marrone, Mauricio
+436	1427	Kolbe, Lutz M.
+437	1428	Martens, Axel
+437	1429	Lakshmanan, Geetika T.
+437	1430	Mukhi, Nirmal K.
+437	1431	Khalaf, Rania
+438	1432	Marzouqi, M.A.
+438	1433	Saputelli, L.
+438	1434	Abdou, M.
+438	1435	Mohan, R.
+438	1436	Pandian, S.M.
+438	1437	Hammadi, M.A.
+438	1438	Khan, M.N.
+438	1439	Cumming, J.
+438	1440	Pires, J.
+438	1441	Escorcia, A.
+439	1442	Masood, Tehreem
+439	1443	Cherifi, Chantal Bonner
+439	1444	Moalla, Nejib
+440	1445	Massacci, Fabio
+440	1446	Yautsiukhin, Artsiom
+441	1447	Mathirajan, M.
+441	1448	Sivakumar, A. I.
+441	1449	Chandru, V.
+442	1450	Maule, R. William
+442	1451	Lewis, William C.
+443	1452	Mazzola, Luca
+443	1453	Kapahnke, Patrick
+443	1454	Klusch, Matthias
+444	1455	McGregor, C.
+444	1456	Schiefer, J.
+444	1457	zur Muehlen, M.
+445	1458	McGregor, Carolyn
+445	1459	Schiefer, Josef
+446	1460	Medjahed, Brahim
+446	1461	Atif, Yacine
+447	1462	Mellema, Paul M.
+447	1463	Smith, Charles A.
+448	1464	Mendes, T.
+448	1465	Santos, S.
+449	1466	Mendes, T.
+449	1467	Santos, S.
+450	1468	Mendoza, Jediael
+450	1469	Mycroft, Jason
+450	1470	Milbury, Lyam
+450	1471	Kahani, Nafiseh
+450	1472	Jaskolka, Jason
+451	1473	Mertens, Willem
+451	1474	Van den Bergh, Joachim
+451	1475	Viaene, Stijn
+451	1476	Schroder-Pander, Friederike
+452	1477	Metzger, A.
+452	1478	Franke, J.
+452	1479	Jansen, T.
+453	1480	Meyer, Anne
+453	1481	Sejdovic, Suad
+453	1482	Glock, Katharina
+453	1483	Bender, Matthias
+453	1484	Kleiner, Natalja
+453	1485	Riemer, Dominik
+454	1486	Mezouar, H.
+454	1487	El Afia, A.
+455	1488	Mezouar, Houda
+455	1489	El Afia, Abdellatif
+455	1490	Chiheb, Radouane
+455	1491	Ouzayd, Fatima
+456	1492	Michels, Gerard
+456	1493	Joosten, Stef
+457	1494	Miers, Derek
+458	1495	Milani, Andrea
+458	1496	Steri, Roberto
+458	1497	Viviani, Diego
+459	1498	Minonne, C.
+459	1499	Turner, G.
+460	1500	Mircea, M.
+460	1501	Ghilic-Micu, B.
+460	1502	Stoica, M.
+460	1503	Sinioros, P.
+461	1504	Mohebbi, Shima
+461	1505	Shafaei, Rasoul
+462	1506	Mohraz, Karim
+463	1507	Mokhtari, Hadi
+463	1508	Noroozi, Amir
+464	1509	Molka, Thomas
+464	1510	Redlich, David
+464	1511	Drobek, Marc
+464	1512	Zeng, Xiao-Jun
+464	1513	Gilani, Wasif
+465	1514	Momm, C.
+465	1515	Gebhart, M.
+465	1516	Abeck, S.
+466	1517	Montali, M.
+467	1518	Moreira, Silvia
+467	1519	Mamede, Henrique S.
+467	1520	Santos, Arnaldo
+468	1521	Mpardis, G.
+468	1522	Kotsilieris, T.
+469	1523	Muttaqin, G.F.
+470	1524	Mylnikov, L. A.
+470	1525	Saltykova, A. D.
+471	1526	Narrow, Bernard
+471	1527	Kelly, John
+472	1528	Neely, A.
+473	1529	Nesterak, J.
+473	1530	Szelągowski, M.
+473	1531	Radziszewski, P.
+474	1532	Neu, Dominic A.
+474	1533	Lahann, Johannes
+474	1534	Fettke, Peter
+475	1535	Nguyen, Dinh Khoa
+475	1536	Savio, Domnic
+476	1537	Nguyen, Linh Thi My
+476	1538	Vi Tran, Anh
+476	1539	Nguyen, Chien Thi
+477	1540	Niesen, T.
+477	1541	Houy, C.
+477	1542	Fettke, P.
+477	1543	Loos, P.
+478	1544	Noda, Abi
+478	1545	Storey, Margaret-Anne
+478	1546	Forsgren, Nicole
+478	1547	Greiler, Michaela
+479	1548	Nowak, A.
+479	1549	Leymann, F.
+479	1550	Schumm, D.
+480	1551	Ntanos, Emmanouil
+480	1552	Dimitriou, Gerasimos
+480	1553	Bekiaris, Vassilis
+480	1554	Vassiliou, Charalampos
+480	1555	Kalaboukas, Kostas
+480	1556	Askounis, Dimitris
+481	1557	Nurmi, A.
+481	1558	Moyaux, T.
+481	1559	Botta-Genoulaz, V.
+482	1560	Oberdorf, Felix
+482	1561	Schaschek, Myriam
+482	1562	Weinzierl, Sven
+482	1563	Stein, Nikolai
+482	1564	Matzner, Martin
+482	1565	Flath, Christoph M.
+483	1566	Obidallah, Waeal J.
+483	1567	Raahemi, Bijan
+483	1568	Alaieri, Fahad Saleh
+484	1569	Ogbuachi, Michael Chima
+484	1570	Podder, Itilekha
+484	1571	Bub, Udo
+484	1572	Huseynli, Murad
+485	1573	Oliveira E Sá, J.
+485	1574	Santos, M.Y.
+486	1575	Oliveira, A.C.
+486	1576	Dora, P.
+486	1577	Spohn, M.
+486	1578	Oliveira, K.
+487	1579	Olshanskiy, O.
+487	1580	Osetrova, O.
+487	1581	Holubka, V.
+487	1582	Tretiak, V.
+487	1583	Rodchenko, I.
+488	1584	Olyai, A.
+488	1585	Saraeian, S.
+488	1586	Nodehi, A.
+489	1587	Ondoa, M.N.E.
+489	1588	Djafari, F.A.
+489	1589	Seigerroth, U.
+490	1590	Opitz, N.
+490	1591	Erek, K.
+490	1592	Langkau, T.F.
+490	1593	Kolbe, L.M.
+490	1594	Zarnekow, R.
+491	1595	Osotsi, Ame
+491	1596	Oravecz, Zita
+491	1597	Li, Qunhua
+491	1598	Smyth, Joshua
+491	1599	Brick, Timothy R.
+492	1600	Ouyang, Chun
+492	1601	Adams, Michael
+492	1602	Hofstede, Arthur H. M. Ter
+492	1603	Yu, Yang
+493	1604	Ozkan, S.
+494	1605	Pádua, S.I.D.
+494	1606	Jabbour, C.J.C.
+495	1607	Palanisamy, Saravana Murthy
+495	1608	Dürr, Frank
+495	1609	Tariq, Muhammad Adnan
+495	1610	Rothermel, Kurt
+496	1611	Palmer, Ralph C.
+496	1612	Caldwell, Barrett S.
+497	1613	Palpanas, Themis
+497	1614	Chowdhary, Pawan
+497	1615	Mihaila, George
+497	1616	Pinel, Florian
+498	1617	Pan, Wang
+498	1618	Wei, He
+499	1619	Panda, Prabir
+499	1620	Sahu, Ganesh
+499	1621	Gupta, Babita
+499	1622	Muthyala, Vidyadhar
+500	1623	Panfilov, Peter
+500	1624	Suleykin, Alexander
+500	1625	ElDarawany, Ahmed
+501	1626	Papazoglou, Mike P.
+501	1627	Van Den Heuvel, Willem-Jan
+502	1628	Park, Sangdon
+502	1629	Weimer, James
+502	1630	Lee, Insup
+503	1631	Parra-Calderón, Carlos
+503	1632	García-García, Julián Alberto
+503	1633	Ramos-Cueli, Juan Manuel
+503	1634	Alvarez-Romero, Celia
+503	1635	Román-Villarán, Esther
+503	1636	Martínez-García, Alicia
+503	1637	Escalona, María José
+504	1638	Paulino, E.P.
+505	1639	Pedrinaci, Carlos
+505	1640	Domingue, John
+506	1641	Pepino, Alessandro
+506	1642	Torri, Adriano
+506	1643	Mazzitelli, Annunziata
+506	1644	Tamburis, Oscar
+507	1645	Pepino, Alessandro
+507	1646	Vallefuoco, Ersilia
+507	1647	Cuccaro, Patrizia
+507	1648	D'Onofrio, Gaetano
+508	1649	Perdue, Robert K.
+509	1650	Pereira, Rúben
+509	1651	De Vasconcelos, José Braga
+509	1652	Rocha, Álvaro
+509	1653	Bianchi, Isaías Scalabrin
+510	1654	Perez-Alvarez, J.M.
+510	1655	Gomez-Lopez, M.T.
+510	1656	Parody, L.
+510	1657	Gasca, R.M.
+511	1658	Pérez-Salazar, M.D.R.
+511	1659	Aguilar-Lasserre, A.A.
+511	1660	Cedillo-Campos, M.G.
+511	1661	Juárez-Martínez, U.
+511	1662	Posada-Gómez, R.
+512	1663	Pertsas, Vayianos
+512	1664	Constantopoulos, Panos
+513	1665	Pestana, G.
+513	1666	Da Silva, M.M.
+514	1667	Pflug, Johannes
+514	1668	Rinderle-Ma, Stefanie
+515	1669	Pichler, Horst
+515	1670	Edre, Johann
+516	1671	Pidun, T.
+516	1672	Buder, J.
+516	1673	Felden, C.
+517	1674	Pidun, T.
+517	1675	Felden, C.
+518	1676	Pidun, T.
+518	1677	Felden, C.
+519	1678	Pidun, T.
+519	1679	Felden, C.
+520	1680	Pidun, T.
+520	1681	Felden, C.
+521	1682	Pidun, Tim
+521	1683	Felden, Carsten
+522	1684	Pidun, Tim
+522	1685	Felden, Carsten
+523	1686	Pidun, Tim
+523	1687	Felden, Carsten
+524	1688	Piessens, D.
+524	1689	Wynn, M.T.
+524	1690	Adams, M.
+524	1691	van Dongen, B.F.
+525	1692	Pika, Anastasiia
+525	1693	Leyer, Michael
+525	1694	Wynn, Moe T.
+525	1695	Fidge, Colin J.
+525	1696	Hofstede, Arthur H. M. Ter
+525	1697	Aalst, Wil M. P. Van Der
+526	1698	Pinheiro, Mauro Gonçalves
+526	1699	Misaghi, Mehran
+527	1700	Pittaras, Nikiforos
+527	1701	Giannakopoulos, George
+527	1702	Stamatopoulos, Panagiotis
+527	1703	Karkaletsis, Vangelis
+528	1704	Pittarese, Tony
+529	1705	Popescu, C.R.
+529	1706	Popescu, G.N.
+530	1707	Popesko, B.
+530	1708	Tučková, Z.
+530	1709	Strouhal, J.
+531	1710	Poppe, Erik
+531	1711	Brown, Ross
+531	1712	Recker, Jan
+531	1713	Johnson, Daniel
+532	1714	Pourmirza, Shaya
+532	1715	Peters, Sander
+532	1716	Dijkman, Remco
+532	1717	Grefen, Paul
+533	1718	Pourshahid, A.
+533	1719	Amyot, D.
+533	1720	Peyton, L.
+533	1721	Ghanavati, S.
+533	1722	Chen, P.
+533	1723	Weiss, M.
+533	1724	Forster, A.J.
+534	1725	Pourshahid, A.
+534	1726	Richards, G.
+534	1727	Amyot, D.
+535	1728	Pourshahid, Alireza
+535	1729	Amyot, Daniel
+535	1730	Peyton, Liam
+535	1731	Ghanavati, Sepideh
+535	1732	Chen, Pengfei
+535	1733	Weiss, Michael
+535	1734	Forster, Alan J.
+536	1735	Prys, M.
+536	1736	Rózewski, P.
+537	1737	Püchel, Lea
+537	1738	Wang, Cancan
+537	1739	Buhmann, Karin
+537	1740	Brandt, Tobias
+537	1741	Von Schweinitz, Felizia
+537	1742	Edinger-Schons, Laura Marie
+537	1743	Vom Brocke, Jan
+537	1744	Legner, Christine
+537	1745	Teracino, Elizabeth
+537	1746	Mardahl, Thomas Daniel
+538	1747	Quiroz-Flores, Juan Carlos
+538	1748	Canales-Huaman, Daniela Steisy
+538	1749	Gamio-Valdivia, Karina Guiuliana
+539	1750	Quiroz-Flores, Juan Carlos
+539	1751	Carrasco-Morales, Karin Alexandra
+539	1752	Aznarán-Sánchez, Sandra Zulema
+540	1753	Radhay, R.
+541	1754	Radovic, M.
+541	1755	Camilovic, S.
+541	1756	Rakic, Z.
+541	1757	Simeunovic, B.
+541	1758	Tomasevic, I.
+541	1759	Stojanovic, D.
+542	1760	Ragazou, Konstantina
+542	1761	Passas, Ioannis
+542	1762	Garefalakis, Alexandros
+542	1763	Zopounidis, Constantin
+543	1764	Ramesh, Raj
+544	1765	Ramirez-Nafarrate, A.
+544	1766	López-Hernández, C.E.
+545	1767	Ramírez-Nafarrate, Adrián
+545	1768	González-Ramírez, Rosa G.
+545	1769	Smith, Neale R.
+545	1770	Guerra-Olivares, Roberto
+545	1771	Voß, Stefan
+546	1772	Ranaweera, J.
+546	1773	Zanin, M.
+546	1774	Weaving, D.
+546	1775	Withanage, C.
+546	1776	Roe, G.
+547	1777	Razafimampianina, Rindra M.
+547	1778	Nouinou, Soumaya
+547	1779	Doukkali, Abdelaziz S.
+547	1780	Regragui, Boubker
+548	1781	Red, Ellenita R.
+548	1782	Velasquez, Joanna A.
+548	1783	Cruz, John Martin C.
+548	1784	Figueroa, Jon Erickson G.
+549	1785	Reddy, Rajesh Chidananda
+549	1786	Bhattacharjee, Biplab
+549	1787	Mishra, Debasisha
+549	1788	Mandal, Anandadeep
+550	1789	Reijers, Hajo A.
+550	1790	Vanderfeesten, Irene
+550	1791	Plomp, Marijn G. A.
+550	1792	Van Gorp, Pieter
+550	1793	Fahland, Dirk
+550	1794	Van Der Crommert, Wim L. M.
+550	1795	Garcia, H. Daniel Diaz
+551	1796	Ren, Changrui
+551	1797	Dong, Jin
+551	1798	Ding, Hongwei
+551	1799	Wang, Wei
+552	1800	Řepa, V.
+553	1801	Resinas, M.
+553	1802	Del-Río-Ortega, A.
+553	1803	Ruiz-Cortés, A.
+553	1804	Blattner, D.
+553	1805	Tasheva, K.
+553	1806	Chipev, B.
+554	1807	Revoredo, Kate
+555	1808	Reyes, Pedro M.
+555	1809	Gravier, Michael J.
+555	1810	Jaska, Patrick
+555	1811	Visich, John K.
+556	1812	Ribeiro, Vítor
+556	1813	Barata, João
+556	1814	Da Cunha, Paulo Rupino
+557	1815	Rimini, G.
+557	1816	Roberti, P.
+558	1817	Rizzi, Stefano
+558	1818	Abelló, Alberto
+558	1819	Lechtenbörger, Jens
+558	1820	Trujillo, Juan
+559	1821	Rodríguez, Carlos
+559	1822	Schleicher, Daniel
+559	1823	Daniel, Florian
+559	1824	Casati, Fabio
+559	1825	Leymann, Frank
+559	1826	Wagner, Sebastian
+560	1827	Rodríguez-Sanz, Á.
+560	1828	Comendador, F.G.
+560	1829	Valdés, R.A.
+560	1830	Pérez-Castán, J.A.
+561	1831	Rohloff, Michael
+562	1832	Romero, David
+562	1833	Molina, Arturo
+563	1834	Rosemann, Michael
+563	1835	Zur Muehlen, Michael
+563	1836	Becker, Jörg
+563	1837	Röglinger, Maximilian
+564	1838	Rozinat, A.
+564	1839	Mans, R. S.
+564	1840	Song, M.
+564	1841	Van Der Aalst, W. M. P.
+565	1842	Ru, Jia
+565	1843	Grundy, John
+565	1844	Keung, Jacky
+566	1845	Rudman, Alfred
+566	1846	Garbutt, Malcolm
+566	1847	Seymour, Lisa F.
+567	1848	Ryan, J.
+567	1849	Doster, B.
+567	1850	Daily, S.
+567	1851	Lewis, C.
+568	1852	Ryan, J.
+568	1853	Doster, B.
+568	1854	Daily, S.
+568	1855	Lewis, C.
+569	1856	Saab, N.
+569	1857	Helms, R.
+569	1858	Zoet, M.
+570	1859	Sachdev, Anil
+570	1860	Agrawal, Jitendra
+571	1861	Saha, Avirup
+571	1862	Agarwal, Prerna
+571	1863	Ghosh, Sambit
+571	1864	Gantayat, Neelamadhav
+571	1865	Sindhgatta, Renuka
+572	1866	Saha, Avirup
+572	1867	Ghosh, Sambit
+572	1868	Gantayat, Neelamadhav
+572	1869	Sindhgatta, Renuka
+573	1870	Saha, Barun Kumar
+573	1871	Gordon, Paul
+573	1872	Gillbrand, Tore
+574	1873	Sahli, A.
+574	1874	Mejri, A.
+574	1875	Louati, A.
+575	1876	Sahli, A.
+575	1877	Mejri, A.
+575	1878	Louati, A.
+576	1879	Salles, G.B.M.
+576	1880	Fantinato, M.
+576	1881	Almeida Barros, V.
+576	1882	De Albuquerque, J.P.
+577	1883	Sanchez-Gonzalez, P.-L.
+577	1884	Díaz-Gutiérrez, D.
+577	1885	Núñez-Rivas, L.R.
+578	1886	Santiago, M.M.
+578	1887	Al Shehhi, S.
+578	1888	Anbalagan, S.
+578	1889	Shbair, A.
+578	1890	Noordin, F.
+578	1891	Trisnadi, D.
+578	1892	Adli, M.
+578	1893	Surya, K.
+579	1894	Santoro, Flavia Maria
+579	1895	Baiao, Fernanda
+579	1896	de Oliveira, Juliano Lopes
+580	1897	Santos, E.
+580	1898	Trigo, A.
+581	1899	Santos, Maribel Yasmina
+581	1900	Wachowicz, Monica
+582	1901	Saralaya, Sridevi
+582	1902	DSouza, Rio
+583	1903	Sarnovsky, M.
+583	1904	Cibulova, P.
+584	1905	Satyal, S.
+585	1906	Satyal, S.
+585	1907	Weber, I.
+585	1908	Paik, H.-Y.
+585	1909	Ciccio, C.D.
+585	1910	Mendling, J.
+586	1911	Satyal, S.
+586	1912	Weber, I.
+586	1913	Paik, H.-Y.
+586	1914	Di Ciccio, C.
+586	1915	Mendling, J.
+587	1916	Satyal, S.
+587	1917	Weber, I.
+587	1918	Paik, H.-Y.
+587	1919	Di Ciccio, C.
+587	1920	Mendling, J.
+588	1921	Saurez, Enrique
+588	1922	Balasubramanian, Bharath
+588	1923	Schlichting, Richard
+588	1924	Tschaen, Brendan
+588	1925	Narayanan, Shankaranarayanan Puzhavakath
+588	1926	Huang, Zhe
+588	1927	Ramachandran, Umakishore
+589	1928	Sava, M.
+589	1929	Militaru, G.
+590	1930	Sbayou, M.
+590	1931	Bouanan, Y.
+590	1932	Zacharewicz, G.
+590	1933	Ribault, J.
+590	1934	François, J.
+591	1935	Schatten, Alexander
+591	1936	Schiefer, Josef
+592	1937	Schepers, T. G. J.
+592	1938	Iacob, M. E.
+592	1939	Van Eck, P. A. T.
+593	1940	Schiefer, J.
+593	1941	Jeng, J.-J.
+593	1942	Kapoor, S.
+593	1943	Chowdhary, P.
+594	1944	Schiefer, J.
+594	1945	Seufert, A.
+595	1946	Schmidt, W.
+595	1947	Fleischmann, A.
+596	1948	Schon, Stephen
+596	1949	Helferich, Omar Keith
+597	1950	Schönig, Stefan
+597	1951	Di Ciccio, Claudio
+597	1952	Mendling, Jan
+598	1953	Schröpfer, Christian
+598	1954	Schönherr, Marten
+599	1955	Schütz, Christoph
+599	1956	Schrefl, Michael
+599	1957	Delcambre, Lois M.L.
+600	1958	Schwaiger, Walter S. A.
+600	1959	Abmayer, Michael
+601	1960	Seel, C.
+601	1961	Thomas, O.
+601	1962	Kaffai, B.
+601	1963	Matheis, T.
+602	1964	Segev, Arie
+602	1965	Wan, Dadong
+602	1966	Beam, Caroline
+603	1967	Seidel, S.
+603	1968	Müller-Wienbergen, F.
+603	1969	Rosemann, M.
+604	1970	Seiger, Ronny
+604	1971	Huber, Steffen
+604	1972	Heisig, Peter
+604	1973	Aßmann, Uwe
+605	1974	Senbel, Samah
+605	1975	Artan, N. Sertac
+605	1976	Nolan, Julie
+605	1977	Taber, Christopher
+605	1978	Long, S. Alexander
+605	1979	Sharma, Srishti
+605	1980	Rishi, Mirbalaj
+605	1981	Kandawala, Mahmud
+605	1982	Raval, Mehul S.
+605	1983	Divakaran, Srikrishnan
+605	1984	Kaya, Tolga
+606	1985	Severino, Ricardo
+606	1986	Ullah, Sana
+606	1987	Tovar, Eduardo
+607	1988	Seymour, L.F.
+607	1989	Mwalemba, G.
+607	1990	Weimann, E.
+608	1991	Shahzad, Khurram
+608	1992	Johannesson, Paul
+609	1993	Shamsuzzoha, A.
+609	1994	Helo, P.
+609	1995	Sandhu, M.
+610	1996	Shan, T.C.
+610	1997	Hua, W.W.
+611	1998	Sharma, Manoj Kumar
+611	1999	Sushil
+611	2000	Jain, Pramod K.
+612	2001	Shi, Leyuan
+612	2002	Chen, Chun-Hung
+612	2003	Yücesan, Enver
+613	2004	Sholberg, Jon
+613	2005	Illback, Jim
+614	2006	Sienou, Amadou
+614	2007	Karduck, Achim P.
+614	2008	Lamine, Elyes
+614	2009	Pingaud, Hervé
+615	2010	Silakova, Liubov
+615	2011	Nikishina, Arina
+616	2012	Singh, Jyoti
+616	2013	Chen, Jingchao
+617	2014	Sisk, C.D.
+617	2015	Fanty, S.
+617	2016	Knox, D.
+617	2017	Williams, G.
+617	2018	Branch, D.
+618	2019	Šiška, L.
+619	2020	Skouradaki, Marigianna
+619	2021	Roller, Dieter H.
+619	2022	Leymann, Frank
+619	2023	Ferme, Vincenzo
+619	2024	Pautasso, Cesare
+620	2025	Škrinjar, R.
+620	2026	Bosilj-Vukšić, V.
+620	2027	Indihar-Štemberger, M.
+621	2028	Smart, Nigel
+621	2029	Baron, Joshua W.
+621	2030	Saravanan, Sanjay
+621	2031	Brandt, Jordan
+621	2032	Mashatan, Atefeh
+622	2033	Smiley, Karen
+622	2034	Harding, Jeff
+622	2035	Patel, Pankesh
+623	2036	Smith, H. A.
+623	2037	McKeen, J. D.
+624	2038	Sokolov, A.Y.
+624	2039	Abdullaeva, A.S.
+625	2040	Sokolowski, Daniel
+625	2041	Weisenburger, Pascal
+625	2042	Salvaneschi, Guido
+626	2043	Solomon, A.
+626	2044	Litoiu, M.
+627	2045	Solomon, Andrei
+627	2046	Litoiu, Marin
+627	2047	Benayon, Jay
+627	2048	Lau, Alex
+628	2049	Solomon, N. B.
+629	2050	Song, Yiying
+630	2051	Sousa, H.P.
+630	2052	Do Prado Leite, J.C.S.
+631	2053	Šperka, Roman
+631	2054	Halaška, Michal
+632	2055	Spott, M.
+632	2056	Sommerfeld, T.
+632	2057	Dorne, R.
+633	2058	Srivastava, Biplav
+633	2059	Mukherjee, Debdoot
+634	2060	Stadnicka, D.
+634	2061	Pirani, M.
+634	2062	Bonci, A.
+634	2063	Ratnayake, R.M.C.
+634	2064	Longhi, S.
+635	2065	Stahlbock, Robert
+635	2066	Voß, Stefan
+636	2067	Statsenko, L.
+636	2068	Bozhko, L.
+636	2069	Prause, G.
+636	2070	Ireland, V.
+637	2071	Stefanovic, N.
+637	2072	Stefanovic, D.
+637	2073	Misic, M.
+638	2074	Stefanovic, Nenad
+638	2075	Milosevic, Danijela
+639	2076	Stierle, M.
+639	2077	Weinzierl, S.
+639	2078	Harl, M.
+639	2079	Matzner, M.
+640	2080	Stohr, Edward A.
+640	2081	Zhao, J. Leon
+641	2082	Stojanović, D.
+641	2083	Jovanović, I.
+641	2084	Slović, D.
+641	2085	Tomašević, I.
+641	2086	Simeunović, B.
+642	2087	Strecker, Florian
+642	2088	Gniza, Reinhard
+642	2089	Hollosy, Thomas
+642	2090	Schmatzer, Florian
+643	2091	Strecker, Stefan
+643	2092	Frank, Ulrich
+643	2093	Heise, David
+643	2094	Kattenstroth, Heiko
+644	2095	Sulis, Emilio
+644	2096	Amantea, Ilaria Angela
+644	2097	Fornero, Giulio
+645	2098	Sun, Xuan
+645	2099	Zeng, Yong
+645	2100	Liu, Wei
+646	2101	Sun, Y.
+646	2102	Tan, W.
+646	2103	Ge, M.
+647	2104	Sung, Soyoung
+647	2105	Na, Onechul
+647	2106	Lee, Hyojik
+647	2107	Chang, Hangbae
+648	2108	Supramaniam, M.
+648	2109	Ponnan, R.
+649	2110	Surman, Richard
+649	2111	Nehl, Matt
+649	2112	Evanson, Cole
+649	2113	Low, Soo Leen
+649	2114	Chan, Kern Chern
+649	2115	Liu, Hui Sian
+649	2116	Gan, Boon Ping
+650	2117	Suša Vugec, D.
+650	2118	Bosilj Vukšić, V.
+650	2119	Pejić Bach, M.
+650	2120	Jaklič, J.
+650	2121	Indihar Štemberger, M.
+651	2122	Syamsiyah, Alifah
+651	2123	Leemans, Sander J. J.
+652	2124	Szelągowski, Marek
+652	2125	Berniak-Woźny, Justyna
+653	2126	Tabares, Marta S.
+653	2127	Giraldo, Liliana
+653	2128	Joyanes, Luis
+654	2129	Taherkordi, Amir
+654	2130	Eliassen, Frank
+654	2131	Mcdonald, Michael
+654	2132	Horn, Geir
+655	2133	Tama, Bayu Adhi
+655	2134	Comuzzi, Marco
+655	2135	Ko, Jonghyeon
+656	2136	Tang, Hongtao
+656	2137	Chen, Yong
+656	2138	Jiansa, Lu
+657	2139	Tang, Lin
+657	2140	He, Miao
+657	2141	Zhang, Xunan
+657	2142	Ba, Yutao
+657	2143	Ren, Changrui
+658	2144	Tax, Niek
+658	2145	Teinemaa, Irene
+658	2146	Van Zelst, Sebastiaan J.
+659	2147	Taylor, P.
+659	2148	Godino, J.J.
+659	2149	Majeed, B.
+660	2150	Teng, James T. C.
+660	2151	Jeong, Seung Ryul
+660	2152	Grover, Varun
+661	2153	Teuteberg, F.
+661	2154	Kluth, M.
+661	2155	Ahlemann, F.
+661	2156	Smolnik, S.
+662	2157	Teuteberg, F.
+662	2158	Kluth, M.
+662	2159	Smolnik, S.
+662	2160	Ahlemann, F.
+663	2161	Thabet, Rafika
+663	2162	Bork, Dominik
+663	2163	Boufaied, Amine
+663	2164	Lamine, Elyes
+663	2165	Korbaa, Ouajdi
+663	2166	Pingaud, Hervé
+664	2167	Thaker, K.
+665	2168	Thirumaran, M.
+665	2169	Dhavachelvan, P.
+665	2170	Kiran, G. Naga Venkata
+666	2171	Thirumaran, M.
+666	2172	Ponnurangam, Dhavachelvan
+666	2173	Kiran, G. Naga Venkata
+666	2174	Divya, A.
+667	2175	Thomas, C.
+667	2176	Nuyken, T.
+668	2177	Thurnher, B.
+668	2178	vomBrocke, J.
+669	2179	Toh, Jing Xiang
+669	2180	Wong, Kay Jan
+669	2181	Agarwal, Samarth
+669	2182	Zhang, Xuejie
+669	2183	Lu, John Jianan
+670	2184	Toibayeva, Sh.D.
+670	2185	Utepbergenov, I.T.
+670	2186	Bodesova, A.E.
+671	2187	Triana, Ika
+671	2188	Hida Syahchari, Dicky
+671	2189	Grace Herlina, Maria
+671	2190	K W Jordaan, Henny
+672	2191	Trianita, Kartika
+672	2192	Djatna, Taufik
+672	2193	Fauzi, Anas Miftah
+673	2194	Trincanato, E.
+673	2195	Vagnoni, E.
+674	2196	Truong, Thai-Minh
+674	2197	Lê, Lam-Son
+674	2198	Paja, Elda
+674	2199	Giorgini, Paolo
+675	2200	Truong, Thai-Minh
+675	2201	Tôn, Long-Phuoc
+676	2202	Tsappi, Elena
+676	2203	Papageorgiou, George
+677	2204	Tsirukis, Athanasios G.
+677	2205	Reklaitis, Gintaras V.
+678	2206	Tuček, D.
+678	2207	Hájková, M.
+678	2208	Tučková, Z.
+679	2209	Tupa, Jiri
+679	2210	Hamacek, Ales
+679	2211	Reboun, Jan
+679	2212	Skocil, Vlastimil
+679	2213	Steiner, Frantisek
+680	2214	Ukkusuri, Satish V.
+680	2215	Yushimito, Wilfredo F.
+681	2216	Ullah, Azmat
+681	2217	Lai, Richard
+682	2218	Valente, F.
+682	2219	Paredes, S.
+682	2220	Henriques, J.
+682	2221	Rocha, T.
+682	2222	De Carvalho, P.
+682	2223	Morais, J.
+683	2224	van de Ven, M.R.
+684	2225	Van De Ven, Montijn
+684	2226	Lara Machado, Paola
+684	2227	Athanasopoulou, Alexia
+684	2228	Aysolmaz, Banu
+684	2229	Turetken, Oktay
+685	2230	van den Heuvel, Willem-Jan
+685	2231	Zimmermann, Olaf
+685	2232	Leymann, Frank
+685	2233	Lago, Patricia
+685	2234	Schieferdecker, Ina
+685	2235	Zdun, Uwe
+685	2236	Avgeriou, Paris
+686	2237	van der Aalst, Wil
+687	2238	Van Looy, Amy
+687	2239	Van Den Bergh, Joachim
+688	2240	Van Rensburg, A.
+689	2241	Vangeepuram, Madhurima
+689	2242	Faußer, Stefan
+689	2243	Ehm, Hans
+689	2244	Ratusny, Marco
+689	2245	Heilmayer, Stefan
+689	2246	Welling, Tobias Leander
+690	2247	Varma, Soumya
+690	2248	Singh, Nitin
+690	2249	Patra, Ajit
+691	2250	Vasiltsov, V. S.
+691	2251	Krylova, N. P.
+691	2252	Sushinskaya, A. V.
+691	2253	Krasovsky, M. S.
+692	2254	Velásquez, I.
+692	2255	Gómez-Herrera, M.
+692	2256	Sepúlveda, M.
+693	2257	Velásquez, I.
+693	2258	Sepúlveda, M.
+694	2259	Venero, Sheila Katherine
+694	2260	Reis, Julio Cesar dos
+694	2261	Montecchi, Leonardo
+694	2262	Rubira, Cecília Mary Fischer
+695	2263	Verenich, Ilya
+695	2264	Dumas, Marlon
+695	2265	Rosa, Marcello La
+695	2266	Maggi, Fabrizio Maria
+695	2267	Teinemaa, Irene
+696	2268	Vesper, K.H.
+696	2269	Gartner, W.B.
+697	2270	Vidgof, Maxim
+697	2271	Djurica, Djordje
+697	2272	Bala, Saimir
+697	2273	Mendling, Jan
+698	2274	Vimala Rani, M.
+698	2275	Mathirajan, M.
+699	2276	Vincenza, Carchiolo
+699	2277	Giovanni, Catalano
+699	2278	Michele, Malgeri
+699	2279	Carlo, Pellegrino
+699	2280	Giulio, Platania
+699	2281	Natalia, Trapani
+700	2282	Viontita, S.C.
+700	2283	Er, M.
+700	2284	Nurkasanah, I.
+700	2285	Sonhaji, A.I.
+701	2286	Vo, Quoc Duy
+701	2287	Thomas, Jaya
+701	2288	Cho, Shinyoung
+701	2289	De, Pradipta
+701	2290	Choi, Bong Jun
+702	2291	vom Brocke, J.
+703	2292	Vom Brocke, J.
+703	2293	Seidel, S.
+704	2294	Vukšić, V. Bosilj
+704	2295	Bach, M. Pejić
+704	2296	Grublješič, T.
+704	2297	Jaklić, J.
+704	2298	Stjepić, A.M.
+705	2299	Vukšic, V.B.
+705	2300	Vugec, D.S.
+705	2301	Lovric, A.
+706	2302	Wagner, Gerd
+707	2303	Wahrstötter, S.
+708	2304	Wang, Haining
+708	2305	Sun, Shouqian
+708	2306	Xu, Juanfang
+708	2307	Shi, Fuqian
+708	2308	Zou, Ning
+709	2309	Wang, JunPing
+709	2310	Duan, ShiHui
+709	2311	Shi, YouKang
+710	2312	Wang, Kung-Jeng
+710	2313	Hsu, Ching-Ning
+710	2314	Sanjaya, Lucy
+711	2315	Wang, Ying
+711	2316	Liu, Ziqiang
+712	2317	Wannes, A.
+712	2318	Ghannouchi, S.A.
+713	2319	Wasserkrug, Segev
+713	2320	Gal, Avigdor
+713	2321	Etzion, Opher
+713	2322	Turchin, Yulia
+714	2323	Wei, Yuqiang
+714	2324	Feng, Chenggong
+714	2325	OHMORI, SHUNICHI
+714	2326	WATANASUNGSUIT, ARNAT
+714	2327	PORNSING, CHOOSAK
+714	2328	SAICHAREON, KAWINTHORN
+715	2329	Weigand, Hans
+715	2330	Van Den Heuvel, Willem-Jan
+716	2331	Weinzierl, S.
+716	2332	Dunzer, S.
+716	2333	Zilker, S.
+716	2334	Matzner, M.
+717	2335	Weinzierl, S.
+717	2336	Zilker, S.
+717	2337	Stierle, M.
+717	2338	Park, G.
+717	2339	Matzner, M.
+718	2340	Wen, Jimi Yung-Chuan
+718	2341	Lin, Gu Yuan
+718	2342	Sung, Today
+718	2343	Liang, Minsiong
+718	2344	Tsai, Gary
+718	2345	Feng, Ming Whei
+718	2346	Wu, Chien Ming
+719	2347	Werner, Frank
+719	2348	Woitsch, Robert
+720	2349	Wetzstein, B.
+720	2350	Karastoyanova, D.
+720	2351	Leymann, F.
+721	2352	Wetzstein, B.
+721	2353	Ma, Z.
+721	2354	Leymann, F.
+722	2355	Wetzstein, Branimir
+722	2356	Karastoyanova, Dimka
+722	2357	Kopp, Oliver
+722	2358	Leymann, Frank
+722	2359	Zwink, Daniel
+723	2360	Wetzstein, Branimir
+723	2361	Leitner, Philipp
+723	2362	Rosenberg, Florian
+723	2363	Brandic, Ivona
+723	2364	Dustdar, Schahram
+723	2365	Leymann, Frank
+724	2366	Willcox, P.
+725	2367	Williams, Edward J.
+726	2368	Wongwatkit, Charoenchai
+726	2369	Mar, Sai Won
+727	2370	Wu, Zhiqiang
+728	2371	Wust, Johannes
+728	2372	Meyer, Carsten
+728	2373	Plattner, Hasso
+729	2374	Xu, C.
+729	2375	Babel, S.
+729	2376	Hoobler, S.
+729	2377	Larsen, R.
+729	2378	Olsen, J.
+729	2379	Smith, S.
+729	2380	Straumann, T.
+729	2381	Van Winkle, D.
+729	2382	Young, A.
+730	2383	Xu, Jian
+730	2384	Jain, Hemant K.
+730	2385	Gu, Dongxiao
+730	2386	Liang, Changyong
+731	2387	Yadegari Ghahderijani, A.
+732	2388	Yahya, Fadwa
+732	2389	Boukadi, Khouloud
+732	2390	Maamar, Zakaria
+732	2391	Ben-Abdallah, Hanêne
+733	2392	Yang, Zhaojun
+733	2393	Sun, Jun
+733	2394	Zhang, Yali
+733	2395	Wang, Ying
+734	2396	Yanine, F.
+734	2397	Campos, Z.
+735	2398	Yao, Wen
+735	2399	Kumar, Akhil
+736	2400	Yim, Nam-Hong
+736	2401	Choi, Sung-Kyu
+737	2402	Yoganguina, B⊚a Djavph
+737	2403	Samba, Camara Mamadou
+738	2404	Yoon, Byeongnam
+738	2405	Kim, Kwanghoon
+738	2406	Dinh Lam, Pham
+738	2407	Dat, Pham Thanh
+738	2408	Vu, Vu Viet
+738	2409	Quan, Do Hong
+738	2410	Toan, Do Nang
+739	2411	Yoon, Young
+739	2412	Jacobsen, Hans-Arno
+739	2413	Chan, Allen
+739	2414	Coulthard, Phil
+739	2415	Paschke, Adrian
+740	2416	Yoshikuni, Adilson Carlos
+740	2417	Dwivedi, Rajeev
+740	2418	Dultra-de-Lima, Ronaldo Gomes
+740	2419	Parisi, Claudio
+740	2420	Oyadomari, José Carlos Tiomatsu
+741	2421	Yousfi, Alaaeddine
+741	2422	Saidi, Rajaa
+741	2423	Dey, Anind K.
+742	2424	Yurtay, Y.
+742	2425	Yurtay, N.
+742	2426	Demirci, H.
+742	2427	Zaimoglu, E.A.
+742	2428	Goksu, A.
+743	2429	Zapf, Michael
+743	2430	Lindheimer, Ute
+743	2431	Heinzl, Armin
+744	2432	Zarrin, Mansour
+744	2433	Schoenfelder, Jan
+744	2434	Brunner, Jens O.
+745	2435	Zdravković, Milan
+745	2436	Panetto, Hervé
+745	2437	Trajanović, Miroslav
+746	2438	Zemguliene, J.
+746	2439	Valukonis, M.
+747	2440	Zeng, L.
+747	2441	Lei, H.
+747	2442	Dikun, M.
+747	2443	Chang, H.
+747	2444	Shu, C.
+748	2445	Zeng, Sai
+748	2446	Melville, Prem
+748	2447	Lang, Christian A.
+748	2448	Boier-Martin, Ioana
+748	2449	Murphy, Conrad
+749	2450	Zeng, Sen
+749	2451	Huang, Shuangxi
+749	2452	Fan, Yushun
+750	2453	Zengin, Asli
+750	2454	Marconi, Annapaola
+750	2455	Pistore, Marco
+751	2456	Zhang, Hantian
+751	2457	Zeng, Luyuan
+751	2458	Wu, Wentao
+751	2459	Zhang, Ce
+752	2460	Zhang, Xiaolu
+752	2461	Cui, Lei
+752	2462	Shen, Wuqiang
+752	2463	Zeng, Jijun
+752	2464	Du, Li
+752	2465	He, Haoyang
+752	2466	Cheng, Long
+753	2467	Zhao, D.
+753	2468	Zhou, Z.
+754	2469	Zhu, Qiang
+754	2470	Guo, Songtao
+754	2471	Ogilvie, Paul
+754	2472	Liu, Yan
+755	2473	Zinina, Olga
+755	2474	Dalisova, Natalya
+755	2475	Olentsova, Julia
+756	2476	Zo, Hangjung
+756	2477	Nazareth, Derek L.
+756	2478	Jain, Hemant K.

@@ -7,7 +7,7 @@ FREQUENCY_FIELDS = {
     'CR': 'Cited References', ## this is not very accurate but ok, also need to check for each reference..
     'PY': 'Publication Year', ## no need to count this (or does it?)
     'TI': 'Title',
-    'TI': 'Abstract'
+    'AB': 'Abstract'
 }
 
 COLUMN_NAMES = ["citation_index", "item_index", "citation_item"]
