@@ -22,6 +22,8 @@ export const ITEMS = new Map([
   export const DATA_DIRECTORY = "data/freqs/";
   export const DISTRIBUTION_FILE = 'DISTRIBS_itemuse.json';
   export const COORELATION_FILE = 'coocnetworks.json'
+  export const FREQ = "freq_"
+  export const DAT_TYPE = ".dat"
 
   //dropdown tab
   export const FIELD_DROPDOWN_ID = 'selectITEM';

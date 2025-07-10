@@ -1,4 +1,7 @@
-function VIZscience(){
+import * as CONSTANTS from '/newProject/vizualization/corpusdescription/js/constants.js';
+import {drawNTW}  from '/newProject/vizualization/corpusdescription/js/bibliomap_drawNTW.js';
+
+export function VIZscience(field_option){
 
     resetGraphArea()
     getChartDimensions(true)
@@ -61,7 +64,7 @@ function VIZscience(){
           tooltip.transition()
             .duration(200)
             .style("opacity", .95);
-          if (yValue(d)>1){aaa=itemsB[field_option];} else{aaa=items[field_option];} 
+          if (yValue(d)>1){aaa=CONSTANTS.ITEMS.get(field_option);} else{aaa=items[field_option];} 
           if (xValue(d)>1){bbb=' records';} else{bbb=' record';}   
           tooltip.html(yValue(d) +' '+ aaa+ ' appear'+(yValue(d)==1?'s':'')+' in at least ' + xValue(d) + bbb)
                .style("left", (d3.event.pageX - 155) + "px")
@@ -85,7 +88,7 @@ function VIZscience(){
       .style("text-anchor", "middle")
       .style("fill", "gray") 
       .style("opacity", 0.9)  
-      .text("Cumulative distribution of occurrences of "+itemsB[field_option]);
+      .text("Cumulative distribution of occurrences of "+CONSTANTS.ITEMS.get(field_option));
   
     svg.append("g")            // Add the X Axis
       .attr("class", "x axis")
@@ -108,7 +111,7 @@ function VIZscience(){
         .attr("x", -height+25)
         .attr("dy", ".71em")
         .style("text-anchor", "start")
-        .text("# of "+itemsB[field_option]);
+        .text("# of "+CONSTANTS.ITEMS.get(field_option));
   
     //////////////// how many items by publis?
     if( field_option==='AU' || field_option==='CU' || field_option==='I' || field_option==='K' || field_option==='AK' || field_option==='TK' || field_option==='S' || field_option==='S2' || field_option==='R' || field_option==='RJ'){
@@ -167,7 +170,7 @@ function VIZscience(){
             tooltip.transition()
               .duration(200)
               .style("opacity", .95);
-            if (xValue(d)>1){aaa=itemsB[field_option];} else{aaa=items[field_option];}    
+            if (xValue(d)>1){aaa=CONSTANTS.ITEMS.get(field_option);} else{aaa=CONSTANTS.ITEMS.get(field_option);}    
             tooltip.html(Math.round(yValue(d)*Npapers/100)+' of the publications ('+yValue(d).toFixed(1)+'%) have '+ xValue(d) +' '+ aaa + (xValue(d)==excessthr[field_option]?' or more':''))
                  .style("left", (d3.event.pageX - 155) + "px")
                  .style("top", (d3.event.pageY -20) + "px");
@@ -190,7 +193,7 @@ function VIZscience(){
         .style("text-anchor", "middle")
         .style("fill", "gray") 
         .style("opacity", 0.9)  
-        .text("Histogram of number of "+itemsB[field_option]+" per publication");
+        .text("Histogram of number of "+CONSTANTS.ITEMS.get(field_option)+" per publication");
   
       svgQ.append("g")            // Add the X Axis
         .attr("class", "x axis")
@@ -201,7 +204,7 @@ function VIZscience(){
           .attr("x", width)
           .attr("y", -6 )
           .style("text-anchor", "end")
-          .text("# of "+itemsB[field_option]);
+          .text("# of "+CONSTANTS.ITEMS.get(field_option));
   
       svgQ.append("g")            // Add the Y Axis
         .attr("class", "y axis")
@@ -219,39 +222,42 @@ function VIZscience(){
   }
   ///////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////
-  function VIZnetwork(){
-  
+  export function VIZnetwork(field_option, nodes, links){
+
+    const fooTHR = 0.5 
+    const fooForce = 0.5
+
     // start from clean slate 
     d3.select("#graph").html('').style("background",'white')
     d3.select("#slider").html('')    // remove slider if exists 
     d3.select("#tooltip").style("opacity", 0);
     d3.select("#redocloud").html('')
     // custom info
-    thehtml="<strong>Co-"+(field_option[0]=='R'?'citations':'occurrences')+" network</strong><br/> <ul style='padding-left:15px;'><li>Each circle <i>c</i> represents a different "+items[field_option]+", with the circle's sizes being proportional to its frequency of use <i>f<sub>c</sub></i> in the studied corpus. </li><li>Each line reflects the link strength between two "+itemsB[field_option]+", the strength being defined as the normalized fraction of times these two "+itemsB[field_option]+" appear together in a publication: <i>S<sub>c1c2</sub> = f<sub>c1c2</sub> / &Sqrt;(f<sub>c1</sub>f<sub>c2</sub>)</i>.<br/> Here, we only show links with S > "+fooTHR[field_option]+".</li><li>The nodes' colors emphasize groups of "+itemsB[field_option]+" significantly linked to each other.</li></ul>"
+    var thehtml="<strong>Co-"+(field_option[0]=='R'?'citations':'occurrences')+" network</strong><br/> <ul style='padding-left:15px;'><li>Each circle <i>c</i> represents a different "+CONSTANTS.ITEMS.get(field_option)+", with the circle's sizes being proportional to its frequency of use <i>f<sub>c</sub></i> in the studied corpus. </li><li>Each line reflects the link strength between two "+CONSTANTS.ITEMS.get(field_option)+", the strength being defined as the normalized fraction of times these two "+CONSTANTS.ITEMS.get(field_option)+" appear together in a publication: <i>S<sub>c1c2</sub> = f<sub>c1c2</sub> / &Sqrt;(f<sub>c1</sub>f<sub>c2</sub>)</i>.<br/> Here, we only show links with S > "+fooTHR[field_option]+".</li><li>The nodes' colors emphasize groups of "+CONSTANTS.ITEMS.get(field_option)+" significantly linked to each other.</li></ul>"
     thehtml += '<strong>Fine-tuning</strong>'
     thehtml += '<table style="margin-left:12px;">'
-    thehtml += '<tr><td >Link threshold</td><td style="padding-right:3px;"><input id="foobarTHR" style="width:50px" type="number" min=0 step=0.01 value="'+ fooTHR[field_option] +'"></td><td><div id="info_linkthr" class="infobulle">?</div></td></tr>'
-    thehtml += '<tr><td style="padding-right:5px;">Repulsive force</td><td><input id="foobarForce" style="width:50px" type="number" min=0 step=0.1 value="'+ fooForce[field_option] +'"></td><td><div id="info_repforce" class="infobulle">?</div></td></tr>'
+    thehtml += '<tr><td >Link threshold</td><td style="padding-right:3px;"><input id="foobarTHR" style="width:50px" type="number" min=0 step=0.01 value="'+ fooTHR +'"></td><td><div id="info_linkthr" class="infobulle">?</div></td></tr>'
+    thehtml += '<tr><td style="padding-right:5px;">Repulsive force</td><td><input id="foobarForce" style="width:50px" type="number" min=0 step=0.1 value="'+ fooForce +'"></td><td><div id="info_repforce" class="infobulle">?</div></td></tr>'
     thehtml += '</table>'
     d3.select("#custominfo").html(thehtml).style("opacity", 1);
-    prep_infobulle("#info_linkthr", "The network will show links with strength S greater than this value.")
-    prep_infobulle("#info_repforce", "Normalized repulsive force used in the force-based layout algorithm. Typically, you may increase or decrease this value to increase or decrease the spatial range of the network.")
+    showTooltip("#info_linkthr", "The network will show links with strength S greater than this value.")
+    showTooltip("#info_repforce", "Normalized repulsive force used in the force-based layout algorithm. Typically, you may increase or decrease this value to increase or decrease the spatial range of the network.")
   
-    d3.select("#foobarTHR").on('change',function(){fooTHR[field_option]=document.getElementById("foobarTHR").value; VIZnetwork()})
-    d3.select("#foobarForce").on('change',function(){fooForce[field_option]=document.getElementById("foobarForce").value; VIZnetwork()})
+    d3.select("#foobarTHR").on('change',function(){fooTHR=document.getElementById("foobarTHR").value; VIZnetwork()})
+    d3.select("#foobarForce").on('change',function(){fooForce=document.getElementById("foobarForce").value; VIZnetwork()})
   
     // prep data
-    nodesArray=[]
-    Znodes.filter(function(elt){return elt.type==field_option}).forEach(function(d, i){ nodesArray.push({name:i, label:d.item, group:i, size:d.size, links:[]}) })
-    linksArray=[]
-    Zlinks.filter(function(elt){return elt.type==field_option}).forEach(function(d){ 
+    var nodesArray=[]
+    nodes.filter(function(elt){return elt.type==field_option}).forEach(function(d, i){ nodesArray.push({name:i, label:d.item, group:i, size:d.size, links:[]}) })
+    var linksArray=[]
+    links.filter(function(elt){return elt.type==field_option}).forEach(function(d){ 
       sourceNode = nodesArray.filter(function(n) { return n.name === d.source; })[0];
       targetNode = nodesArray.filter(function(n) { return n.name === d.target; })[0];
       linksArray.push({source:sourceNode, target:targetNode, nco: d.Ncooc, weight:d.Ncooc/Math.sqrt(sourceNode.size*targetNode.size)})   
     })
   
     //... graph title
-    d3.select("#titleGRAPH").html("<i>"+(field_option=='S'?'Subject categories':'Top 100 '+itemsB[field_option])+' co-'+(field_option[0]=="R"?'citations':'occurrences')+' network'+"</i>")  
+    d3.select("#titleGRAPH").html("<i>"+(field_option=='S'?'Subject categories':'Top 100 '+CONSTANTS.ITEMS.get(field_option))+' co-'+(field_option[0]=="R"?'citations':'occurrences')+' network'+"</i>");  
   
     // draw co-occurrence network
     drawNTW(nodesArray, linksArray, 'xx', "#graph", 0, fooTHR[field_option], fooForce[field_option])  
@@ -323,14 +329,14 @@ function VIZscience(){
               .attr("transform", function(d) { return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"; })
               .text(function(d) { return d.text; });
         //... graph title
-        d3.select("#titleGRAPH").html("<i>Word cloud of "+(words.length>95?'top 100 ':'top ')+itemsB[field_option]+"</i>")
+        d3.select("#titleGRAPH").html("<i>Word cloud of "+(words.length>95?'top 100 ':'top ')+CONSTANTS.ITEMS.get(field_option)+"</i>")
       }
     }
   
   }
   ///////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////
-  function VIZmap(){
+  export function VIZmap(field_option){
     // setup plot  
     var margin = {top: 30, right: 80, bottom: 30, left: 100},
     width = d3.select('#graph').node().getBoundingClientRect().width - margin.left - margin.right,
@@ -406,7 +412,7 @@ function VIZscience(){
   
   ///////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////
-  function VIZpubyears(){
+  export function VIZpubyears(field_option){
     // setup plot  
     var margin = {top: (0.2*d3.select('#graph').node().getBoundingClientRect().height + 30), right: 80, bottom: 30, left: 100},
     width = d3.select('#graph').node().getBoundingClientRect().width - margin.left - margin.right,
@@ -445,22 +451,23 @@ function VIZscience(){
       yAxis = d3.svg.axis().scale(yScale).orient("left").innerTickSize(-width);
   
     // input the data
-    d3.csv(dirdatafreqs+'freq_'+filename+'.dat', function(err,rdata) {
-      data=[]
+    d3.csv("../"+ CONSTANTS.DATA_DIRECTORY+'freq_'+CONSTANTS.ITEMS.get(field_option)+'.dat', function(err,rdata) {
+      debugger
+      var data=[]
       rdata.forEach(function(d,i){
        // use this to declare the format (string or float) of the data
-       if(d.count>0 ){ //Npapers/5000
-         data.push({x: +d.item, y: +d.count})
+       if(d.item_count>0 ){ //Npapers/5000
+         data.push({x: +d.citation_item, y: +d.item_count})
        }
       })
       // Scale the range of the data
-      xMin=d3.min(data, function(d) {return d.x; });
-      xMax=d3.max(data, function(d) {return d.x; });
+      var xMin=d3.min(data, function(d) {return d.x; });
+      var xMax=d3.max(data, function(d) {return d.x; });
   
       // year selector
-      thehtml = '<i>Show years from</i><br/><span id="PYymin"></span> <i>to</i> <span id="PYymax"></span>'
+      var thehtml = '<i>Show years from</i><br/><span id="PYymin"></span> <i>to</i> <span id="PYymax"></span>'
       d3.select('#slider').html(thehtml)
-      fooy =  '<select id="selectPYymin" style="width:60px;" >'
+      var fooy =  '<select id="selectPYymin" style="width:60px;" >'
       for (var yy = xMin; yy < xMax+1; yy++){fooy += '<option value="'+yy+'" '+((yy==xMin)?'selected':'')+'>'+yy+'</option>'}
       fooy += '</select>'
       d3.select('#PYymin').html(fooy) 
@@ -473,18 +480,18 @@ function VIZscience(){
   
       function updateXscales(){
         // years range
-        my_xMin=parseInt(document.getElementById("selectPYymin").value)
-        my_xMax=parseInt(document.getElementById("selectPYymax").value)
+        var my_xMin=parseInt(document.getElementById("selectPYymin").value)
+        var my_xMax=parseInt(document.getElementById("selectPYymax").value)
         xScale.domain([my_xMin-0.5, my_xMax+0.5]); 
         xAxis.ticks(Math.min(my_xMax-my_xMin+1,7));  
   
-        dataF=data.filter(function(d){return d.x<=my_xMax && d.x>=my_xMin})
-        yMin=d3.min(dataF, function(d) {return d.y; });
-        yPow=Math.floor(Math.log(yMin)/Math.log(10));
-        yMin=Math.floor(yMin/Math.pow(10,yPow))*Math.pow(10,yPow);
-        yMax=d3.max(dataF, function(d) {return d.y; });
-        yPow=Math.floor(Math.log(yMax)/Math.log(10));
-        yMax=Math.ceil(2*yMax/Math.pow(10,yPow))/2*Math.pow(10,yPow);
+        var dataF=data.filter(function(d){return d.x<=my_xMax && d.x>=my_xMin})
+        var yMin=d3.min(dataF, function(d) {return d.y; });
+        var yPow=Math.floor(Math.log(yMin)/Math.log(10));
+        var yMin=Math.floor(yMin/Math.pow(10,yPow))*Math.pow(10,yPow);
+        var yMax=d3.max(dataF, function(d) {return d.y; });
+        var yPow=Math.floor(Math.log(yMax)/Math.log(10));
+        var yMax=Math.ceil(2*yMax/Math.pow(10,yPow))/2*Math.pow(10,yPow);
         yScale.domain([0,yMax]); 
   
         //remove previous bars / xAxis
@@ -570,7 +577,7 @@ function VIZscience(){
         .style("opacity", 0);
   
     // ... graph title
-    d3.select("#titleGRAPH").html("<i>Pie Chart of the publications' "+itemsB[field_option]+"</i>")
+    d3.select("#titleGRAPH").html("<i>Pie Chart of the publications' "+CONSTANTS.ITEMS.get(field_option)+"</i>")
   
     // ... slider 
     thehtml = '<i>Distort Pie Chart</i><br/><input type="range" id="range" min="0" max="1" value="'+alpha+'" step="0.01" onchange="draw_graphA()" />'
@@ -686,7 +693,7 @@ function VIZscience(){
     height = d3.select('#graph').node().getBoundingClientRect().height - margin.top - margin.bottom;
   
     //... graph title  
-    d3.select("#titleGRAPH").html("<i>"+"Top 100 " + itemsB[field_option]+"</i>")
+    d3.select("#titleGRAPH").html("<i>"+"Top 100 " + CONSTANTS.ITEMS.get(field_option)+"</i>")
   
     var treemap = d3.layout.treemap()
         .size([width, height])
@@ -745,4 +752,38 @@ function VIZscience(){
     }
   
   }
+
+  function resetGraphArea() {
+    d3.select("#graph").html('').style("background", 'white');
+    d3.select("#slider").html('');
+    d3.select("#redocloud").html('');
+    d3.select("#custominfo").html("").style("opacity", 0);
+  }
+  
+  function getChartDimensions(isMultiItem) {
+    const graphBox = d3.select('#graph').node().getBoundingClientRect();
+    const marginTopExtra = isMultiItem ? 0 : graphBox.height * 0.2;
+    const heightFactor = isMultiItem ? 0.5 : 0.7;
+  
+    const margin = {
+      top: 30 + marginTopExtra,
+      right: 100,
+      bottom: 60,
+      left: 120
+    };
+  
+    const width = graphBox.width - margin.left - margin.right;
+    const height = graphBox.height * heightFactor - margin.top - margin.bottom;
+  
+    return { margin, width, height };
+  }
+
+  function showTooltip(text, event) {
+    d3.select("#tooltip")
+      .transition().duration(200).style("opacity", .95)
+      .text(text)
+      .style("left", (event.pageX - 155) + "px")
+      .style("top", (event.pageY - 20) + "px");
+  }
+  
   

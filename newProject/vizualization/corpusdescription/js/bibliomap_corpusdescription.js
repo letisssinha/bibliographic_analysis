@@ -7,9 +7,9 @@
 /*-------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------*/
 import * as CONSTANTS from '/newProject/vizualization/corpusdescription/js/constants.js';
+import * as GRAPHS from '/newProject/vizualization/corpusdescription/js/graphs.js';
 
 export function doCDviz(){
-  debugger
   makeGraphWitzWindow()
   d3.json("../" + CONSTANTS.DATA_DIRECTORY + CONSTANTS.DISTRIBUTION_FILE, function(data) {
     const Npapers = data.N;
@@ -18,42 +18,52 @@ export function doCDviz(){
     d3.json("../" + CONSTANTS.DATA_DIRECTORY + CONSTANTS.COORELATION_FILE, function(data) {
       const nodes = data.nodes;
       const links = data.links;
-      makeSideBarMenu(Npapers);
+      makeSideBarMenu(Npapers, nodes, links);
     });
   });
 }
 
-function makeSideBarMenu(numPublications) {
+function makeSideBarMenu(Npapers, nodes, links) {
   const NUM_PUB_ID = '#NUMPUB';
-  const GRAPH_PTIONS = [
+  const selectedField = "AU";
+
+  const GRAPH_OPTIONS = [
     { value: 'custom', text: 'Custom', selected: true },
     { value: 'science', text: 'Distributions', selected: false }
   ];
-  itemOptions = setupItemDropdown(CONSTANTS.ITEMS.keys(), CONSTANTS.ITEMS, selectedField);
-  createSelectHTML(CONSTANTS.ITEM_SELECTION_ID, itemOptions);
-  d3.select(CONSTANTS.ITEM_SELECTION_ID).html(createSelectHTML(CONSTANTS.FIELD_DROPDOWN_ID, itemOptions));
-  d3.select(`#${CONSTANTS.FIELD_DROPDOWN_ID}`).on('change', update);
-  d3.select(CONSTANTS.GRAPH_SELECTION_ID).html(createSelectHTML(CONSTANTS.GRAPH_DROPDOWN_ID, CONSTANTS.graphOptions));
-  d3.select(`#${CONSTANTS.GRAPH_DROPDOWN_ID}`).on('change', update);
-  d3.select(CONSTANTS.SORT_TAB_ID).html(createSelectHTML(CONSTANTS.SORT_DROPDOWN_ID, CONSTANTS.SORT_OPTIONS));
-  d3.select(NUM_PUB_ID).html(numPublications);
+
+  const itemOptions = setupItemDropdown(CONSTANTS.ITEMS.keys(), CONSTANTS.ITEMS, selectedField);
+
+  // Pass numPublications to update using closures
+  createDropdown(CONSTANTS.ITEM_SELECTION_ID, CONSTANTS.FIELD_DROPDOWN_ID, itemOptions, () => update(Npapers, nodes, links));
+  createDropdown(CONSTANTS.GRAPH_SELECTION_ID, CONSTANTS.GRAPH_DROPDOWN_ID, GRAPH_OPTIONS, () => update(Npapers, nodes, links));
+  createDropdown(CONSTANTS.SORT_TAB_ID, CONSTANTS.SORT_DROPDOWN_ID, CONSTANTS.SORT_OPTIONS, () => {}); // sort handled later
+
+  d3.select(NUM_PUB_ID).html(Npapers);
   initializeTooltips();
 }
 
-function createSelectHTML(id, options) {
-  return `
-    <select id="${id}" style="${CONSTANTS.SELECT_WIDTH_STYLE}">
-      ${options.map(object =>
-        `<option value="${object.value}" ${object.selected ? 'selected' : ''}>${object.text}</option>`
-      ).join('')}
-    </select>
-  `;
+function createDropdown(containerSelector, selectId, options, onChangeFn) {
+  const container = d3.select(containerSelector).html(''); // clear existing
+
+  const select = container.append('select')
+    .attr('id', selectId)
+    .style('width', CONSTANTS.SELECT_WIDTH_STYLE)
+    .on('change', onChangeFn);
+
+  select.selectAll('option')
+    .data(options)
+    .enter()
+    .append('option')
+    .attr('value', d => d.value)
+    .property('selected', d => d.selected)
+    .text(d => d.text);
 }
 
 function setupItemDropdown(fields, items, selectedField) {
-  return fields.map(f => ({
+  return Array.from(fields).map(f => ({
     value: f,
-    text: capitalizeFirstLetter(items[f]),
+    text: capitalizeFirstLetter(items.get(f)),
     selected: selectedField === f
   }));
 }
@@ -101,7 +111,7 @@ function makeCumulativeValue(data) {
 
 function initializeTooltips() {
   Object.entries(CONSTANTS.TOOLTIP_MESSAGES).forEach(([selector, message]) => {
-    prep_infobulle(selector, message);
+    attachTooltip(selector, message);
   });
 }
 
@@ -134,37 +144,41 @@ function attachTooltip(targetSelector, tooltipMessage) {
     });
 }
 
-function update() {
-  fieldOption = document.getElementById(CONSTANTS.FIELD_DROPDOWN_ID).value;
-  graphOption = document.getElementById(CONSTANTS.GRAPH_DROPDOWN_ID).value;
-  const filename = file[fieldOption];
-
+function update(Npapers, nodes, links) {
+  const fieldOption = document.getElementById(CONSTANTS.FIELD_DROPDOWN_ID).value;
+  const graphOption = document.getElementById(CONSTANTS.GRAPH_DROPDOWN_ID).value;
+  debugger
+  const filename = "../" + CONSTANTS.DATA_DIRECTORY + CONSTANTS.FREQ + CONSTANTS.ITEMS.get(fieldOption) + CONSTANTS.DAT_TYPE;
   loadFrequencyData(filename, (dataItems) => {
-    d3.select(CONSTANTS.SORT_DROPDOWN_ID).on("change", () => renderList(dataItems));
-    renderList(dataItems);
-    draw_graph(0, fieldOption, graphOption);
+    d3.select(CONSTANTS.SORT_DROPDOWN_ID).on("change", () => renderList(dataItems, fieldOption, Npapers));
+    renderList(dataItems, fieldOption, Npapers);
+    draw_graph(fieldOption, graphOption, nodes, links);
   });
 }
 
 function loadFrequencyData(filename, callback) {
-  d3.csv(`${CONSTANTS.DATA_DIRECTORY}freq_${filename}.dat`, (error, csvData) => {
+  d3.csv(filename, (error, csvData) => {
     if (error) {
       console.error("Error loading CSV:", error);
       return;
     }
+
     const dataItems = csvData.map((row, index) => [
-      index + 1, row.item, +row.count, +row.f
+      index + 1,
+      row.citation_item,
+      +row.item_count,
+      +row.frequency
     ]);
+
     callback(dataItems);
   });
 }
 
-function renderList(dataItems) {
+function renderList(dataItems, fieldOption, Npapers) {
   d3.select(CONSTANTS.NONE_AVAILABLE_ID).style("opacity", 0);
-
-  const sortBy = document.getElementById(CONSTANTS.SORT_TAB_ID).value;
+  const sortBy = document.getElementById(CONSTANTS.SORT_DROPDOWN_ID).value;
   const sortedData = sortDataItems(dataItems, sortBy);
-  const tableHTML = generateTableHTML(sortedData);
+  const tableHTML = generateTableHTML(sortedData, fieldOption, Npapers);
 
   d3.select(CONSTANTS.LIST_TAB_ID).html(tableHTML).property("scrollTop", 0);
 }
@@ -172,7 +186,7 @@ function renderList(dataItems) {
 function sortDataItems(dataItems, sortBy) {
   if (sortBy === CONSTANTS.SORT_OPTIONS[1].value) {
     return dataItems.sort((a, b) => b[1].toLowerCase() > a[1].toLowerCase() ? -1 : 1);
-  } else if (sortBy === CONSTANTS.SORT_OPTIONS[2].value) {
+  } else if (sortBy === CONSTANTS.SORT_OPTIONS[1].value) {
     return dataItems.sort((a, b) => {
       if (a[2] === b[2]) {
         return b[1].toLowerCase() > a[1].toLowerCase() ? -1 : 1;
@@ -183,18 +197,17 @@ function sortDataItems(dataItems, sortBy) {
   return dataItems;
 }
 
-function generateTableHTML(dataItems) {
-  const fontSize = fieldOption.includes("R") ? CONSTANTS.TITLE_FONT_SIZE_FOR_R : CONSTANTS.TITLE_FONT_SIZE_DEFAULT;
+function generateTableHTML(dataItems, fieldOption, Npapers) {
+  const fontSize = CONSTANTS.TITLE_FONT_SIZE_DEFAULT;
 
   let table = `
     <table style="width:99%; table-layout:fixed; margin-left:1%; font-size:${fontSize}em;">
       <tr>
         <th align="left" style="width:7%;">${CONSTANTS.RANK_HEADER}</th>
-        <th align="left" style="width:63%;">${CONSTANTS.ITEM_LABEL_PREFIX}${items[fieldOption]}</th>
+        <th align="left" style="width:63%;">${CONSTANTS.ITEM_LABEL_PREFIX}${CONSTANTS.ITEMS[fieldOption]}</th>
         <th align="right" style="width:15%;">${CONSTANTS.RECORD_COUNT_HEADER}</th>
         <th align="right" style="width:15%;">${CONSTANTS.RECORD_PERCENT_HEADER}${Npapers}</th>
       </tr>`;
-
   dataItems.forEach(([rank, itemName, recordCount, percentage]) => {
     if (itemName === "none available") {
       displayNoDataMessage(percentage);
@@ -220,57 +233,27 @@ function displayNoDataMessage(percentage) {
     .style("opacity", 1);
 }
 
-function draw_graph(fieldOption, graphOption) {
+function draw_graph(fieldOption, graphOption, nodes, links) {
+  debugger
   if (graphOption === 'science') {
-    VIZscience();
+    GRAPHS.VIZscience(fieldOption);
     return;
   }
 
   if (graphOption === 'custom') {
     if (['DE', 'TI', 'CR'].includes(fieldOption)) {
-      VIZnetwork();
+      GRAPHS.VIZnetwork(fieldOption, nodes, links);
     } else if (['AU'].includes(fieldOption)) {
-      VIZwordcloud();
+      GRAPHS.VIZwordcloud(fieldOption);
     } else if (fieldOption === 'CU') {
-      VIZmap();
+      GRAPHS.VIZmap(fieldOption);
     } else if (fieldOption === 'PY') {
-      VIZpubyears();
+      GRAPHS.VIZpubyears(fieldOption);
     } else if (['CR'].includes(fieldOption)) {
-      VIZpiechart();
+      GRAPHS.VIZpiechart(fieldOption);
     }
   }
 }
 
-function resetGraphArea() {
-  d3.select("#graph").html('').style("background", 'white');
-  d3.select("#slider").html('');
-  d3.select("#redocloud").html('');
-  d3.select("#custominfo").html("").style("opacity", 0);
-}
 
-function getChartDimensions(isMultiItem) {
-  const graphBox = d3.select('#graph').node().getBoundingClientRect();
-  const marginTopExtra = isMultiItem ? 0 : graphBox.height * 0.2;
-  const heightFactor = isMultiItem ? 0.5 : 0.7;
-
-  const margin = {
-    top: 30 + marginTopExtra,
-    right: 100,
-    bottom: 60,
-    left: 120
-  };
-
-  const width = graphBox.width - margin.left - margin.right;
-  const height = graphBox.height * heightFactor - margin.top - margin.bottom;
-
-  return { margin, width, height };
-}
-
-function showTooltip(text, event) {
-  d3.select("#tooltip")
-    .transition().duration(200).style("opacity", .95)
-    .text(text)
-    .style("left", (event.pageX - 155) + "px")
-    .style("top", (event.pageY - 20) + "px");
-}
 
