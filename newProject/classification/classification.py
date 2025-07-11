@@ -1,34 +1,67 @@
-import fitz  
+import fitz  # PyMuPDF
 import os
 import re
 
-from strings import indicator_patterns
+indicator_patterns = [
+    r"\bperformance indicators?\b",
+    r"\bperformance measures?\b",
+    r"\bmeasure[s]? of performance\b",
+    r"\bperformance metrics?\b",
+    r"\bmetrics? of performance\b",
+    r"\bKPIs?\b",
+    r"\bkey performance indicators?\b",
+    r"\bindicators? of performance\b"
+]
+
+pattern_regex = re.compile("|".join(indicator_patterns), re.IGNORECASE)
 
 def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    doc.close()
-    return text
+    try:
+        doc = fitz.open(pdf_path)
+        text = ""
+        for page in doc:
+            text += page.get_text()
+        doc.close()
+        return text
+    except Exception as e:
+        print(f"Erro ao ler {pdf_path}: {e}")
+        return ""
 
-def find_patterns_in_text(text, patterns):
-    found = {}
-    for pattern in patterns:
-        matches = re.findall(pattern, text, flags=re.IGNORECASE)
-        if matches:
-            found[pattern] = matches
-    return found
+def extract_paragraphs_with_indicators(text):
+    paragraphs = text.split("\n\n")
+    filtered_paragraphs = [p.strip() for p in paragraphs if pattern_regex.search(p)]
+    return filtered_paragraphs
 
-# Função principal para processar os PDFs de uma pasta
-def process_pdfs_in_folder(folder_path):
-    results = {}
-    for filename in os.listdir(folder_path):
-        if filename.lower().endswith(".pdf"):
-            full_path = os.path.join(folder_path, filename)
-            text = extract_text_from_pdf(full_path)
-            found = find_patterns_in_text(text, indicator_patterns)
-            if found:
-                results[filename] = found
-    return results
+def process_pdfs_in_alphabet_folders(root_folder, output_folder):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
+    # Percorre as pastas com letras (A, B, C, ...)
+    for letter_folder in os.listdir(root_folder):
+        letter_path = os.path.join(root_folder, letter_folder)
+        if os.path.isdir(letter_path):
+            print(f"Processando pasta: {letter_folder}")
+
+            # Para cada PDF dentro dessa pasta de letra
+            for file_name in os.listdir(letter_path):
+                if file_name.lower().endswith(".pdf"):
+                    pdf_path = os.path.join(letter_path, file_name)
+                    print(f"Lendo {pdf_path} ...")
+                    text = extract_text_from_pdf(pdf_path)
+                    paragraphs = extract_paragraphs_with_indicators(text)
+
+                    if paragraphs:
+                        # Cria nome de arquivo para salvar baseado no arquivo pdf (sem extensão)
+                        base_name = os.path.splitext(file_name)[0]
+                        output_path = os.path.join(output_folder, f"{letter_folder}_{base_name}_indicator_paragraphs.txt")
+                        with open(output_path, "w", encoding="utf-8") as f_out:
+                            for para in paragraphs:
+                                f_out.write(para + "\n\n")
+                        print(f"{len(paragraphs)} parágrafos extraídos para {output_path}")
+                    else:
+                        print(f"Nenhum parágrafo com indicadores encontrado em {file_name}")
+
+if __name__ == "__main__":
+    pasta_raiz = "caminho/para/pasta_raiz"
+    pasta_saida = "output_paragraphs"
+    process_pdfs_in_alphabet_folders(pasta_raiz, pasta_saida)
