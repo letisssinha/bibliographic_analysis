@@ -1,0 +1,56 @@
+
+import { doCDviz } from '/newProject/vizualization/corpusdescription/js/bibliomap_corpusdescription.js';
+    
+    var field_option = 'K'
+    var graph_option = 'custom'
+    var dirdatafreqs=''
+    var fooTHR={}
+    var fooForce={}
+
+    // ***************************************************
+    // how many corpus need to be displayed?   
+    var howmany='one'  // 'one' or 'several'
+    // ***************************************************
+    
+    // case when only one corpus
+    if(howmany=='one'){
+      dirdatafreqs='data/freqs/'
+      fooTHR={'K':0.05,'AK':0.05,'TK':0.05,'S':0,'R':0.1,'RJ':0.3}
+      fooForce={'K':2.0,'AK':2.0,'TK':2.0,'S':2,'R':3.5,'RJ':1.5}
+      doCDviz();
+    }
+
+    // case when there are several corpus
+    if(howmany=='several'){
+      // ************************************
+      // copy here the line that was written in the AA_log.txt file when you run the all_in_one.py python file.
+      // it should be of the form: timeWND=[[Y1A, Y1B],[Y2A,Y2B]];
+      timeWND=[]
+
+      // ************************************
+
+      thehtml='<select id="selectC" style="width:140px;background-color:#F8F8F8;color:#0095D7;font-weight:bold;">'
+      timeWND.forEach(function(elt,i){thehtml+='<option value="'+i+'">'+elt[0]+'-'+elt[1]+' corpus</option>'})
+      thehtml+='</select>'
+      d3.select('#choosecorpus').html(thehtml)
+      d3.select('#selectC').on('change',function(){update_corpus();})
+      update_corpus();
+
+      function update_corpus(){
+        myTW=document.getElementById("selectC").value;
+        dirdatafreqs='data/freqs_'+timeWND[myTW][0]+'_'+timeWND[myTW][1]+'/'
+        fooTHR={'K':0.05,'AK':0.05,'S':0,'R':0.1,'RJ':0.3}
+        fooForce={'K':2.0,'AK':2.0,'S':2,'R':3.5,'RJ':1.5}
+
+        // copy paste and edit the following lines if you wan to adjust the parameters of a network viz for a given corpus
+        /*
+        if (timeWND[myTW][0]+'-'+timeWND[myTW][1]=="2005-2009"){
+          fooTHR={'AK':0.05,'K':0.1,'S':0,'R':0.1,'RJ':0.3}
+          fooForce={'K':2.0,'S':2,'R':3.5,'RJ':1.5}  
+        }
+        */
+
+        // do viz
+        doCDviz();
+      }
+    }

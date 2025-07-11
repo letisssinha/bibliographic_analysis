@@ -1,5 +1,9 @@
 ##Warning: This script takes a long time!
+##python3 /Users/i553815/lerning/bibliographic_analysis/newProject/data_preparation/operations/main.py fill_missing_field /Users/i553815/lerning/bibliographic_analysis/newProject/data_preparation/input_data/DataPaperpileExcelWorkbook.xlsx --citation_field "Times Cited"
+##python3 /Users/i553815/lerning/bibliographic_analysis/newProject/data_preparation/operations/main.py fill_missing_field /Users/i553815/lerning/bibliographic_analysis/newProject/data_preparation/input_data/output_1.xlsx --citation_field "Cited References"
 
+import argparse
+from data_conversion import  wos_to_excel, excel_to_wos
 import argparse
 from data_conversion import  wos_to_excel, excel_to_wos
 from get_missing_data import fill_missing_field, fill_missing_fields
